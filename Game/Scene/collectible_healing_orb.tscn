@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://c2r4q28o5snx7"]
+
+[ext_resource type="Script" uid="uid://makr4dki6n3g" path="res://Game/Script/Collectible_HealingOrb.gd" id="1_tk2gc"]
+[ext_resource type="PackedScene" uid="uid://dy17g1ka2s078" path="res://Asset/VFX/Scene/orb.tscn" id="2_tir1s"]
+[ext_resource type="PackedScene" uid="uid://cxud77winfbuf" path="res://Asset/VFX/Scene/pickup_particle.tscn" id="3_y374f"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_268ra"]
+
+[node name="Collectible_HealingOrb" type="Node3D" unique_id=1629396368]
+script = ExtResource("1_tk2gc")
+
+[node name="VisualNode" parent="." unique_id=991173335 instance=ExtResource("2_tir1s")]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=2082668218]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=1884349477]
+shape = SubResource("SphereShape3D_268ra")
+
+[node name="VFX" parent="." unique_id=374134763 instance=ExtResource("3_y374f")]
+
+[connection signal="body_entered" from="Area3D" to="." method="_on_area_3d_body_entered"]

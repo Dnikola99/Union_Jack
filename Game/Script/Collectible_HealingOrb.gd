@@ -8,7 +8,7 @@ var healthValue: int = 30
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
+func _process(_delta):
 	if Visual.visible == false && VFXanimationPlayer.is_playing() == false:
 		queue_free()
 

@@ -1,3 +1,4 @@
+class_name PlayerCharacter
 extends CharacterBody3D
 
 @onready var visual : Node3D = $VisualNode
@@ -26,6 +27,9 @@ var coinNumber: int:
 
 signal coinNumberUpdated(newValue)
 signal playerHealthUpdated(newValue, maxValue)
+
+
+var isDead : bool
 
 func _ready():
 	currentHealth = maxHealth

@@ -1,0 +1,9 @@
+[gd_resource type="ORMMaterial3D" format=3 uid="uid://rtwqlooac60q"]
+
+[ext_resource type="Texture2D" uid="uid://c0epkrk2571le" path="res://Asset/Characters/KnifeCrime/Textures/albedo.png" id="1_vpvrj"]
+[ext_resource type="Texture2D" uid="uid://x42mrrqj1b6b" path="res://Asset/Characters/KnifeCrime/Textures/emission.png" id="2_cp77w"]
+
+[resource]
+albedo_texture = ExtResource("1_vpvrj")
+emission_enabled = true
+emission_texture = ExtResource("2_cp77w")

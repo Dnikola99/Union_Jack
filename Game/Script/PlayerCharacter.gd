@@ -6,6 +6,8 @@ extends CharacterBody3D
 
 @onready var footStepVFX: GPUParticles3D = $VisualNode/VFX/Footstep_GPUParticles3D
 
+var turn_speed:float = 5.0
+var old_direction:Vector2
 var direction : Vector3
 var slideKey_pressed : bool
 var attackKey_pressed : bool
@@ -47,7 +49,10 @@ func _physics_process(delta: float) -> void:
 	# Get the input direction and handle the movement/deceleration.
 	# As good practice, you should replace UI actions with custom gameplay actions.
 	var input_dir = Input.get_vector("Left", "Right", "Up", "Down")
-	direction = (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
+	var dir = old_direction.lerp(input_dir, delta * turn_speed) # smooth turning
+	if input_dir.length() < 0.1 : dir *= 0
+	old_direction = dir
+	direction = (transform.basis * Vector3(dir.x, 0, dir.y)).normalized()
 	
 	slideKey_pressed = Input.is_action_just_pressed("Slide")
 	attackKey_pressed = Input.is_action_just_pressed("Attack")

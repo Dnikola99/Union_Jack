@@ -28,6 +28,8 @@ func export_animation_by_name(animation_name:String, save_name:String):
 	result.duration = length
 	result.sampling = animation_sampling_seconds
 	result.tracks = {}
+	var root_start:Vector3 = Vector3.ZERO
+	var root_initialized := false
 	var bone_count:int = skeleton.get_bone_count()
 	var t:float = 0.0
 	while t < length:
@@ -40,12 +42,34 @@ func export_animation_by_name(animation_name:String, save_name:String):
 				result.tracks[bname].rest_pose = rest_pos
 				result.tracks[bname].content = []
 				
-			result.tracks[bname].content.append({
-				time = t,
-				transform = skeleton.get_bone_pose(b)
-				#position = skeleton.get_bone_pose_position(b),
-				#rotation = skeleton.get_bone_pose_rotation(b),
+			var norm_name:String = bname.to_upper()
+			if norm_name == "MIXAMORIG_HIPS" :
+				print("root bone")
+				var pose:Transform3D = skeleton.get_bone_pose(b)
+				if not root_initialized:
+					root_start =  skeleton.get_bone_rest(b).origin
+					root_initialized = true
+				pose.origin -= root_start
+				pose.basis = pose.basis.orthonormalized()
+				
+				result.tracks[bname].content.append({
+					time = t,
+					transform = pose
 				})
+			else:
+				var rest = skeleton.get_bone_rest(b)
+				var pose = skeleton.get_bone_pose(b)
+				var relative = rest.inverse() * pose
+				#var rot:Quaternion = relative.basis.get_rotation_quaternion()
+				#relative.basis = Basis(rot)
+				
+				#relative = rest.inverse() * pose
+				#relative.basis = offset * relative.basis
+				result.tracks[bname].content.append({
+					time = t,
+					transform = relative
+				})
+				
 		t += animation_sampling_seconds
 	var f:FileAccess = FileAccess.open("res://Tools/animation_library/"+save_name+".json", FileAccess.WRITE)
 	f.store_string(JSON.stringify(result, "\t", false))

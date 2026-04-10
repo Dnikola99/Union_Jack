@@ -21,6 +21,13 @@ func map_track(db:BoneMappingSet, name:String) -> String:
 		if m.source_name == name :
 			return m.target_name
 	return ""
+	
+func is_root_bone(db:BoneMappingSet, name:String) -> bool:
+	for m in db.mapping:
+		if m.source_name == name :
+			return m.root
+	return false
+	
 func _extract_vec3(s: String, key: String) -> Vector3:
 	var start = s.find(key + ": (")
 	if start == -1:
@@ -73,6 +80,7 @@ func add_and_adjust_animation(animation_name:String, time_scale:float, loop:int)
 		print(track_name)
 		var target_bone_id:int = skeleton.find_bone(track_name)
 		if target_bone_id < 0 : continue
+		var root_bone:bool = is_root_bone(bone_mapping_db, lib_track_name)
 		var full_animation_path:String = skeleton_name+":"+track_name
 		var position_track:int = anim.add_track(Animation.TYPE_POSITION_3D)
 		var rotation_track:int = anim.add_track(Animation.TYPE_ROTATION_3D)
@@ -82,13 +90,18 @@ func add_and_adjust_animation(animation_name:String, time_scale:float, loop:int)
 		var current_track_data:Array = dct.tracks[lib_track_name].content
 		var source_rest:Transform3D = parse_transform3d(dct.tracks[lib_track_name].rest_pose)
 		var target_rest:Transform3D = skeleton.get_bone_rest(target_bone_id)
-		var inv_source_rest = source_rest.inverse()
 		for i in current_track_data.size() :
-			var animation_pos:Transform3D  = parse_transform3d(current_track_data[i].transform)
-			# final = target_rest * inverse(source_rest) * animated_pose
-			var final:Transform3D = target_rest * inv_source_rest * animation_pos
+			var animation_pose:Transform3D  = parse_transform3d(current_track_data[i].transform)
+			var final:Transform3D = target_rest * animation_pose
+			final.basis = final.basis.orthonormalized()
+			
 			var pos:Vector3 = final.origin
 			var quat:Quaternion = final.basis.get_rotation_quaternion()
+			if root_bone :
+				pos = animation_pose.origin
+				continue
+			#pos *= 0.01
+			
 			var time:float = current_track_data[i].time / time_scale
 			anim.track_insert_key(position_track, time, pos)
 			anim.track_insert_key(rotation_track, time,  quat)

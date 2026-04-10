@@ -63,3 +63,6 @@ animation_player = NodePath("../AnimationPlayer")
 skeleton = NodePath("../Skeleton3D")
 target_animation_names = Array[ExtResource("3_kjhwr")]([SubResource("Resource_4tw4m")])
 metadata/_custom_type_script = "uid://b7dglpsvu7wgx"
+
+[node name="Marker3D" type="Marker3D" parent="." index="3" unique_id=1760005230]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.8683538, 0)

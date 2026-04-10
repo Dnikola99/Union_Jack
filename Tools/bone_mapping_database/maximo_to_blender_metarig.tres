@@ -1,0 +1,45 @@
+[gd_resource type="Resource" script_class="BoneMappingSet" format=3 uid="uid://d02ia24ui6vv7"]
+
+[ext_resource type="Script" uid="uid://bjngntf7il0c7" path="res://Tools/korn/CustomBoneMapping.gd" id="1_587xj"]
+[ext_resource type="Script" uid="uid://c5li6563ad4as" path="res://Tools/korn/BoneMappingSet.gd" id="2_4u8mc"]
+
+[sub_resource type="Resource" id="Resource_4anrf"]
+script = ExtResource("1_587xj")
+source_name = "mixamorig_Hips"
+target_name = "spine"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_587xj"]
+script = ExtResource("1_587xj")
+source_name = "mixamorig_Spine"
+target_name = "spine.001"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_4u8mc"]
+script = ExtResource("1_587xj")
+source_name = "mixamorig_Spine1"
+target_name = "spine.002"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_fwakx"]
+script = ExtResource("1_587xj")
+source_name = "mixamorig_Spine2"
+target_name = "spine.003"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_nswy2"]
+script = ExtResource("1_587xj")
+source_name = "mixamorig_Neck"
+target_name = "spine.004"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_81sdu"]
+script = ExtResource("1_587xj")
+source_name = "mixamorig_Head"
+target_name = "spine.004"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[resource]
+script = ExtResource("2_4u8mc")
+mapping = Array[ExtResource("1_587xj")]([SubResource("Resource_4anrf"), SubResource("Resource_587xj"), SubResource("Resource_4u8mc"), SubResource("Resource_fwakx"), SubResource("Resource_nswy2"), SubResource("Resource_81sdu")])
+metadata/_custom_type_script = "uid://c5li6563ad4as"

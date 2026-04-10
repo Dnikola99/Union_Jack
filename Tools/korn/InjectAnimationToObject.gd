@@ -5,6 +5,7 @@ extends Node3D
 @export var skeleton:Skeleton3D
 @export var animation_player:AnimationPlayer
 @export var animation_configuration:Array[AnimationConfig] = []
+@export var bone_mapping_db:BoneMappingSet
 
 @export var add_animation_and_adjust:bool = false :
 	set(v):
@@ -14,6 +15,36 @@ extends Node3D
 func process_all_animation():
 	for a in animation_configuration :
 		add_and_adjust_animation(a.animation_name, a.time_scale, a.loop)
+
+func map_track(db:BoneMappingSet, name:String) -> String:
+	for m in db.mapping:
+		if m.source_name == name :
+			return m.target_name
+	return ""
+func _extract_vec3(s: String, key: String) -> Vector3:
+	var start = s.find(key + ": (")
+	if start == -1:
+		return Vector3.ZERO
+
+	start = s.find("(", start) + 1
+	var end = s.find(")", start)
+
+	var parts = s.substr(start, end - start).split(",")
+
+	return Vector3(
+		float(parts[0]),
+		float(parts[1]),
+		float(parts[2])
+	)
+
+func parse_transform3d(s: String) -> Transform3D:
+	var x = _extract_vec3(s, "X")
+	var y = _extract_vec3(s, "Y")
+	var z = _extract_vec3(s, "Z")
+	var o = _extract_vec3(s, "O")
+
+	var basis = Basis(x, y, z).orthonormalized()
+	return Transform3D(basis, o)
 
 func add_and_adjust_animation(animation_name:String, time_scale:float, loop:int):
 	#target_rest * inverse(source_rest) * animated_pose
@@ -36,22 +67,30 @@ func add_and_adjust_animation(animation_name:String, time_scale:float, loop:int)
 	var anim = Animation.new()
 	anim.length = duration
 	anim.loop_mode = loop
-	var skeleton_name:String = skeleton.name
-	for track_name in dct.tracks :
-		if skeleton.find_bone(track_name) < 0 : continue
+	var skeleton_name:String = skeleton.get_path()
+	for lib_track_name in dct.tracks :
+		var track_name:String = map_track(bone_mapping_db, lib_track_name)
+		print(track_name)
+		var target_bone_id:int = skeleton.find_bone(track_name)
+		if target_bone_id < 0 : continue
 		var full_animation_path:String = skeleton_name+":"+track_name
 		var position_track:int = anim.add_track(Animation.TYPE_POSITION_3D)
 		var rotation_track:int = anim.add_track(Animation.TYPE_ROTATION_3D)
 		anim.track_set_path(position_track, full_animation_path)
 		anim.track_set_path(rotation_track, full_animation_path)
 		
-		var current_track_data:Array = dct.tracks[track_name]
+		var current_track_data:Array = dct.tracks[lib_track_name].content
+		var source_rest:Transform3D = parse_transform3d(dct.tracks[lib_track_name].rest_pose)
+		var target_rest:Transform3D = skeleton.get_bone_rest(target_bone_id)
+		var inv_source_rest = source_rest.inverse()
 		for i in current_track_data.size() :
+			var animation_pos:Transform3D  = parse_transform3d(current_track_data[i].transform)
+			# final = target_rest * inverse(source_rest) * animated_pose
+			var final:Transform3D = target_rest * inv_source_rest * animation_pos
+			var pos:Vector3 = final.origin
+			var quat:Quaternion = final.basis.get_rotation_quaternion()
 			var time:float = current_track_data[i].time / time_scale
-			var pos:Vector3 = str_to_var("Vector3"+current_track_data[i].position)
 			anim.track_insert_key(position_track, time, pos)
-			var quat:Quaternion = str_to_var("Quaternion"+current_track_data[i].rotation)
-			quat = quat.normalized()
 			anim.track_insert_key(rotation_track, time,  quat)
 			
 	

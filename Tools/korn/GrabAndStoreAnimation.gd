@@ -6,6 +6,7 @@ extends Node3D
 @export var skeleton:Skeleton3D
 @export var target_animation_names:Array[CopyTargetAnimation]
 @export var animation_sampling_seconds:float = 0.1
+@export var bone_map_db:BoneMappingSet
 
 @export var export_listed_animation:bool = false :
 	set(v):
@@ -34,14 +35,19 @@ func export_animation_by_name(animation_name:String, save_name:String):
 		for b in bone_count :
 			var bname:String = skeleton.get_bone_name(b)
 			if not bname in result.tracks :
-				result.tracks[bname] = []
-			result.tracks[bname].append({
+				result.tracks[bname] = {}
+				var rest_pos:Transform3D = skeleton.get_bone_rest(b)
+				result.tracks[bname].rest_pose = rest_pos
+				result.tracks[bname].content = []
+				
+			result.tracks[bname].content.append({
 				time = t,
-				position = skeleton.get_bone_pose_position(b),
-				rotation = skeleton.get_bone_pose_rotation(b),
+				transform = skeleton.get_bone_pose(b)
+				#position = skeleton.get_bone_pose_position(b),
+				#rotation = skeleton.get_bone_pose_rotation(b),
 				})
 		t += animation_sampling_seconds
 	var f:FileAccess = FileAccess.open("res://Tools/animation_library/"+save_name+".json", FileAccess.WRITE)
-	f.store_string(JSON.stringify(result))
+	f.store_string(JSON.stringify(result, "\t", false))
 	f.close()
 	

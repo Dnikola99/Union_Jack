@@ -3,29 +3,127 @@
 [ext_resource type="PackedScene" uid="uid://de5faq50kssh6" path="res://Asset/Characters/KnifeCrime/UJ_Character_Knife Crime.fbx" id="1_dqis0"]
 [ext_resource type="Script" uid="uid://dxk0d38jewi8q" path="res://Tools/korn/InjectAnimationToObject.gd" id="2_addo1"]
 [ext_resource type="Script" uid="uid://bx65yhajtgq17" path="res://Tools/korn/AnimationConfig.gd" id="3_hpqjp"]
+[ext_resource type="Resource" uid="uid://d02ia24ui6vv7" path="res://Tools/bone_mapping_database/maximo_to_blender_metarig.tres" id="4_hpqjp"]
+
+[sub_resource type="Animation" id="Animation_hpqjp"]
+length = 0.001
+
+[sub_resource type="Animation" id="Animation_nnpry"]
+length = 1.0333333
+loop_mode = 1
+tracks/0/type = "position_3d"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("/root/@EditorNode@18065/@Panel@14/@VBoxContainer@15/DockHSplitMain/@VBoxContainer@28/DockVSplitCenter/@VSplitContainer@70/@VBoxContainer@71/@EditorMainScreen@125/MainScreen/@CanvasItemEditor@9318/@VSplitContainer@9101/@HSplitContainer@9103/@HSplitContainer@9105/@Control@9106/@SubViewportContainer@9107/@SubViewport@9108/UJ_Character_Knife Crime/Union Jack_metarig_Knife Crime/Skeleton3D:spine")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = PackedFloat32Array(0, 1, 0.0035785884, -0.009086087, -0.020866334, 0.1, 1, -0.0013317391, -0.0048680305, -0.017290115, 0.2, 1, -0.005162079, 0.008623838, -0.042696834, 0.3, 1, 0.011603028, 0.00024223328, -0.08004677, 0.4, 1, 0.030809708, -0.005201295, -0.069652796, 0.5, 1, 0.039289676, -0.0017671883, -0.01930523, 0.6, 1, 0.037137315, 0.01185663, -0.012225747, 0.7, 1, 0.03218828, 0.023549467, -0.048357725, 0.8, 1, 0.02429659, 0.01648748, -0.084517956, 0.9, 1, 0.010999493, 0.0021079779, -0.06774104, 1, 1, 0.005331069, -0.00827758, -0.029439807)
+tracks/1/type = "rotation_3d"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("/root/@EditorNode@18065/@Panel@14/@VBoxContainer@15/DockHSplitMain/@VBoxContainer@28/DockVSplitCenter/@VSplitContainer@70/@VBoxContainer@71/@EditorMainScreen@125/MainScreen/@CanvasItemEditor@9318/@VSplitContainer@9101/@HSplitContainer@9103/@HSplitContainer@9105/@Control@9106/@SubViewportContainer@9107/@SubViewport@9108/UJ_Character_Knife Crime/Union Jack_metarig_Knife Crime/Skeleton3D:spine")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = PackedFloat32Array(0, 1, 0.7540158, 0.1761661, 0.12795165, 0.61972094, 0.1, 1, 0.7561836, 0.15857811, 0.10520802, 0.62607557, 0.2, 1, 0.7594863, 0.14428064, 0.09415465, 0.6272946, 0.3, 1, 0.762449, 0.13199751, 0.08667971, 0.62748295, 0.4, 1, 0.76486456, 0.13401198, 0.09803387, 0.62242466, 0.5, 1, 0.75891435, 0.15024556, 0.1117325, 0.6236916, 0.6, 1, 0.75944895, 0.17109285, 0.14942388, 0.6096204, 0.7, 1, 0.75882995, 0.17425978, 0.16916831, 0.6043118, 0.8, 1, 0.75856245, 0.19045067, 0.17888182, 0.5969195, 0.9, 1, 0.75893736, 0.20265622, 0.15211013, 0.59983927, 1, 1, 0.7523087, 0.18774171, 0.1379591, 0.6162402)
+tracks/2/type = "position_3d"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("/root/@EditorNode@18065/@Panel@14/@VBoxContainer@15/DockHSplitMain/@VBoxContainer@28/DockVSplitCenter/@VSplitContainer@70/@VBoxContainer@71/@EditorMainScreen@125/MainScreen/@CanvasItemEditor@9318/@VSplitContainer@9101/@HSplitContainer@9103/@HSplitContainer@9105/@Control@9106/@SubViewportContainer@9107/@SubViewport@9108/UJ_Character_Knife Crime/Union Jack_metarig_Knife Crime/Skeleton3D:spine.001")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = PackedFloat32Array(0, 1, 0, 0.0014928132, 9.313226e-10, 0.1, 1, 0, 0.0014928132, 9.313226e-10, 0.2, 1, 0, 0.0014928132, 9.313226e-10, 0.3, 1, 0, 0.0014928132, 9.313226e-10, 0.4, 1, 0, 0.0014928132, 9.313226e-10, 0.5, 1, 0, 0.0014928132, 9.313226e-10, 0.6, 1, 0, 0.0014928132, 9.313226e-10, 0.7, 1, 0, 0.0014928132, 9.313226e-10, 0.8, 1, 0, 0.0014928132, 9.313226e-10, 0.9, 1, 0, 0.0014928132, 9.313226e-10, 1, 1, 0, 0.0014928132, 9.313226e-10)
+tracks/3/type = "rotation_3d"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("/root/@EditorNode@18065/@Panel@14/@VBoxContainer@15/DockHSplitMain/@VBoxContainer@28/DockVSplitCenter/@VSplitContainer@70/@VBoxContainer@71/@EditorMainScreen@125/MainScreen/@CanvasItemEditor@9318/@VSplitContainer@9101/@HSplitContainer@9103/@HSplitContainer@9105/@Control@9106/@SubViewportContainer@9107/@SubViewport@9108/UJ_Character_Knife Crime/Union Jack_metarig_Knife Crime/Skeleton3D:spine.001")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = PackedFloat32Array(0, 1, -0.029840857, 0.0014400532, 0.00892738, 0.9995138, 0.1, 1, -0.028259646, 0.009964984, 0.0052475543, 0.99953717, 0.2, 1, -0.027559716, 0.01616579, 0.0003375646, 0.99948937, 0.3, 1, -0.030260205, 0.020489411, -0.0024467804, 0.99932903, 0.4, 1, -0.033150017, 0.013807855, -0.002114148, 0.99935275, 0.5, 1, -0.03060065, 0.0050708866, -0.0035329584, 0.9995126, 0.6, 1, -0.029543284, -0.0058199363, -0.0052072015, 0.999533, 0.7, 1, -0.027470196, -0.010775098, -0.0020016958, 0.99956256, 0.8, 1, -0.030787917, -0.015986491, 0.0011361844, 0.99939746, 0.9, 1, -0.033801105, -0.011325231, 0.007793139, 0.99933404, 1, 1, -0.030421048, -0.0030724881, 0.009668114, 0.9994857)
+tracks/4/type = "position_3d"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("/root/@EditorNode@18065/@Panel@14/@VBoxContainer@15/DockHSplitMain/@VBoxContainer@28/DockVSplitCenter/@VSplitContainer@70/@VBoxContainer@71/@EditorMainScreen@125/MainScreen/@CanvasItemEditor@9318/@VSplitContainer@9101/@HSplitContainer@9103/@HSplitContainer@9105/@Control@9106/@SubViewportContainer@9107/@SubViewport@9108/UJ_Character_Knife Crime/Union Jack_metarig_Knife Crime/Skeleton3D:spine.002")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = PackedFloat32Array(0, 1, 0, 0.0012731403, 0, 0.1, 1, 0, 0.0012731403, 0, 0.2, 1, 0, 0.0012731403, 0, 0.3, 1, 0, 0.0012731403, 0, 0.4, 1, 0, 0.0012731403, 0, 0.5, 1, 0, 0.0012731403, 0, 0.6, 1, 0, 0.0012731403, 0, 0.7, 1, 0, 0.0012731403, 0, 0.8, 1, 0, 0.0012731403, 0, 0.9, 1, 0, 0.0012731403, 0, 1, 1, 0, 0.0012731403, 0)
+tracks/5/type = "rotation_3d"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("/root/@EditorNode@18065/@Panel@14/@VBoxContainer@15/DockHSplitMain/@VBoxContainer@28/DockVSplitCenter/@VSplitContainer@70/@VBoxContainer@71/@EditorMainScreen@125/MainScreen/@CanvasItemEditor@9318/@VSplitContainer@9101/@HSplitContainer@9103/@HSplitContainer@9105/@Control@9106/@SubViewportContainer@9107/@SubViewport@9108/UJ_Character_Knife Crime/Union Jack_metarig_Knife Crime/Skeleton3D:spine.002")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = PackedFloat32Array(0, 1, -0.036671206, 0.0055256123, 0.0049783154, 0.9992997, 0.1, 1, -0.03345119, 0.020381229, 0.0011213445, 0.99923193, 0.2, 1, -0.032080848, 0.03241482, -0.0031412116, 0.9989546, 0.3, 1, -0.037482146, 0.041768897, -0.007558193, 0.9983954, 0.4, 1, -0.043201603, 0.03131431, -0.012953088, 0.99849147, 0.5, 1, -0.038237605, 0.00958383, -0.005150589, 0.99920946, 0.6, 1, -0.036084224, -0.011948022, -0.0052686282, 0.9992634, 0.7, 1, -0.03195802, -0.02167545, -0.0031917216, 0.9992491, 0.8, 1, -0.03859817, -0.030887216, 0.0021869356, 0.9987749, 0.9, 1, -0.04465312, -0.020883499, 0.011985475, 0.9987123, 1, 1, -0.03787823, -0.002841888, 0.00767811, 0.99924886)
+tracks/6/type = "position_3d"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("/root/@EditorNode@18065/@Panel@14/@VBoxContainer@15/DockHSplitMain/@VBoxContainer@28/DockVSplitCenter/@VSplitContainer@70/@VBoxContainer@71/@EditorMainScreen@125/MainScreen/@CanvasItemEditor@9318/@VSplitContainer@9101/@HSplitContainer@9103/@HSplitContainer@9105/@Control@9106/@SubViewportContainer@9107/@SubViewport@9108/UJ_Character_Knife Crime/Union Jack_metarig_Knife Crime/Skeleton3D:spine.003")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = PackedFloat32Array(0, 1, 0, 0.0015249476, 1.8626451e-09, 0.1, 1, 0, 0.0015249476, 1.8626451e-09, 0.2, 1, 0, 0.0015249476, 1.8626451e-09, 0.3, 1, 0, 0.0015249476, 1.8626451e-09, 0.4, 1, 0, 0.0015249476, 1.8626451e-09, 0.5, 1, 0, 0.0015249476, 1.8626451e-09, 0.6, 1, 0, 0.0015249476, 1.8626451e-09, 0.7, 1, 0, 0.0015249476, 1.8626451e-09, 0.8, 1, 0, 0.0015249476, 1.8626451e-09, 0.9, 1, 0, 0.0015249476, 1.8626451e-09, 1, 1, 0, 0.0015249476, 1.8626451e-09)
+tracks/7/type = "rotation_3d"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("/root/@EditorNode@18065/@Panel@14/@VBoxContainer@15/DockHSplitMain/@VBoxContainer@28/DockVSplitCenter/@VSplitContainer@70/@VBoxContainer@71/@EditorMainScreen@125/MainScreen/@CanvasItemEditor@9318/@VSplitContainer@9101/@HSplitContainer@9103/@HSplitContainer@9105/@Control@9106/@SubViewportContainer@9107/@SubViewport@9108/UJ_Character_Knife Crime/Union Jack_metarig_Knife Crime/Skeleton3D:spine.003")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = PackedFloat32Array(0, 1, -0.09073479, 0.0059055723, 0.004521074, 0.99584734, 0.1, 1, -0.08751603, 0.02040568, -0.00051007175, 0.995954, 0.2, 1, -0.086132675, 0.032060385, -0.005720117, 0.9957513, 0.3, 1, -0.091495745, 0.041031796, -0.010870085, 0.99490035, 0.4, 1, -0.09721232, 0.030179732, -0.01541274, 0.9946866, 0.5, 1, -0.09229454, 0.009141844, -0.005899593, 0.99567235, 0.6, 1, -0.09014707, -0.012330647, -0.00429754, 0.9958429, 0.7, 1, -0.08602609, -0.021861123, -0.0014503518, 0.99605197, 0.8, 1, -0.09263096, -0.030613873, 0.0046468475, 0.99521893, 0.9, 1, -0.09867317, -0.019859515, 0.013615113, 0.9948286, 1, 1, -0.09193786, -0.0022195713, 0.007880544, 0.9957311)
+tracks/8/type = "position_3d"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("/root/@EditorNode@18065/@Panel@14/@VBoxContainer@15/DockHSplitMain/@VBoxContainer@28/DockVSplitCenter/@VSplitContainer@70/@VBoxContainer@71/@EditorMainScreen@125/MainScreen/@CanvasItemEditor@9318/@VSplitContainer@9101/@HSplitContainer@9103/@HSplitContainer@9105/@Control@9106/@SubViewportContainer@9107/@SubViewport@9108/UJ_Character_Knife Crime/Union Jack_metarig_Knife Crime/Skeleton3D:spine.004")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = PackedFloat32Array(0, 1, 0, 0.002072543, 0, 0.1, 1, 0, 0.002072543, 0, 0.2, 1, 0, 0.002072543, 0, 0.3, 1, 0, 0.002072543, 0, 0.4, 1, 0, 0.002072543, 0, 0.5, 1, 0, 0.002072543, 0, 0.6, 1, 0, 0.002072543, 0, 0.7, 1, 0, 0.002072543, 0, 0.8, 1, 0, 0.002072543, 0, 0.9, 1, 0, 0.002072543, 0, 1, 1, 0, 0.002072543, 0)
+tracks/9/type = "rotation_3d"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("/root/@EditorNode@18065/@Panel@14/@VBoxContainer@15/DockHSplitMain/@VBoxContainer@28/DockVSplitCenter/@VSplitContainer@70/@VBoxContainer@71/@EditorMainScreen@125/MainScreen/@CanvasItemEditor@9318/@VSplitContainer@9101/@HSplitContainer@9103/@HSplitContainer@9105/@Control@9106/@SubViewportContainer@9107/@SubViewport@9108/UJ_Character_Knife Crime/Union Jack_metarig_Knife Crime/Skeleton3D:spine.004")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = PackedFloat32Array(0, 1, 0.32592052, 0.0010448032, -0.011219767, 0.94533, 0.1, 1, 0.3385836, -0.012481399, 0.0054773255, 0.94083756, 0.2, 1, 0.3467581, -0.030240303, 0.025416963, 0.93712234, 0.3, 1, 0.32965627, -0.033479255, 0.028079439, 0.9430893, 0.4, 1, 0.33313105, -0.019103901, 0.017647259, 0.9425218, 0.5, 1, 0.35033458, -0.002409476, 0.005276904, 0.93660665, 0.6, 1, 0.35319152, 0.0039099646, 0.004035731, 0.9355342, 0.7, 1, 0.3465328, 0.01577357, -0.010817702, 0.93784285, 0.8, 1, 0.32671314, 0.021880912, -0.01932414, 0.9446726, 0.9, 1, 0.3128624, 0.010407635, -0.0110853, 0.94967675, 1, 1, 0.32054043, -0.0005680641, -0.005807224, 0.94721687)
+tracks/10/type = "position_3d"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("/root/@EditorNode@18065/@Panel@14/@VBoxContainer@15/DockHSplitMain/@VBoxContainer@28/DockVSplitCenter/@VSplitContainer@70/@VBoxContainer@71/@EditorMainScreen@125/MainScreen/@CanvasItemEditor@9318/@VSplitContainer@9101/@HSplitContainer@9103/@HSplitContainer@9105/@Control@9106/@SubViewportContainer@9107/@SubViewport@9108/UJ_Character_Knife Crime/Union Jack_metarig_Knife Crime/Skeleton3D:spine.004")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = PackedFloat32Array(0, 1, 0, 0.0020725392, 0, 0.1, 1, 0, 0.0020725392, 0, 0.2, 1, 0, 0.0020725392, 0, 0.3, 1, 0, 0.0020725392, 0, 0.4, 1, 0, 0.0020725392, 0, 0.5, 1, 0, 0.0020725392, 0, 0.6, 1, 0, 0.0020725392, 0, 0.7, 1, 0, 0.0020725392, 0, 0.8, 1, 0, 0.0020725392, 0, 0.9, 1, 0, 0.0020725392, 0, 1, 1, 0, 0.0020725392, 0)
+tracks/11/type = "rotation_3d"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("/root/@EditorNode@18065/@Panel@14/@VBoxContainer@15/DockHSplitMain/@VBoxContainer@28/DockVSplitCenter/@VSplitContainer@70/@VBoxContainer@71/@EditorMainScreen@125/MainScreen/@CanvasItemEditor@9318/@VSplitContainer@9101/@HSplitContainer@9103/@HSplitContainer@9105/@Control@9106/@SubViewportContainer@9107/@SubViewport@9108/UJ_Character_Knife Crime/Union Jack_metarig_Knife Crime/Skeleton3D:spine.004")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = PackedFloat32Array(0, 1, 0.3479055, -0.03110958, 0.0026364075, 0.93700963, 0.1, 1, 0.3384065, -0.021163736, -0.0066093183, 0.9407388, 0.2, 1, 0.33226722, -0.015437362, -0.0128601715, 0.9429713, 0.3, 1, 0.33614895, -0.02752722, -0.0020231572, 0.9414043, 0.4, 1, 0.33957988, -0.026460001, 0.014060036, 0.94009984, 0.5, 1, 0.34064212, -0.010923324, 0.024578365, 0.93980825, 0.6, 1, 0.32784757, -0.007503687, 0.03332891, 0.9441127, 0.7, 1, 0.32253754, -0.009446716, 0.03540022, 0.94584733, 0.8, 1, 0.3352263, -0.0066362848, 0.02344889, 0.9418224, 0.9, 1, 0.3444303, -0.012620738, 0.0127689885, 0.93864024, 1, 1, 0.34862876, -0.026339842, 0.0055616354, 0.9368742)
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_li0y7"]
+_data = {
+&"RESET": SubResource("Animation_hpqjp"),
+&"walking": SubResource("Animation_nnpry")
+}
 
 [sub_resource type="Resource" id="Resource_jp7xm"]
 script = ExtResource("3_hpqjp")
-animation_name = "walk"
+animation_name = "walking"
 loop = 1
 metadata/_custom_type_script = "uid://bx65yhajtgq17"
 
 [node name="UJ_Character_Knife Crime" unique_id=546702448 instance=ExtResource("1_dqis0")]
 
-[node name="Skeleton3D" parent="Union Jack_metarig_Knife Crime" parent_id_path=PackedInt32Array(1896376508) index="0" unique_id=28643900]
-bones/1/position = Vector3(0, 0.0014928243, 7.0680656e-11)
-bones/1/rotation = Quaternion(-0.031513352, 1.1915013e-07, -3.756684e-09, 0.9995033)
+[node name="Skeleton3D" parent="Union Jack_metarig_Knife Crime" parent_id_path=PackedInt32Array(471822603) index="0" unique_id=1923948470]
+bones/0/position = Vector3(0.0035785884, -0.009086087, -0.020866334)
+bones/0/rotation = Quaternion(0.75401586, 0.1761661, 0.12795167, 0.61972094)
+bones/1/position = Vector3(0, 0.0014928132, 9.313226e-10)
+bones/1/rotation = Quaternion(-0.029840857, 0.0014400531, 0.008927379, 0.99951375)
 bones/1/scale = Vector3(1, 0.9999999, 0.9999999)
-bones/2/position = Vector3(1.519815e-17, 0.0012731419, -5.443242e-11)
-bones/2/rotation = Quaternion(-0.04005528, -2.0986178e-14, -9.549925e-09, 0.9991975)
+bones/2/position = Vector3(0, 0.0012731403, 0)
+bones/2/rotation = Quaternion(-0.036671206, 0.0055256123, 0.004978315, 0.9992997)
 bones/2/scale = Vector3(1, 1.0000001, 1.0000001)
-bones/3/position = Vector3(-1.7290801e-17, 0.001524942, 6.320964e-11)
-bones/3/rotation = Quaternion(-0.09410853, 2.2303444e-16, -2.243722e-08, 0.99556196)
+bones/3/position = Vector3(0, 0.0015249476, 1.8626451e-09)
+bones/3/rotation = Quaternion(-0.090734795, 0.0059055737, 0.0045210747, 0.9958474)
 bones/3/scale = Vector3(1, 0.99999994, 0.99999994)
-bones/4/position = Vector3(-4.881963e-17, 0.0020725399, 2.0476437e-10)
-bones/4/rotation = Quaternion(0.3259372, -1.8789645e-15, 7.7709494e-08, 0.9453914)
+bones/4/position = Vector3(4.881963e-17, 0.0020725422, -2.0476437e-10)
+bones/4/rotation = Quaternion(0.34758022, -0.030327287, -0.008599721, 0.9371203)
 bones/4/scale = Vector3(1, 1, 0.99999994)
 bones/5/position = Vector3(-3.814777e-17, 0.00063486403, 1.6000336e-10)
 bones/5/rotation = Quaternion(-0.07927219, 5.0117754e-16, -1.8899959e-08, 0.996853)
@@ -225,13 +323,14 @@ bones/102/position = Vector3(-0.005101028, 0.005953763, -0.0010406371)
 bones/102/rotation = Quaternion(0.9957278, 0, 0, 0.09233721)
 bones/102/scale = Vector3(1, 1.0000001, 1.000004)
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="1" unique_id=845236929]
-root_node = NodePath("../InjectAnimationToObject")
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Union Jack_metarig_Knife Crime" parent_id_path=PackedInt32Array(471822603) index="1" unique_id=845236929]
+root_node = NodePath("../../InjectAnimationToObject")
 libraries/ = SubResource("AnimationLibrary_li0y7")
 
-[node name="InjectAnimationToObject" type="Node3D" parent="." index="2" unique_id=1118065389 node_paths=PackedStringArray("skeleton", "animation_player")]
+[node name="InjectAnimationToObject" type="Node3D" parent="." index="1" unique_id=1118065389 node_paths=PackedStringArray("skeleton", "animation_player")]
 script = ExtResource("2_addo1")
 skeleton = NodePath("../Union Jack_metarig_Knife Crime/Skeleton3D")
-animation_player = NodePath("../AnimationPlayer")
+animation_player = NodePath("../Union Jack_metarig_Knife Crime/AnimationPlayer")
 animation_configuration = Array[ExtResource("3_hpqjp")]([SubResource("Resource_jp7xm")])
+bone_mapping_db = ExtResource("4_hpqjp")
 metadata/_custom_type_script = "uid://dxk0d38jewi8q"

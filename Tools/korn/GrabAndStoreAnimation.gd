@@ -4,17 +4,15 @@ extends Node3D
 
 @export var animation_player:AnimationPlayer
 @export var skeleton:Skeleton3D
-@export var target_animation_names:Array[String]
+@export var target_animation_names:Array[CopyTargetAnimation]
 @export var animation_sampling_seconds:float = 0.1
 
 @export var export_listed_animation:bool = false :
 	set(v):
 		for an in target_animation_names :
-			export_animation_by_name(an)
-		#export_listed_animation = false
+			export_animation_by_name(an.source_name, an.save_name)
 
-# save animation to resource for combining in the editor. 
-func export_animation_by_name(animation_name:String):
+func export_animation_by_name(animation_name:String, save_name:String):
 	if animation_sampling_seconds < 0.0 :
 		print("sampling cannot be zero")
 		return
@@ -42,12 +40,8 @@ func export_animation_by_name(animation_name:String):
 				position = skeleton.get_bone_pose_position(b),
 				rotation = skeleton.get_bone_pose_rotation(b),
 				})
-				
 		t += animation_sampling_seconds
-	var f:FileAccess = FileAccess.open("res://Tools/animation_library/"+animation_name+".json", FileAccess.WRITE)
+	var f:FileAccess = FileAccess.open("res://Tools/animation_library/"+save_name+".json", FileAccess.WRITE)
 	f.store_string(JSON.stringify(result))
 	f.close()
 	
-
-#func ready():
-	#export_animation_by_name("walk")

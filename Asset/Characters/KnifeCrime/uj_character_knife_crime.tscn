@@ -1,6 +1,16 @@
 [gd_scene format=3 uid="uid://uek4a55s8mq2"]
 
 [ext_resource type="PackedScene" uid="uid://de5faq50kssh6" path="res://Asset/Characters/KnifeCrime/UJ_Character_Knife Crime.fbx" id="1_dqis0"]
+[ext_resource type="Script" uid="uid://dxk0d38jewi8q" path="res://Tools/korn/InjectAnimationToObject.gd" id="2_addo1"]
+[ext_resource type="Script" uid="uid://bx65yhajtgq17" path="res://Tools/korn/AnimationConfig.gd" id="3_hpqjp"]
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_li0y7"]
+
+[sub_resource type="Resource" id="Resource_jp7xm"]
+script = ExtResource("3_hpqjp")
+animation_name = "walk"
+loop = 1
+metadata/_custom_type_script = "uid://bx65yhajtgq17"
 
 [node name="UJ_Character_Knife Crime" unique_id=546702448 instance=ExtResource("1_dqis0")]
 
@@ -214,3 +224,14 @@ bones/100/scale = Vector3(1, 1.0000001, 1.000004)
 bones/102/position = Vector3(-0.005101028, 0.005953763, -0.0010406371)
 bones/102/rotation = Quaternion(0.9957278, 0, 0, 0.09233721)
 bones/102/scale = Vector3(1, 1.0000001, 1.000004)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="1" unique_id=845236929]
+root_node = NodePath("../InjectAnimationToObject")
+libraries/ = SubResource("AnimationLibrary_li0y7")
+
+[node name="InjectAnimationToObject" type="Node3D" parent="." index="2" unique_id=1118065389 node_paths=PackedStringArray("skeleton", "animation_player")]
+script = ExtResource("2_addo1")
+skeleton = NodePath("../Union Jack_metarig_Knife Crime/Skeleton3D")
+animation_player = NodePath("../AnimationPlayer")
+animation_configuration = Array[ExtResource("3_hpqjp")]([SubResource("Resource_jp7xm")])
+metadata/_custom_type_script = "uid://dxk0d38jewi8q"

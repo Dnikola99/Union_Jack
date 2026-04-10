@@ -38,10 +38,12 @@ func add_and_adjust_animation(animation_name:String, time_scale:float, loop:int)
 	anim.loop_mode = loop
 	var skeleton_name:String = skeleton.name
 	for track_name in dct.tracks :
+		if skeleton.find_bone(track_name) < 0 : continue
+		var full_animation_path:String = skeleton_name+":"+track_name
 		var position_track:int = anim.add_track(Animation.TYPE_POSITION_3D)
 		var rotation_track:int = anim.add_track(Animation.TYPE_ROTATION_3D)
-		anim.track_set_path(position_track, skeleton_name+":"+track_name)
-		anim.track_set_path(rotation_track, skeleton_name+":"+track_name)
+		anim.track_set_path(position_track, full_animation_path)
+		anim.track_set_path(rotation_track, full_animation_path)
 		
 		var current_track_data:Array = dct.tracks[track_name]
 		for i in current_track_data.size() :

@@ -1,0 +1,54 @@
+[gd_scene format=3 uid="uid://cccvkniwfdbi4"]
+
+[ext_resource type="PackedScene" uid="uid://d3thxdauaau4w" path="res://Tools/mixamo_lib/dying.fbx" id="1_3u0jo"]
+[ext_resource type="Script" uid="uid://dxk0d38jewi8q" path="res://Tools/korn/InjectAnimationToObject.gd" id="2_s8vwh"]
+[ext_resource type="Script" uid="uid://bx65yhajtgq17" path="res://Tools/korn/AnimationConfig.gd" id="3_pqsg4"]
+[ext_resource type="Resource" uid="uid://d2hc6q1hswvrh" path="res://Tools/bone_mapping_database/maximo_to_maximo.tres" id="4_ghtvu"]
+
+[sub_resource type="Resource" id="Resource_ct0aj"]
+script = ExtResource("3_pqsg4")
+animation_name = "walking"
+loop = 1
+metadata/_custom_type_script = "uid://bx65yhajtgq17"
+
+[node name="dying" unique_id=249171337 instance=ExtResource("1_3u0jo")]
+
+[node name="Skeleton3D" parent="." index="0" unique_id=243602]
+bones/0/position = Vector3(0.000346, 1.016154, 0.015297)
+bones/0/rotation = Quaternion(0.021337831, 0.024273138, -0.019579802, 0.9992858)
+bones/1/rotation = Quaternion(-0.078485236, 0.0018726919, 0.008846806, 0.99687433)
+bones/2/rotation = Quaternion(0.003385463, 0.0053217686, 0.0051956587, 0.9999666)
+bones/3/rotation = Quaternion(0.016270237, 0.005388194, 0.005126562, 0.99984)
+bones/4/rotation = Quaternion(4.2784077e-06, -0.0026692166, -0.010947686, 0.9999365)
+bones/5/rotation = Quaternion(0.023500627, -0.028551461, 0.0126321325, 0.9992363)
+bones/7/rotation = Quaternion(-0.6009694, 0.47920686, -0.5502539, -0.32621655)
+bones/8/rotation = Quaternion(0.43845248, 0.030844644, 0.056186624, 0.8964659)
+bones/9/rotation = Quaternion(0.11301898, -0.11907374, -0.20352283, 0.9652082)
+bones/10/rotation = Quaternion(-0.056326006, -0.19153081, -0.041614693, 0.9789851)
+bones/11/rotation = Quaternion(0.20460992, 0.14749695, -0.18069902, 0.95064574)
+bones/12/rotation = Quaternion(0.07250785, -0.19070035, 0.15060514, 0.9673128)
+bones/13/rotation = Quaternion(1.4721509e-15, -0.00080743054, -6.7047073e-16, 0.9999997)
+bones/14/rotation = Quaternion(0.0057743983, -0.11750946, -0.048743952, 0.991858)
+bones/31/rotation = Quaternion(0.6323474, 0.45184124, -0.514638, 0.36211053)
+bones/32/rotation = Quaternion(0.41213247, -0.030184846, 0.06789941, 0.908089)
+bones/33/rotation = Quaternion(0.08541313, 0.1635217, 0.2646975, 0.9465202)
+bones/34/rotation = Quaternion(-0.10665434, 0.15726729, 0.097383596, 0.97693825)
+bones/35/rotation = Quaternion(0.30288604, -0.13634017, 0.15206626, 0.9308853)
+bones/36/rotation = Quaternion(-0.022744069, 0.0005355945, -0.06101786, 0.99787736)
+bones/37/rotation = Quaternion(-1.4042379e-15, 0.0007449866, -3.252607e-16, 0.99999976)
+bones/38/rotation = Quaternion(0.0051530167, 0.1226828, 0.04165187, 0.99155813)
+bones/55/rotation = Quaternion(-0.07459851, 0.122188754, 0.9889925, -0.037400883)
+bones/56/rotation = Quaternion(-0.22725517, -0.067499, 0.010517867, 0.9714363)
+bones/57/rotation = Quaternion(0.53236544, -0.01653753, -0.03395459, 0.8456718)
+bones/58/rotation = Quaternion(0.375179, 0.0069080694, -0.0034873355, 0.9269202)
+bones/60/rotation = Quaternion(0.061207592, 0.23228012, 0.96941376, -0.050365355)
+bones/61/rotation = Quaternion(-0.5594045, 0.00998804, 0.002008624, 0.8288322)
+bones/63/rotation = Quaternion(0.36248463, 0.012617007, -0.012141021, 0.9318253)
+
+[node name="InjectAnimationToObject" type="Node3D" parent="." index="2" unique_id=119368685 node_paths=PackedStringArray("skeleton", "animation_player")]
+script = ExtResource("2_s8vwh")
+skeleton = NodePath("../Skeleton3D")
+animation_player = NodePath("../AnimationPlayer")
+animation_configuration = Array[ExtResource("3_pqsg4")]([SubResource("Resource_ct0aj")])
+bone_mapping_db = ExtResource("4_ghtvu")
+metadata/_custom_type_script = "uid://dxk0d38jewi8q"

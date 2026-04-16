@@ -6,7 +6,6 @@ extends Node3D
 @export var skeleton:Skeleton3D
 @export var target_animation_names:Array[CopyTargetAnimation]
 @export var animation_sampling_seconds:float = 0.1
-@export var bone_map_db:BoneMappingSet
 
 @export var export_listed_animation:bool = false :
 	set(v):
@@ -46,10 +45,6 @@ func export_animation_by_name(animation_name:String, save_name:String):
 			if norm_name == "MIXAMORIG_HIPS" :
 				print("root bone")
 				var pose:Transform3D = skeleton.get_bone_pose(b)
-				if not root_initialized:
-					root_start =  skeleton.get_bone_rest(b).origin
-					root_initialized = true
-				pose.origin -= root_start
 				pose.basis = pose.basis.orthonormalized()
 				
 				result.tracks[bname].content.append({
@@ -60,11 +55,7 @@ func export_animation_by_name(animation_name:String, save_name:String):
 				var rest = skeleton.get_bone_rest(b)
 				var pose = skeleton.get_bone_pose(b)
 				var relative = rest.inverse() * pose
-				#var rot:Quaternion = relative.basis.get_rotation_quaternion()
-				#relative.basis = Basis(rot)
 				
-				#relative = rest.inverse() * pose
-				#relative.basis = offset * relative.basis
 				result.tracks[bname].content.append({
 					time = t,
 					transform = relative

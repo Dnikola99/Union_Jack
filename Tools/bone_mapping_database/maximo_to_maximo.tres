@@ -1,0 +1,202 @@
+[gd_resource type="Resource" script_class="BoneMappingSet" format=3 uid="uid://d2hc6q1hswvrh"]
+
+[ext_resource type="Script" uid="uid://bjngntf7il0c7" path="res://Tools/korn/CustomBoneMapping.gd" id="1_wnlnm"]
+[ext_resource type="Script" uid="uid://c5li6563ad4as" path="res://Tools/korn/BoneMappingSet.gd" id="2_maakb"]
+
+[sub_resource type="Resource" id="Resource_4anrf"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_Hips"
+target_name = "mixamorig_Hips"
+root = true
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_587xj"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_Spine"
+target_name = "mixamorig_Spine"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_4u8mc"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_Spine1"
+target_name = "mixamorig_Spine1"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_fwakx"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_Spine2"
+target_name = "mixamorig_Spine2"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_nswy2"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_Neck"
+target_name = "mixamorig_Neck"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_81sdu"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_Head"
+target_name = "mixamorig_Head"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_v1o62"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_RightShoulder"
+target_name = "mixamorig_RightShoulder"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_br1xl"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_LeftShoulder"
+target_name = "mixamorig_LeftShoulder"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_xyqf1"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_RightArm"
+target_name = "mixamorig_RightArm"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_uls55"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_LeftArm"
+target_name = "mixamorig_LeftArm"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_u4n3p"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_RightForeArm"
+target_name = "mixamorig_RightForeArm"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_akodr"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_LeftForeArm"
+target_name = "mixamorig_LeftForeArm"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_7a1kv"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_RightHand"
+target_name = "mixamorig_RightHand"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_4no1b"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_LeftHand"
+target_name = "mixamorig_LeftHand"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_jba4r"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_RightHandThumb1"
+target_name = "mixamorig_RightHandThumb1"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_n6uii"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_RightHandThumb2"
+target_name = "mixamorig_RightHandThumb2"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_32eny"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_RightHandThumb3"
+target_name = "mixamorig_RightHandThumb3"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_3gxrf"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_RightHandThumb4"
+target_name = "mixamorig_RightHandThumb4"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_4kgc0"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_LeftHandThumb1"
+target_name = "mixamorig_LeftHandThumb1"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_p2eye"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_LeftHandThumb2"
+target_name = "mixamorig_LeftHandThumb2"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_j4xa0"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_LeftHandThumb3"
+target_name = "mixamorig_LeftHandThumb3"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_4ocdt"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_LeftHandThumb4"
+target_name = "mixamorig_LeftHandThumb4"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_eogip"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_RightUpLeg"
+target_name = "mixamorig_RightUpLeg"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_ggwxx"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_RightLeg"
+target_name = "mixamorig_RightLeg"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_j3hoc"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_RightFoot"
+target_name = "mixamorig_RightFoot"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_6nkj7"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_RightToeBase"
+target_name = "mixamorig_RightToeBase"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_rysrb"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_RightToeEnd"
+target_name = "mixamorig_RightToeEnd"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_mvxek"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_LeftUpLeg"
+target_name = "mixamorig_LeftUpLeg"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_itll0"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_LeftLeg"
+target_name = "mixamorig_LeftLeg"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_jfx0k"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_LeftUpFoot"
+target_name = "mixamorig_LeftUpFoot"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_trru0"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_LeftToeBase"
+target_name = "mixamorig_LeftToeBase"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[sub_resource type="Resource" id="Resource_3flic"]
+script = ExtResource("1_wnlnm")
+source_name = "mixamorig_LeftToeEnd"
+target_name = "mixamorig_LeftToeEnd"
+metadata/_custom_type_script = "uid://bjngntf7il0c7"
+
+[resource]
+script = ExtResource("2_maakb")
+mapping = Array[ExtResource("1_wnlnm")]([SubResource("Resource_4anrf"), SubResource("Resource_587xj"), SubResource("Resource_4u8mc"), SubResource("Resource_fwakx"), SubResource("Resource_nswy2"), SubResource("Resource_81sdu"), SubResource("Resource_v1o62"), SubResource("Resource_br1xl"), SubResource("Resource_xyqf1"), SubResource("Resource_uls55"), SubResource("Resource_u4n3p"), SubResource("Resource_akodr"), SubResource("Resource_7a1kv"), SubResource("Resource_4no1b"), SubResource("Resource_jba4r"), SubResource("Resource_n6uii"), SubResource("Resource_32eny"), SubResource("Resource_3gxrf"), SubResource("Resource_4kgc0"), SubResource("Resource_p2eye"), SubResource("Resource_j4xa0"), SubResource("Resource_4ocdt"), SubResource("Resource_eogip"), SubResource("Resource_ggwxx"), SubResource("Resource_j3hoc"), SubResource("Resource_6nkj7"), SubResource("Resource_rysrb"), SubResource("Resource_mvxek"), SubResource("Resource_itll0"), SubResource("Resource_jfx0k"), SubResource("Resource_trru0"), SubResource("Resource_3flic")])
+metadata/_custom_type_script = "uid://c5li6563ad4as"

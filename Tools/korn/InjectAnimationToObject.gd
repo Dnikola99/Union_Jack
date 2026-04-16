@@ -16,15 +16,15 @@ func process_all_animation():
 	for a in animation_configuration :
 		add_and_adjust_animation(a.animation_name, a.time_scale, a.loop)
 
-func map_track(db:BoneMappingSet, name:String) -> String:
+func map_track(db:BoneMappingSet, _name:String) -> String:
 	for m in db.mapping:
-		if m.source_name == name :
+		if m.source_name == _name :
 			return m.target_name
 	return ""
 	
-func is_root_bone(db:BoneMappingSet, name:String) -> bool:
+func is_root_bone(db:BoneMappingSet, _name:String) -> bool:
 	for m in db.mapping:
-		if m.source_name == name :
+		if m.source_name == _name :
 			return m.root
 	return false
 	
@@ -50,8 +50,8 @@ func parse_transform3d(s: String) -> Transform3D:
 	var z = _extract_vec3(s, "Z")
 	var o = _extract_vec3(s, "O")
 
-	var basis = Basis(x, y, z).orthonormalized()
-	return Transform3D(basis, o)
+	var _basis = Basis(x, y, z).orthonormalized()
+	return Transform3D(_basis, o)
 
 func add_and_adjust_animation(animation_name:String, time_scale:float, loop:int):
 	#target_rest * inverse(source_rest) * animated_pose
@@ -77,7 +77,6 @@ func add_and_adjust_animation(animation_name:String, time_scale:float, loop:int)
 	var skeleton_name:String = skeleton.get_path()
 	for lib_track_name in dct.tracks :
 		var track_name:String = map_track(bone_mapping_db, lib_track_name)
-		print(track_name)
 		var target_bone_id:int = skeleton.find_bone(track_name)
 		if target_bone_id < 0 : continue
 		var root_bone:bool = is_root_bone(bone_mapping_db, lib_track_name)
@@ -90,17 +89,26 @@ func add_and_adjust_animation(animation_name:String, time_scale:float, loop:int)
 		var current_track_data:Array = dct.tracks[lib_track_name].content
 		var source_rest:Transform3D = parse_transform3d(dct.tracks[lib_track_name].rest_pose)
 		var target_rest:Transform3D = skeleton.get_bone_rest(target_bone_id)
+		
+		#var src_forward = source_rest.basis.z
+		#var tgt_forward = target_rest.basis.z
+		#var flipped:bool = false
+		#if src_forward.dot(tgt_forward) < 0:
+			#flipped = true
+		
+		#var src_rot = source_rest.basis.get_rotation_quaternion()
+		#var tgt_rot = target_rest.basis.get_rotation_quaternion()
+		#var correction_rot = tgt_rot * src_rot.inverse()
+
 		for i in current_track_data.size() :
 			var animation_pose:Transform3D  = parse_transform3d(current_track_data[i].transform)
 			var final:Transform3D = target_rest * animation_pose
 			final.basis = final.basis.orthonormalized()
-			
+
 			var pos:Vector3 = final.origin
 			var quat:Quaternion = final.basis.get_rotation_quaternion()
 			if root_bone :
 				pos = animation_pose.origin
-				continue
-			#pos *= 0.01
 			
 			var time:float = current_track_data[i].time / time_scale
 			anim.track_insert_key(position_track, time, pos)

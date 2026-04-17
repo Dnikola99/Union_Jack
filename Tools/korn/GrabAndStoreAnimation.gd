@@ -23,46 +23,36 @@ func export_animation_by_name(animation_name:String, save_name:String):
 	var length:float = anim.length
 	
 	animation_player.play(animation_name, 0, 0, false)
-	var result:Dictionary = {}
+	var result:StoredAnimation = StoredAnimation.new()
+	result.animation_name = save_name
 	result.duration = length
 	result.sampling = animation_sampling_seconds
-	result.tracks = {}
-	var root_start:Vector3 = Vector3.ZERO
-	var root_initialized := false
+	result.tracks = []
+	
 	var bone_count:int = skeleton.get_bone_count()
-	var t:float = 0.0
-	while t < length:
-		animation_player.seek(t, true)
-		for b in bone_count :
-			var bname:String = skeleton.get_bone_name(b)
-			if not bname in result.tracks :
-				result.tracks[bname] = {}
-				var rest_pos:Transform3D = skeleton.get_bone_rest(b)
-				result.tracks[bname].rest_pose = rest_pos
-				result.tracks[bname].content = []
+	var sampled_time:float = 0.0
+	
+	for b in bone_count :
+		var ctrack:StoredTrack = StoredTrack.new()
+		ctrack.track_name = skeleton.get_bone_name(b)
+		ctrack.rest_pose = skeleton.get_bone_rest(b)
+		ctrack.key_frames = []
+		result.tracks.append(ctrack)
+		
+		sampled_time = 0.0
+		while sampled_time < length:
+			animation_player.seek(sampled_time, true)
+			
+			var rest = skeleton.get_bone_rest(b)
+			var pose = skeleton.get_bone_pose(b)
+			var relative = rest.inverse() * pose
 				
-			var norm_name:String = bname.to_upper()
-			if norm_name == "MIXAMORIG_HIPS" :
-				print("root bone")
-				var pose:Transform3D = skeleton.get_bone_pose(b)
-				pose.basis = pose.basis.orthonormalized()
+			var kframe:StoredKeyFrame = StoredKeyFrame.new()
+			kframe.time = sampled_time
+			kframe.position = relative.origin
+			kframe.rotation = relative.basis.get_rotation_quaternion()
+			ctrack.key_frames.append(kframe)
 				
-				result.tracks[bname].content.append({
-					time = t,
-					transform = pose
-				})
-			else:
-				var rest = skeleton.get_bone_rest(b)
-				var pose = skeleton.get_bone_pose(b)
-				var relative = rest.inverse() * pose
-				
-				result.tracks[bname].content.append({
-					time = t,
-					transform = relative
-				})
-				
-		t += animation_sampling_seconds
-	var f:FileAccess = FileAccess.open("res://Tools/animation_library/"+save_name+".json", FileAccess.WRITE)
-	f.store_string(JSON.stringify(result, "\t", false))
-	f.close()
+			sampled_time += animation_sampling_seconds
+	ResourceSaver.save(result, "res://Tools/animation_library/"+save_name+".tres")
 	

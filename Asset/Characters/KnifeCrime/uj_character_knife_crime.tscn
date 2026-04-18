@@ -2,6 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://61o2ap6r0cwi" path="res://Asset/Characters/KnifeCrime/UJ_Character_Knife Crime.glb" id="1_nnpry"]
 [ext_resource type="Script" uid="uid://dxk0d38jewi8q" path="res://Tools/korn/InjectAnimationToObject.gd" id="2_addo1"]
+[ext_resource type="Script" uid="uid://dbes4ok142c6n" path="res://Game/Script/GenericCharacter.gd" id="2_g1wxt"]
 [ext_resource type="Material" uid="uid://rtwqlooac60q" path="res://Asset/Characters/KnifeCrime/KnifeCrimeMaterial.tres" id="2_li0y7"]
 [ext_resource type="Script" uid="uid://bx65yhajtgq17" path="res://Tools/korn/AnimationConfig.gd" id="3_hpqjp"]
 [ext_resource type="Resource" uid="uid://d02ia24ui6vv7" path="res://Tools/bone_mapping_database/maximo_to_blender_metarig.tres" id="4_hpqjp"]
@@ -23,7 +24,7 @@
 [ext_resource type="Resource" uid="uid://il2uwmxxsen3" path="res://Tools/animation_library/boxing_left.tres" id="20_iwbjr"]
 [ext_resource type="Resource" uid="uid://43lp0iyugi5h" path="res://Tools/animation_library/boxing_right.tres" id="21_c7xfc"]
 
-[sub_resource type="Animation" id="Animation_7jldu"]
+[sub_resource type="Animation" id="Animation_g1wxt"]
 length = 0.8
 loop_mode = 1
 tracks/0/type = "position_3d"
@@ -391,8 +392,8 @@ tracks/51/interp = 1
 tracks/51/loop_wrap = true
 tracks/51/keys = PackedFloat32Array(0, 1, -0.56869626, 0.046360426, 0.002905377, 0.821235, 0.1, 1, -0.5334106, 0.029080903, 0.018348072, 0.8451573, 0.2, 1, -0.49643493, 0.03330331, 0.023081947, 0.8671277, 0.3, 1, -0.5039742, 0.062477335, 0.019590877, 0.8612333, 0.4, 1, -0.4413982, 0.07618038, 0.03181807, 0.89350533, 0.5, 1, -0.31758356, 0.03071049, 0.06970244, 0.94516623, 0.6, 1, -0.48542902, 0.0038013018, 0.059923943, 0.87221175, 0.7, 1, -0.5875507, 0.023777554, 0.006555619, 0.80881137, 0.8, 1, -0.5686957, 0.04636032, 0.0029054347, 0.82123536)
 
-[sub_resource type="Animation" id="Animation_g1wxt"]
-length = 0.93333334
+[sub_resource type="Animation" id="Animation_do1gv"]
+length = 0.9
 loop_mode = 1
 tracks/0/type = "position_3d"
 tracks/0/imported = false
@@ -759,7 +760,7 @@ tracks/51/interp = 1
 tracks/51/loop_wrap = true
 tracks/51/keys = PackedFloat32Array(0, 1, -0.5686959, 0.046360258, 0.002905466, 0.82123524, 0.1, 1, -0.6420443, 0.018932791, 0.019494066, 0.76618576, 0.2, 1, -0.6728596, 0.028132318, 0.027227055, 0.73873353, 0.3, 1, -0.50874066, -0.030422976, 0.0816543, 0.8564987, 0.4, 1, -0.3365577, -0.06361884, 0.06451642, 0.9372936, 0.5, 1, -0.40169248, -0.019558271, 0.0489628, 0.9142556, 0.6, 1, -0.5431874, 0.04117003, 0.013268455, 0.83849657, 0.7, 1, -0.54708695, 0.03288892, 0.0109366, 0.83635795, 0.8, 1, -0.5480979, 0.044516094, 0.0038394742, 0.8352199, 0.9, 1, -0.56484556, 0.04473993, 0.0036742843, 0.8239747)
 
-[sub_resource type="Animation" id="Animation_do1gv"]
+[sub_resource type="Animation" id="Animation_iwbjr"]
 length = 2.2
 loop_mode = 1
 tracks/0/type = "position_3d"
@@ -1127,8 +1128,8 @@ tracks/51/interp = 1
 tracks/51/loop_wrap = true
 tracks/51/keys = PackedFloat32Array(0, 1, -0.55811775, 0.04509885, 0.0045670466, 0.82852274, 0.1, 1, -0.48501045, 0.061968673, 0.008873137, 0.87226486, 0.2, 1, -0.38471168, 0.07528442, 0.031740215, 0.9194138, 0.3, 1, -0.37814388, 0.07520008, 0.0317232, 0.92214197, 0.4, 1, -0.4235682, 0.07460781, 0.029325109, 0.90231025, 0.5, 1, -0.42318833, 0.07604923, 0.019416569, 0.9026357, 0.6, 1, -0.41625223, 0.07740981, 0.024834342, 0.9056076, 0.7, 1, -0.45886007, 0.07170829, 0.020482576, 0.8853733, 0.8, 1, -0.49376315, 0.06536428, 0.012820531, 0.8670416, 0.9, 1, -0.4432257, 0.07081331, 0.02037363, 0.89337635, 1, 1, -0.44439417, 0.077394366, 0.02993002, 0.8919799, 1.1, 1, -0.48220137, 0.08004363, 0.035977475, 0.8716539, 1.2, 1, -0.47663468, 0.080873184, 0.026269102, 0.8749793, 1.3, 1, -0.45702973, 0.07535059, 0.015711918, 0.8861147, 1.4, 1, -0.47604576, 0.066749364, 0.008728731, 0.87684023, 1.5, 1, -0.53070515, 0.062265728, 0.0003846418, 0.84526616, 1.6, 1, -0.49802145, 0.06252774, 0.0046682646, 0.86489487, 1.7, 1, -0.484035, 0.070027106, 0.016821006, 0.8720799, 1.8, 1, -0.52624583, 0.075324096, 0.02573549, 0.8465987, 1.9, 1, -0.54097825, 0.07900026, 0.019731767, 0.8370855, 2, 1, -0.52099204, 0.07394644, 0.011678258, 0.85027224, 2.1, 1, -0.52861613, 0.061946385, 0.0057156803, 0.8465784, 2.2, 1, -0.55811644, 0.04509885, 0.004567041, 0.8285236)
 
-[sub_resource type="Animation" id="Animation_iwbjr"]
-length = 0.8666667
+[sub_resource type="Animation" id="Animation_c7xfc"]
+length = 0.8
 loop_mode = 1
 tracks/0/type = "position_3d"
 tracks/0/imported = false
@@ -1495,8 +1496,8 @@ tracks/51/interp = 1
 tracks/51/loop_wrap = true
 tracks/51/keys = PackedFloat32Array(0, 1, -0.55947614, -0.06930124, 0.08710473, 0.8213383, 0.1, 1, -0.5788752, -0.07185684, 0.084913194, 0.8077932, 0.2, 1, -0.59598005, -0.06826742, 0.08736737, 0.7953077, 0.3, 1, -0.5423837, -0.07675386, 0.05570508, 0.8347609, 0.4, 1, -0.5223359, -0.041041717, 0.07279166, 0.8486355, 0.5, 1, -0.557378, -0.07081522, 0.09586182, 0.8216603, 0.6, 1, -0.5291761, -0.07559038, 0.08582123, 0.8407696, 0.7, 1, -0.51107574, -0.07115041, 0.08063497, 0.8527821, 0.8, 1, -0.54172844, -0.062474556, 0.084113695, 0.83399767)
 
-[sub_resource type="Animation" id="Animation_c7xfc"]
-length = 0.8666667
+[sub_resource type="Animation" id="Animation_oa7y8"]
+length = 0.8
 loop_mode = 1
 tracks/0/type = "position_3d"
 tracks/0/imported = false
@@ -1863,8 +1864,8 @@ tracks/51/interp = 1
 tracks/51/loop_wrap = true
 tracks/51/keys = PackedFloat32Array(0, 1, -0.56869614, 0.046360295, 0.0029055118, 0.82123506, 0.1, 1, -0.5525248, 0.037450034, -0.003877107, 0.8326457, 0.2, 1, -0.49165437, 0.05039966, -0.0036020072, 0.86932325, 0.3, 1, -0.4890729, 0.056304038, 0.0043483996, 0.87041295, 0.4, 1, -0.51248544, 0.071933985, 0.013973977, 0.8555635, 0.5, 1, -0.496148, 0.08827303, 0.038772617, 0.8628683, 0.6, 1, -0.5305144, 0.08203397, 0.039694685, 0.8427629, 0.7, 1, -0.5648581, 0.0717987, -0.007660418, 0.8220229, 0.8, 1, -0.5544064, 0.056842342, -0.013730459, 0.8301891)
 
-[sub_resource type="Animation" id="Animation_oa7y8"]
-length = 1.45
+[sub_resource type="Animation" id="Animation_e5f4x"]
+length = 2.9
 tracks/0/type = "position_3d"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -2230,8 +2231,8 @@ tracks/51/interp = 1
 tracks/51/loop_wrap = true
 tracks/51/keys = PackedFloat32Array(0, 1, -0.46757916, -0.051560644, -0.051773734, 0.8809261, 0.05, 1, -0.46233976, -0.05755695, -0.01660693, 0.884677, 0.1, 1, -0.45560154, -0.089381315, -0.025460796, 0.8853192, 0.15, 1, -0.39798093, -0.105616145, -0.0069805644, 0.9112671, 0.2, 1, -0.61459863, -0.104576126, 0.014675193, 0.7817397, 0.25, 1, -0.7113764, -0.025291484, -0.096934676, 0.6956347, 0.3, 1, -0.63557863, -0.06335619, -0.07896077, 0.76536983, 0.35, 1, -0.69515276, -0.04395588, -0.07518806, 0.7135666, 0.4, 1, -0.4814709, -0.015827531, -0.092741005, 0.871398, 0.45, 1, -0.52009594, -0.10616755, -0.0059214984, 0.8474631, 0.5, 1, -0.84442496, -0.03394755, -0.08614062, 0.52761143, 0.55, 1, 0.94305664, -0.0016251244, 0.1362397, -0.30344743, 0.6, 1, 0.92007256, 0.029005716, 0.1514661, -0.3601155, 0.65, 1, 0.8814611, 0.0191237, 0.1463284, -0.4486075, 0.7, 1, -0.54147655, -0.027572861, -0.08203438, 0.83624953, 0.75, 1, -0.51769245, -0.062274273, -0.02671708, 0.85287905, 0.8, 1, -0.75657254, -0.054836676, -0.037831385, 0.65050733, 0.85, 1, -0.83286166, -0.02618225, -0.062964514, 0.5492644, 0.9, 1, 0.9062585, 0.07811114, -0.023554917, -0.41477615, 0.95, 1, 0.9097744, 0.13545285, -0.022088528, -0.391759, 1, 1, -0.8288976, -0.051943064, -0.09335587, 0.5491041, 1.05, 1, -0.7328861, -0.0060773897, -0.12216348, 0.66926616, 1.1, 1, -0.7129724, -0.0059561427, -0.11910935, 0.690976, 1.15, 1, -0.71743256, -0.027185118, -0.10486192, 0.6881536, 1.2, 1, -0.7059224, -0.05529324, -0.08367667, 0.70115227, 1.25, 1, -0.66406983, -0.07371583, -0.07178205, 0.74055696, 1.3, 1, -0.5778783, -0.05573912, -0.08413484, 0.80985874, 1.35, 1, -0.45111695, -0.037695453, -0.0937112, 0.8867304, 1.4, 1, -0.40062743, -0.026570488, -0.0957481, 0.910837, 1.45, 1, -0.40524614, -0.013418237, -0.09831522, 0.90880674)
 
-[sub_resource type="Animation" id="Animation_e5f4x"]
-length = 9.933333
+[sub_resource type="Animation" id="Animation_bkvc0"]
+length = 9.9
 loop_mode = 1
 tracks/0/type = "position_3d"
 tracks/0/imported = false
@@ -2598,8 +2599,8 @@ tracks/51/interp = 1
 tracks/51/loop_wrap = true
 tracks/51/keys = PackedFloat32Array(0, 1, -0.28401557, -0.09542486, 0.0034906727, 0.954053, 0.1, 1, -0.2901106, -0.09345947, 0.0020890476, 0.9524163, 0.2, 1, -0.29626304, -0.09646713, 0.00034456365, 0.95022213, 0.3, 1, -0.30981517, -0.10130227, 0.0012248793, 0.945384, 0.4, 1, -0.32374394, -0.10006703, 0.0020483176, 0.94083595, 0.5, 1, -0.33648643, -0.09645211, 0.0027786407, 0.93673164, 0.6, 1, -0.34660062, -0.096050836, 0.0043997266, 0.9330718, 0.7, 1, -0.35218042, -0.097631045, 0.0060322895, 0.9308065, 0.8, 1, -0.35675892, -0.09941837, 0.007377069, 0.92886204, 0.9, 1, -0.36169595, -0.10088002, 0.008798673, 0.92678034, 1, 1, -0.36358246, -0.09965641, 0.009473551, 0.9261677, 1.1, 1, -0.36614075, -0.09943346, 0.0102191735, 0.9251754, 1.2, 1, -0.36852336, -0.10108998, 0.011721978, 0.9240314, 1.3, 1, -0.36890262, -0.10078329, 0.013025798, 0.9238961, 1.4, 1, -0.36823356, -0.10051246, 0.013617347, 0.9241839, 1.5, 1, -0.366008, -0.10030114, 0.014078927, 0.9250836, 1.6, 1, -0.36125255, -0.10010127, 0.014727083, 0.9269625, 1.7, 1, -0.35245454, -0.10008652, 0.014541198, 0.9303478, 1.8, 1, -0.34498358, -0.100236215, 0.014278726, 0.93313193, 1.9, 1, -0.3359892, -0.10041288, 0.013218377, 0.9364047, 2, 1, -0.3275781, -0.10039655, 0.01274068, 0.9393885, 2.1, 1, -0.32016695, -0.100416034, 0.0121822925, 0.9419455, 2.2, 1, -0.30834427, -0.10054877, 0.011139446, 0.94588035, 2.3, 1, -0.2929036, -0.1007264, 0.009933584, 0.9507697, 2.4, 1, -0.272866, -0.100965165, 0.0073609604, 0.95671105, 2.5, 1, -0.24829215, -0.10122513, 0.004641298, 0.9633706, 2.6, 1, -0.22970453, -0.101391, 0.0033153705, 0.96795905, 2.7, 1, -0.21836078, -0.10164167, 0.002903034, 0.9705561, 2.8, 1, -0.21030945, -0.102063514, 0.0036162247, 0.9722859, 2.9, 1, -0.21016896, -0.101820044, 0.0048822076, 0.9723363, 3, 1, -0.2210549, -0.10205568, 0.0074699535, 0.96987814, 3.1, 1, -0.23938487, -0.101436175, 0.010244924, 0.96555716, 3.2, 1, -0.26053843, -0.10071947, 0.013162832, 0.96010524, 3.3, 1, -0.2798228, -0.1035239, 0.016079664, 0.95431834, 3.4, 1, -0.29930645, -0.10344275, 0.01936203, 0.9483356, 3.5, 1, -0.30912128, -0.10262664, 0.02170112, 0.94522005, 3.6, 1, -0.30401033, -0.10229502, 0.020637967, 0.94693583, 3.7, 1, -0.29815614, -0.10217209, 0.018521713, 0.94885236, 3.8, 1, -0.29118204, -0.101379186, 0.017869474, 0.951113, 3.9, 1, -0.27435428, -0.10019377, 0.016089708, 0.9562594, 4, 1, -0.2643169, -0.0990357, 0.0139109455, 0.9592367, 4.1, 1, -0.26199102, -0.09805593, 0.0120849665, 0.95999986, 4.2, 1, -0.25887084, -0.09531576, 0.009895432, 0.96114665, 4.3, 1, -0.24771127, -0.093154766, 0.007463702, 0.9643161, 4.4, 1, -0.23975448, -0.09607647, 0.0059318556, 0.9660497, 4.5, 1, -0.24373694, -0.095866755, 0.0055949674, 0.96507543, 4.6, 1, -0.24589309, -0.09386839, 0.0056519588, 0.96472454, 4.7, 1, -0.24046762, -0.09448822, 0.0045784917, 0.96603644, 4.8, 1, -0.23909846, -0.09602437, 0.0027740407, 0.96623164, 4.9, 1, -0.24102089, -0.097338654, 0.0016094577, 0.965625, 5, 1, -0.24831264, -0.096945144, 0.00018753103, 0.9638166, 5.1, 1, -0.26149538, -0.096526496, 0.00037809412, 0.9603659, 5.2, 1, -0.27745473, -0.09623189, 0.0009508749, 0.95590657, 5.3, 1, -0.29317075, -0.09686882, 2.1943077e-05, 0.95114, 5.4, 1, -0.31148407, -0.097606905, -9.863757e-05, 0.9452251, 5.5, 1, -0.33351085, -0.09808114, 0.0012824632, 0.93762946, 5.6, 1, -0.3489221, -0.098520935, 0.001954827, 0.93195665, 5.7, 1, -0.35656542, -0.0982563, 0.0029030258, 0.9290847, 5.8, 1, -0.35924312, -0.09810922, 0.0032151786, 0.92806715, 5.9, 1, -0.35183495, -0.09783283, 0.0028154869, 0.93093127, 6, 1, -0.33663812, -0.097269244, 0.0028156016, 0.9365925, 6.1, 1, -0.32186523, -0.09704977, 0.0026538128, 0.94179463, 6.2, 1, -0.31267262, -0.0970861, 0.0033842274, 0.94488025, 6.3, 1, -0.30083612, -0.097428575, 0.0042797634, 0.94867647, 6.4, 1, -0.2865293, -0.09777954, 0.004467873, 0.9530583, 6.5, 1, -0.28001568, -0.09794348, 0.005408635, 0.9549707, 6.6, 1, -0.2727399, -0.098808676, 0.005712261, 0.9569833, 6.7, 1, -0.2623593, -0.099367045, 0.004869454, 0.9598282, 6.8, 1, -0.24761622, -0.09263139, 0.0027822426, 0.96441585, 6.9, 1, -0.23055682, -0.08637988, 4.2517022e-05, 0.96921724, 7, 1, -0.22303937, -0.08680641, -0.0010903474, 0.9709361, 7.1, 1, -0.2186771, -0.088769846, -0.0006791216, 0.9717509, 7.2, 1, -0.2223215, -0.089609526, 0.00047362116, 0.9708466, 7.3, 1, -0.23450202, -0.090205066, 0.0023369407, 0.9679186, 7.4, 1, -0.243284, -0.09149958, 0.005476675, 0.9656142, 7.5, 1, -0.24653238, -0.09407587, 0.0078084636, 0.96452606, 7.6, 1, -0.25804314, -0.095995925, 0.010082688, 0.9612996, 7.7, 1, -0.27123845, -0.09335227, 0.011369004, 0.957907, 7.8, 1, -0.27721566, -0.08975127, 0.01280436, 0.9565209, 7.9, 1, -0.28048232, -0.09079772, 0.0155493645, 0.95542854, 8, 1, -0.28169698, -0.09403593, 0.017608335, 0.954722, 8.1, 1, -0.2779656, -0.094966054, 0.017662011, 0.95572203, 8.2, 1, -0.27217788, -0.09460639, 0.01662551, 0.95744056, 8.3, 1, -0.27226225, -0.09095905, 0.015547656, 0.9577881, 8.4, 1, -0.26925197, -0.08587605, 0.012833689, 0.9591476, 8.5, 1, -0.25815907, -0.080665775, 0.008462381, 0.9626917, 8.6, 1, -0.2539071, -0.07695104, 0.005035256, 0.9641496, 8.7, 1, -0.24213468, -0.07577392, 0.0021246322, 0.9672769, 8.8, 1, -0.22173376, -0.07588647, -0.00034644554, 0.97214985, 8.9, 1, -0.20616542, -0.07582366, -0.0029941082, 0.97557044, 9, 1, -0.20985268, -0.0785957, -0.0017841242, 0.9745673, 9.1, 1, -0.21317708, -0.08272274, 0.00030101696, 0.9735052, 9.2, 1, -0.20967287, -0.085140824, -0.001538017, 0.9740564, 9.3, 1, -0.21573927, -0.08762607, -0.0024694586, 0.9725082, 9.4, 1, -0.23015794, -0.089916125, -0.0008610132, 0.96899, 9.5, 1, -0.24418397, -0.09175, 0.0013045818, 0.96537787, 9.6, 1, -0.25401193, -0.092438206, 0.0018381535, 0.9627719, 9.7, 1, -0.26411167, -0.091531366, 0.0024703504, 0.9601359, 9.8, 1, -0.27086622, -0.09350555, 0.003472549, 0.95805854, 9.9, 1, -0.28067338, -0.09561877, 0.003614719, 0.9550217)
 
-[sub_resource type="Animation" id="Animation_bkvc0"]
-length = 0.7
+[sub_resource type="Animation" id="Animation_oy4dq"]
+length = 2.0
 tracks/0/type = "position_3d"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -2965,8 +2966,7 @@ tracks/51/interp = 1
 tracks/51/loop_wrap = true
 tracks/51/keys = PackedFloat32Array(0, 1, -0.4362917, 0.06729475, -0.009513721, 0.8972349, 0.033333335, 1, -0.56100523, 0.06653934, -0.013235417, 0.8250276, 0.06666667, 1, -0.65147245, 0.055212423, -0.029802846, 0.7560734, 0.1, 1, -0.5129395, 0.013417228, 0.00041645122, 0.8583198, 0.13333334, 1, -0.41534948, 0.03453324, 0.011611193, 0.90893203, 0.16666667, 1, -0.49594223, 0.062626906, 0.00039769177, 0.8660941, 0.2, 1, -0.48134825, 0.06266976, -0.016356898, 0.87413317, 0.23333333, 1, -0.46376622, 0.063521676, -0.023633482, 0.8833614, 0.26666668, 1, -0.49790627, 0.06674515, 0.0018996812, 0.8646565, 0.3, 1, -0.53440744, 0.06546522, 0.012052318, 0.8426018, 0.33333334, 1, -0.50583035, 0.067846484, 0.025528925, 0.85958177, 0.36666667, 1, -0.35858178, 0.06927206, 0.017001275, 0.9307693, 0.4, 1, -0.39407453, 0.06834781, -0.0024804473, 0.91653025, 0.43333334, 1, -0.5093839, 0.059017956, -0.028116511, 0.8580527, 0.46666667, 1, -0.44041923, 0.05266119, -0.03628311, 0.89551175, 0.5, 1, -0.44697037, 0.059497464, -0.030047389, 0.89206207, 0.53333336, 1, -0.46394256, 0.06396012, -0.013766402, 0.88344604, 0.56666666, 1, -0.44521374, 0.06941908, -0.00260832, 0.8927256, 0.6, 1, -0.42264605, 0.06806172, -0.009899611, 0.9036813, 0.6333333, 1, -0.40723455, 0.067689896, -0.010145542, 0.9107553, 0.6666667, 1, -0.38564366, 0.0701018, 0.00181683, 0.91997904)
 
-[sub_resource type="Animation" id="Animation_oy4dq"]
-length = 1.0333333
+[sub_resource type="Animation" id="Animation_xgnkl"]
 loop_mode = 1
 tracks/0/type = "position_3d"
 tracks/0/imported = false
@@ -3333,8 +3333,8 @@ tracks/51/interp = 1
 tracks/51/loop_wrap = true
 tracks/51/keys = PackedFloat32Array(0, 1, -0.58442533, -0.005892159, -0.016638875, 0.8112555, 0.1, 1, -0.29074344, -0.007789379, -0.014997389, 0.9566518, 0.2, 1, -0.163434, -0.04256516, -0.0169317, 0.98549014, 0.3, 1, -0.2976532, -0.0011002994, -0.01314168, 0.954583, 0.4, 1, -0.45661122, -0.016534058, -0.011656385, 0.8894363, 0.5, 1, -0.37502447, -0.008388492, -0.016291633, 0.9268338, 0.6, 1, -0.27981904, 0.02064749, -0.022172803, 0.9595746, 0.7, 1, -0.2685415, 0.057265185, -0.029348033, 0.9611165, 0.8, 1, -0.22461806, 0.059248965, -0.029461252, 0.9721977, 0.9, 1, -0.53471804, 0.05761046, -0.049362063, 0.8416181, 1, 1, -0.62607634, 0.010076497, -0.026640872, 0.77924144)
 
-[sub_resource type="Animation" id="Animation_xgnkl"]
-length = 0.6666667
+[sub_resource type="Animation" id="Animation_lac6g"]
+length = 0.6
 loop_mode = 1
 tracks/0/type = "position_3d"
 tracks/0/imported = false
@@ -3701,8 +3701,8 @@ tracks/51/interp = 1
 tracks/51/loop_wrap = true
 tracks/51/keys = PackedFloat32Array(0, 1, 0.89073473, 0.040597003, -0.020082625, -0.4522612, 0.1, 1, -0.77335924, -0.025071798, 0.0037192774, 0.6334612, 0.2, 1, -0.26655543, 0.05039753, 0.0105136065, 0.96244365, 0.3, 1, -0.5355346, 0.024245339, -0.047589537, 0.8428227, 0.4, 1, -0.26625425, 0.012376541, 0.022990707, 0.96354914, 0.5, 1, -0.36328205, 0.07562774, 0.024191134, 0.9282895, 0.6, 1, -0.78712, -0.054645516, 0.010443128, 0.6142858)
 
-[sub_resource type="Animation" id="Animation_lac6g"]
-length = 0.57777774
+[sub_resource type="Animation" id="Animation_n6irj"]
+length = 1.7
 tracks/0/type = "position_3d"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -4068,7 +4068,7 @@ tracks/51/interp = 1
 tracks/51/loop_wrap = true
 tracks/51/keys = PackedFloat32Array(0, 1, -0.47302958, 0.07959513, 0.049569752, 0.8760425, 0.033333335, 1, -0.5826605, 0.07843123, 0.011581196, 0.80883944, 0.06666667, 1, -0.70742613, 0.054266676, -0.02212718, 0.70435345, 0.1, 1, -0.56746083, 0.08458135, 0.03902091, 0.81811464, 0.13333334, 1, -0.41625917, 0.067306586, 0.056877, 0.9049658, 0.16666667, 1, -0.55900794, 0.079718545, 0.042700816, 0.8242158, 0.2, 1, -0.5878855, 0.081800394, 0.039542176, 0.80382574, 0.23333333, 1, -0.5369651, 0.07916129, 0.044495486, 0.8387027, 0.26666668, 1, -0.35487798, 0.07628473, 0.055547595, 0.930138, 0.3, 1, -0.32999766, 0.075397015, 0.057194073, 0.9392261, 0.33333334, 1, -0.50776315, 0.07249168, 0.010818585, 0.85837317, 0.36666667, 1, -0.47434822, 0.07632185, 0.033277556, 0.8763911, 0.4, 1, -0.46207628, 0.07986816, 0.050286356, 0.88180375, 0.43333334, 1, -0.42766, 0.08031865, 0.050671235, 0.8989373, 0.46666667, 1, -0.39818448, 0.07820018, 0.05316287, 0.91241854, 0.5, 1, -0.41229665, 0.078168295, 0.051912434, 0.90620434, 0.53333336, 1, -0.40753588, 0.07996963, 0.051823404, 0.9082036, 0.56666666, 1, -0.45470682, 0.08027561, 0.050897688, 0.8855546)
 
-[sub_resource type="Animation" id="Animation_n6irj"]
+[sub_resource type="Animation" id="Animation_03hh3"]
 length = 2.2
 loop_mode = 1
 tracks/0/type = "position_3d"
@@ -4436,8 +4436,7 @@ tracks/51/interp = 1
 tracks/51/loop_wrap = true
 tracks/51/keys = PackedFloat32Array(0, 1, -0.55811775, 0.04509885, 0.0045670466, 0.82852274, 0.1, 1, -0.48501045, 0.061968673, 0.008873137, 0.87226486, 0.2, 1, -0.38471168, 0.07528442, 0.031740215, 0.9194138, 0.3, 1, -0.37814388, 0.07520008, 0.0317232, 0.92214197, 0.4, 1, -0.4235682, 0.07460781, 0.029325109, 0.90231025, 0.5, 1, -0.42318833, 0.07604923, 0.019416569, 0.9026357, 0.6, 1, -0.41625223, 0.07740981, 0.024834342, 0.9056076, 0.7, 1, -0.45886007, 0.07170829, 0.020482576, 0.8853733, 0.8, 1, -0.49376315, 0.06536428, 0.012820531, 0.8670416, 0.9, 1, -0.4432257, 0.07081331, 0.02037363, 0.89337635, 1, 1, -0.44439417, 0.077394366, 0.02993002, 0.8919799, 1.1, 1, -0.48220137, 0.08004363, 0.035977475, 0.8716539, 1.2, 1, -0.47663468, 0.080873184, 0.026269102, 0.8749793, 1.3, 1, -0.45702973, 0.07535059, 0.015711918, 0.8861147, 1.4, 1, -0.47604576, 0.066749364, 0.008728731, 0.87684023, 1.5, 1, -0.53070515, 0.062265728, 0.0003846418, 0.84526616, 1.6, 1, -0.49802145, 0.06252774, 0.0046682646, 0.86489487, 1.7, 1, -0.484035, 0.070027106, 0.016821006, 0.8720799, 1.8, 1, -0.52624583, 0.075324096, 0.02573549, 0.8465987, 1.9, 1, -0.54097825, 0.07900026, 0.019731767, 0.8370855, 2, 1, -0.52099204, 0.07394644, 0.011678258, 0.85027224, 2.1, 1, -0.52861613, 0.061946385, 0.0057156803, 0.8465784, 2.2, 1, -0.55811644, 0.04509885, 0.004567041, 0.8285236)
 
-[sub_resource type="Animation" id="Animation_03hh3"]
-length = 1.0333333
+[sub_resource type="Animation" id="Animation_e0fb2"]
 loop_mode = 1
 tracks/0/type = "position_3d"
 tracks/0/imported = false
@@ -4804,8 +4803,8 @@ tracks/51/interp = 1
 tracks/51/loop_wrap = true
 tracks/51/keys = PackedFloat32Array(0, 1, -0.5488119, 0.007701208, -0.019427115, 0.8356846, 0.1, 1, -0.19868596, -0.021488596, -0.013125203, 0.97973967, 0.2, 1, -0.23271391, -0.060147364, -0.0071869222, 0.97065693, 0.3, 1, -0.4061805, -0.09202167, 0.0137692215, 0.9090434, 0.4, 1, -0.40518212, -0.010825981, -0.009539937, 0.9141221, 0.5, 1, -0.3186059, 0.049918722, -0.023636937, 0.9462768, 0.6, 1, -0.24311809, 0.07231051, -0.024386987, 0.96699023, 0.7, 1, -0.25369263, 0.07286107, -0.028538853, 0.96411455, 0.8, 1, -0.32202044, 0.070473194, -0.03332188, 0.94351786, 0.9, 1, -0.6267571, 0.036674455, -0.038499404, 0.77739847, 1, 1, -0.61416185, 0.025352454, -0.031091612, 0.7881597)
 
-[sub_resource type="Animation" id="Animation_e0fb2"]
-length = 0.6666667
+[sub_resource type="Animation" id="Animation_by67v"]
+length = 0.6
 loop_mode = 1
 tracks/0/type = "position_3d"
 tracks/0/imported = false
@@ -5172,8 +5171,8 @@ tracks/51/interp = 1
 tracks/51/loop_wrap = true
 tracks/51/keys = PackedFloat32Array(0, 1, 0.8788353, 0.052475065, -0.022922698, -0.4736765, 0.1, 1, -0.7747962, -0.027567837, -0.02225705, 0.6312175, 0.2, 1, -0.2762952, 0.057942137, -0.042689804, 0.95837426, 0.3, 1, -0.45824933, 0.02233443, -0.08287714, 0.88466954, 0.4, 1, -0.47548488, 0.065147825, -0.03515463, 0.8766037, 0.5, 1, -0.18596856, 0.07813941, 0.044850443, 0.97841626, 0.6, 1, -0.6909409, -0.033609636, 0.04959596, 0.7204244)
 
-[sub_resource type="Animation" id="Animation_by67v"]
-length = 0.7
+[sub_resource type="Animation" id="Animation_y7j4e"]
+length = 0.6
 loop_mode = 1
 tracks/0/type = "position_3d"
 tracks/0/imported = false
@@ -5540,7 +5539,7 @@ tracks/51/interp = 1
 tracks/51/loop_wrap = true
 tracks/51/keys = PackedFloat32Array(0, 1, 0.9353529, 0.04024599, -0.044760115, -0.34855658, 0.1, 1, -0.7694591, -0.07805284, 0.04853065, 0.6320485, 0.2, 1, -0.2364245, -0.0100542335, 0.006833761, 0.9715738, 0.3, 1, -0.49562836, -0.019025452, -0.039017197, 0.8674493, 0.4, 1, -0.44368142, -0.07232129, 0.04016373, 0.8923583, 0.5, 1, -0.42178237, -0.016068097, 0.03358054, 0.90593255, 0.6, 1, -0.79228413, -0.048454564, 0.051450968, 0.6060452)
 
-[sub_resource type="Animation" id="Animation_y7j4e"]
+[sub_resource type="Animation" id="Animation_ga2wx"]
 length = 1.2
 loop_mode = 1
 tracks/0/type = "position_3d"
@@ -5908,8 +5907,7 @@ tracks/51/interp = 1
 tracks/51/loop_wrap = true
 tracks/51/keys = PackedFloat32Array(0, 1, -0.4950819, -0.04377417, -0.0041130707, 0.8677331, 0.1, 1, -0.5036432, 0.02737964, 0.02631055, 0.86307687, 0.2, 1, -0.37576067, 0.035833117, 0.06548824, 0.92370516, 0.3, 1, -0.34879398, 0.0059024426, 0.042047508, 0.9362371, 0.4, 1, -0.4110399, 0.009085537, 0.016120985, 0.9114296, 0.5, 1, -0.36993468, -0.029214391, 0.014384686, 0.92848694, 0.6, 1, -0.3480814, -0.07101062, 0.017431762, 0.93460846, 0.7, 1, -0.39643604, -0.09599092, 0.018674642, 0.91283923, 0.8, 1, -0.42836764, -0.09713769, 0.021381073, 0.8981137, 0.9, 1, -0.38349232, -0.095958166, 0.029946933, 0.91805714, 1, 1, -0.3326213, -0.08587288, 0.026141915, 0.93877876, 1.1, 1, -0.36864212, -0.09351851, -0.0105683515, 0.9247949, 1.2, 1, -0.4950823, -0.04377415, -0.0041130492, 0.86773294)
 
-[sub_resource type="Animation" id="Animation_ga2wx"]
-length = 1.0333333
+[sub_resource type="Animation" id="Animation_24dhs"]
 loop_mode = 1
 tracks/0/type = "position_3d"
 tracks/0/imported = false
@@ -6278,23 +6276,23 @@ tracks/51/keys = PackedFloat32Array(0, 1, -0.55739164, 0.01629767, -0.028946677,
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_li0y7"]
 _data = {
-&"boxing_backward": SubResource("Animation_7jldu"),
-&"boxing_forward": SubResource("Animation_g1wxt"),
-&"boxing_idle": SubResource("Animation_do1gv"),
-&"boxing_left": SubResource("Animation_iwbjr"),
-&"boxing_right": SubResource("Animation_c7xfc"),
-&"drop_kick": SubResource("Animation_oa7y8"),
-&"idle": SubResource("Animation_e5f4x"),
-&"jab": SubResource("Animation_bkvc0"),
-&"left_strafe": SubResource("Animation_oy4dq"),
-&"left_strafe_run": SubResource("Animation_xgnkl"),
-&"left_straight": SubResource("Animation_lac6g"),
-&"no_weapon_stance": SubResource("Animation_n6irj"),
-&"right_strafe": SubResource("Animation_03hh3"),
-&"right_strafe_run": SubResource("Animation_e0fb2"),
-&"running": SubResource("Animation_by67v"),
-&"walk_backward": SubResource("Animation_y7j4e"),
-&"walking": SubResource("Animation_ga2wx")
+&"boxing_backward": SubResource("Animation_g1wxt"),
+&"boxing_forward": SubResource("Animation_do1gv"),
+&"boxing_idle": SubResource("Animation_iwbjr"),
+&"boxing_left": SubResource("Animation_c7xfc"),
+&"boxing_right": SubResource("Animation_oa7y8"),
+&"drop_kick": SubResource("Animation_e5f4x"),
+&"idle": SubResource("Animation_bkvc0"),
+&"jab": SubResource("Animation_oy4dq"),
+&"left_strafe": SubResource("Animation_xgnkl"),
+&"left_strafe_run": SubResource("Animation_lac6g"),
+&"left_straight": SubResource("Animation_n6irj"),
+&"no_weapon_stance": SubResource("Animation_03hh3"),
+&"right_strafe": SubResource("Animation_e0fb2"),
+&"right_strafe_run": SubResource("Animation_by67v"),
+&"running": SubResource("Animation_y7j4e"),
+&"walk_backward": SubResource("Animation_ga2wx"),
+&"walking": SubResource("Animation_24dhs")
 }
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_bwfe8"]
@@ -6473,10 +6471,9 @@ states/idle/position = Vector2(181.5, 100)
 states/idle_combat_no_weapon/node = SubResource("AnimationNodeBlendSpace2D_5en6u")
 states/idle_combat_no_weapon/position = Vector2(553.5, 100)
 transitions = ["L1", "L2", SubResource("AnimationNodeStateMachineTransition_0k2kl"), "L2", "L3", SubResource("AnimationNodeStateMachineTransition_7vq64"), "Start", "idle", SubResource("AnimationNodeStateMachineTransition_y7j4e"), "idle_combat_no_weapon", "L1", SubResource("AnimationNodeStateMachineTransition_oa7y8"), "L1", "idle_combat_no_weapon", SubResource("AnimationNodeStateMachineTransition_e5f4x"), "L2", "idle_combat_no_weapon", SubResource("AnimationNodeStateMachineTransition_bkvc0"), "L3", "idle_combat_no_weapon", SubResource("AnimationNodeStateMachineTransition_oy4dq"), "idle", "idle_combat_no_weapon", SubResource("AnimationNodeStateMachineTransition_7jldu"), "idle_combat_no_weapon", "idle", SubResource("AnimationNodeStateMachineTransition_g1wxt")]
-graph_offset = Vector2(-57, -192)
+graph_offset = Vector2(-60, -227)
 
 [sub_resource type="AnimationNodeBlendTree" id="AnimationNodeBlendTree_rmid3"]
-graph_offset = Vector2(-194.58679, 3.553711)
 nodes/output/position = Vector2(460, 80)
 nodes/StateMachine/node = SubResource("AnimationNodeStateMachine_0k2kl")
 nodes/StateMachine/position = Vector2(120, 80)
@@ -6584,48 +6581,58 @@ animation = ExtResource("21_c7xfc")
 loop = 1
 metadata/_custom_type_script = "uid://bx65yhajtgq17"
 
-[node name="UJ_Character_Knife Crime" unique_id=279926329 instance=ExtResource("1_nnpry")]
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_7jldu"]
+radius = 0.25830078
+height = 1.6906738
 
-[node name="Skeleton3D" parent="Union Jack_metarig_Knife Crime" parent_id_path=PackedInt32Array(1075261279) index="0" unique_id=963348642]
-bones/5/position = Vector3(0, 0.8307959, 1.1641532e-09)
-bones/5/rotation = Quaternion(0.15762372, -0.01867463, 0.00062839565, 0.98732257)
-bones/6/rotation = Quaternion(0.046952438, -0.1675472, -0.0066507896, 0.9847229)
-bones/7/rotation = Quaternion(-0.028843794, -0.06510273, -0.014259857, 0.9973597)
-bones/8/rotation = Quaternion(-0.058994703, -0.063332796, -0.021235611, 0.9960209)
-bones/9/rotation = Quaternion(0.22268598, 0.27079993, -0.07273357, 0.93369603)
-bones/12/rotation = Quaternion(0.5301797, 0.5451682, -0.51872534, 0.3906726)
-bones/13/rotation = Quaternion(0.38754588, 0.044937856, 0.1559078, 0.90745884)
-bones/14/rotation = Quaternion(-0.04487974, 0.022342656, 0.8661005, 0.4973496)
-bones/15/rotation = Quaternion(-0.105790645, 0.057280466, -0.04192576, 0.9918516)
-bones/19/rotation = Quaternion(-0.2875513, 0.50896734, 0.33108097, 0.7407104)
-bones/20/rotation = Quaternion(-0.31280348, 0.082567565, -0.24650443, 0.91354924)
-bones/21/rotation = Quaternion(-0.116630465, 0.19400415, 0.25235352, 0.9407855)
-bones/36/rotation = Quaternion(-0.49349046, 0.5727464, -0.52346414, -0.39295563)
-bones/37/rotation = Quaternion(0.35257632, -0.2979051, -0.14055103, 0.8758927)
-bones/38/rotation = Quaternion(-0.041200135, -0.028564522, -0.78557533, 0.6167317)
-bones/39/rotation = Quaternion(-0.1022068, -0.30724487, 0.014819644, 0.9460099)
-bones/43/rotation = Quaternion(-0.33611006, -0.56688976, -0.33078983, 0.67545843)
-bones/44/rotation = Quaternion(-0.22759506, 0.011376301, 0.15546735, 0.9611977)
-bones/45/rotation = Quaternion(-0.09351987, -0.037809283, -0.14518537, 0.9842488)
-bones/61/rotation = Quaternion(0.13276803, 0.12973358, 0.98143566, -0.04822858)
-bones/62/rotation = Quaternion(-0.6915277, -0.03974282, 0.044366077, 0.71989)
-bones/68/rotation = Quaternion(-0.052104153, 0.4891995, 0.8701684, -0.027861016)
-bones/69/rotation = Quaternion(-0.26886874, 0.0046467176, 0.018537119, 0.96298724)
-bones/70/rotation = Quaternion(-0.01679824, 0.7391392, 0.67306256, 0.019440427)
+[node name="UJ_Character_Knife Crime" unique_id=595457303 node_paths=PackedStringArray("animation_tree") instance=ExtResource("1_nnpry")]
+script = ExtResource("2_g1wxt")
+animation_tree = NodePath("AnimationTree")
 
-[node name="Union Jack_Basemesh_Knife Crime" parent="Union Jack_metarig_Knife Crime/Skeleton3D" index="0" unique_id=149797542]
+[node name="Skeleton3D" parent="Union Jack_metarig_Knife Crime" parent_id_path=PackedInt32Array(1373100974) index="0" unique_id=2122937630]
+bones/4/position = Vector3(-0.010589031, 0, -0.042412363)
+bones/5/position = Vector3(0, 0.84414506, -2.0954758e-09)
+bones/5/rotation = Quaternion(0.08813635, 0.019677423, -0.0035756682, 0.99590766)
+bones/6/rotation = Quaternion(-0.0004976575, -0.0032880027, -0.003703284, 0.9999876)
+bones/7/rotation = Quaternion(-0.028229091, -0.007160095, -0.0009959826, 0.99957544)
+bones/8/rotation = Quaternion(-0.08264855, -0.0068222866, -0.00107236, 0.9965549)
+bones/9/rotation = Quaternion(0.30590406, 0.0076368926, -0.013829871, 0.9519313)
+bones/12/rotation = Quaternion(0.5527632, 0.5232934, -0.5503324, 0.34314895)
+bones/13/rotation = Quaternion(0.46412924, 0.14785206, 0.21211807, 0.84718937)
+bones/14/rotation = Quaternion(-0.011322212, 0.048838332, 0.16745326, 0.98460454)
+bones/15/rotation = Quaternion(0.13287011, 0.18770753, -0.07653853, 0.97018206)
+bones/19/rotation = Quaternion(-0.3805656, 0.56272304, 0.27535552, 0.6802147)
+bones/20/rotation = Quaternion(-0.22620472, 0.03513046, -0.15456785, 0.9610963)
+bones/21/rotation = Quaternion(-0.15214403, 0.13553457, 0.041282445, 0.97815055)
+bones/36/rotation = Quaternion(-0.5446772, 0.5325079, -0.53076696, -0.37154898)
+bones/37/rotation = Quaternion(0.4424842, -0.17032647, -0.26769602, 0.8387702)
+bones/38/rotation = Quaternion(-0.011301589, -0.048843104, -0.1670352, 0.9846756)
+bones/39/rotation = Quaternion(0.017598268, -0.19819619, -0.01690984, 0.9798586)
+bones/43/rotation = Quaternion(-0.31475365, -0.6175939, -0.3132675, 0.6491313)
+bones/44/rotation = Quaternion(-0.22828206, -0.02905462, 0.15326035, 0.9610175)
+bones/45/rotation = Quaternion(-0.15040399, 0.011796705, -0.020880189, 0.9883337)
+bones/61/rotation = Quaternion(0.0669596, 0.2969748, 0.9521392, -0.027448585)
+bones/62/rotation = Quaternion(-0.36212227, -0.0031777439, -0.014129692, 0.9320181)
+bones/68/rotation = Quaternion(-0.10580684, 0.1972643, 0.97167397, 0.07577212)
+bones/69/rotation = Quaternion(-0.5331747, 0.040794782, -0.033176348, 0.84436953)
+bones/70/rotation = Quaternion(-0.056975562, 0.78479004, 0.6159751, -0.037857972)
+
+[node name="Union Jack_Basemesh_Knife Crime" parent="Union Jack_metarig_Knife Crime/Skeleton3D" index="0" unique_id=2113884223]
 surface_material_override/0 = ExtResource("2_li0y7")
 
-[node name="Union Jack_Basemesh_Knife Crime_001" parent="Union Jack_metarig_Knife Crime/Skeleton3D" index="1" unique_id=1405224933]
+[node name="Union Jack_Basemesh_Knife Crime_001" parent="Union Jack_metarig_Knife Crime/Skeleton3D" index="1" unique_id=1983680444]
+visible = false
 surface_material_override/0 = ExtResource("2_li0y7")
 
-[node name="Union Jack_Basemesh_Knife Crime_003" parent="Union Jack_metarig_Knife Crime/Skeleton3D" index="2" unique_id=1629904182]
+[node name="Union Jack_Basemesh_Knife Crime_003" parent="Union Jack_metarig_Knife Crime/Skeleton3D" index="2" unique_id=798240708]
+visible = false
 surface_material_override/0 = ExtResource("2_li0y7")
 
-[node name="Union Jack_Basemesh_Knife Crime_005" parent="Union Jack_metarig_Knife Crime/Skeleton3D" index="3" unique_id=317243728]
+[node name="Union Jack_Basemesh_Knife Crime_005" parent="Union Jack_metarig_Knife Crime/Skeleton3D" index="3" unique_id=731245304]
+visible = false
 surface_material_override/0 = ExtResource("2_li0y7")
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="Union Jack_metarig_Knife Crime" parent_id_path=PackedInt32Array(1075261279) index="1" unique_id=274455015]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Union Jack_metarig_Knife Crime" parent_id_path=PackedInt32Array(1373100974) index="1" unique_id=274455015]
 libraries/ = SubResource("AnimationLibrary_li0y7")
 
 [node name="AnimationTree" type="AnimationTree" parent="." index="1" unique_id=1897292883]
@@ -6636,8 +6643,8 @@ tree_root = SubResource("AnimationNodeBlendTree_rmid3")
 anim_player = NodePath("../Union Jack_metarig_Knife Crime/AnimationPlayer")
 parameters/StateMachine/conditions/L = false
 parameters/StateMachine/conditions/combat_no_weapon = false
-parameters/StateMachine/idle/blend_position = Vector2(0.028684497, 0.98950136)
-parameters/StateMachine/idle_combat_no_weapon/blend_position = Vector2(0.0029673576, 0.8687664)
+parameters/StateMachine/idle/blend_position = Vector2(-0.010880291, 0.45931756)
+parameters/StateMachine/idle_combat_no_weapon/blend_position = Vector2(0.0069237947, 0.90551186)
 
 [node name="InjectAnimationToObject" type="Node3D" parent="." index="2" unique_id=1584844421 node_paths=PackedStringArray("skeleton", "animation_player")]
 script = ExtResource("2_addo1")
@@ -6650,3 +6657,7 @@ metadata/_custom_type_script = "uid://dxk0d38jewi8q"
 
 [node name="RootMotionView" type="RootMotionView" parent="." index="3" unique_id=542705412]
 animation_path = NodePath("../AnimationTree")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="4" unique_id=572177546]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.8345415, 0)
+shape = SubResource("CapsuleShape3D_7jldu")

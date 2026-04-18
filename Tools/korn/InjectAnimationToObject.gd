@@ -71,7 +71,7 @@ func add_and_adjust_animation(animation:StoredAnimation, time_scale:float, loop:
 		return
 		
 	var anim = Animation.new()
-	anim.length = duration
+	anim.length = animation.tracks[0].key_frames[animation.tracks[0].key_frames.size()-1].time
 	anim.loop_mode = loop
 	var skeleton_name:String = skeleton.name
 	
@@ -83,6 +83,8 @@ func add_and_adjust_animation(animation:StoredAnimation, time_scale:float, loop:
 		root_rotation_track = anim.add_track(Animation.TYPE_ROTATION_3D)
 		anim.track_set_path(root_position_track, full_animation_path)
 		anim.track_set_path(root_rotation_track, full_animation_path)
+		#anim.track_set_interpolation_loop_wrap(root_position_track, false)
+		#anim.track_set_interpolation_loop_wrap(root_rotation_track, false)
 			
 	for track:StoredTrack in animation.tracks:
 		var anim_track_name:String = map_track(bone_mapping_db, track.track_name)
@@ -94,6 +96,7 @@ func add_and_adjust_animation(animation:StoredAnimation, time_scale:float, loop:
 		var rotation_track:int = anim.add_track(Animation.TYPE_ROTATION_3D)
 		anim.track_set_path(position_track, full_animation_path)
 		anim.track_set_path(rotation_track, full_animation_path)
+		
 
 		var target_rest:Transform3D = skeleton.get_bone_rest(target_bone_id)
 		var source_rest:Transform3D = track.rest_pose

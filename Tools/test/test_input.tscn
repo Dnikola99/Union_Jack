@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://cshrs8iohjtay"]
+
+[ext_resource type="PackedScene" uid="uid://uek4a55s8mq2" path="res://Asset/Characters/KnifeCrime/uj_character_knife_crime.tscn" id="1_8r3m2"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_u1exm"]
+size = Vector3(2, 1, 2)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_8r3m2"]
+
+[node name="test_input" type="Node3D" unique_id=1008032396]
+
+[node name="ground" type="StaticBody3D" parent="." unique_id=655032332]
+transform = Transform3D(8, 0, 0, 0, 1, 0, 0, 0, 8, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ground" unique_id=1327883994]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
+shape = SubResource("BoxShape3D_u1exm")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="ground" unique_id=1284961536]
+mesh = SubResource("PlaneMesh_8r3m2")
+
+[node name="UJ_Character_Knife Crime" parent="." unique_id=279926329 instance=ExtResource("1_8r3m2")]
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1991387052]
+transform = Transform3D(-0.54204404, 0, 0.8403501, 0, 1, 0, -0.8403501, 0, -0.54204404, 4.160487, 1.1675754, -0.37469482)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=834874122]
+transform = Transform3D(0.5217613, -0.7142568, 0.46647865, 0, 0.5468096, 0.83725697, -0.85309154, -0.43684828, 0.2853041, 0, 1.4881296, 0)
+shadow_enabled = true

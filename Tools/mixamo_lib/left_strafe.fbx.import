@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://7ghc24j3aopp"
-path="res://.godot/imported/Walking.fbx-7b408b7dcda2a188a9f4475924e33a0a.scn"
+uid="uid://bn14b3j778e36"
+path="res://.godot/imported/left_strafe.fbx-96711aa17a85e35faf03e70ecb21fc58.scn"
 
 [deps]
 
-source_file="res://Tools/mixamo_lib/Walking.fbx"
-dest_files=["res://.godot/imported/Walking.fbx-7b408b7dcda2a188a9f4475924e33a0a.scn"]
+source_file="res://Tools/mixamo_lib/left_strafe.fbx"
+dest_files=["res://.godot/imported/left_strafe.fbx-96711aa17a85e35faf03e70ecb21fc58.scn"]
 
 [params]
 

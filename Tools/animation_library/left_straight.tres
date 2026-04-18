@@ -65,13 +65,13 @@ rotation = Quaternion(0.00033120145, -0.46027613, 0.0333334, 0.88714975)
 
 [sub_resource type="Resource" id="Resource_5di60"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 position = Vector3(0.04247401, -0.096606016, 0.24680741)
 rotation = Quaternion(-0.0005553069, -0.45398006, 0.018959353, 0.89080995)
 
 [sub_resource type="Resource" id="Resource_n7k6s"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 position = Vector3(0.03861428, -0.10421014, 0.19098303)
 rotation = Quaternion(0.0090567535, -0.4489013, -0.015820857, 0.89339536)
 
@@ -89,7 +89,7 @@ rotation = Quaternion(-0.02774931, -0.35992008, -0.0016907894, 0.93256885)
 
 [sub_resource type="Resource" id="Resource_1qnw1"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 position = Vector3(-0.014414274, -0.12857336, 0.00025458075)
 rotation = Quaternion(-0.025077768, -0.330948, 0.017148875, 0.9431598)
 
@@ -168,12 +168,12 @@ rotation = Quaternion(0.05244128, 0.0121475225, -0.006314785, 0.99853015)
 
 [sub_resource type="Resource" id="Resource_demg4"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.059352685, 0.010078404, -0.0016997571, 0.99818474)
 
 [sub_resource type="Resource" id="Resource_g6qdt"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.055565678, 0.005247401, 0.006960888, 0.99841696)
 
 [sub_resource type="Resource" id="Resource_w7ydn"]
@@ -188,7 +188,7 @@ rotation = Quaternion(0.04798043, 0.012351573, 0.011539193, 0.99870527)
 
 [sub_resource type="Resource" id="Resource_6t70t"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.039274275, 0.012067565, 0.0146768475, 0.9990478)
 
 [sub_resource type="Resource" id="Resource_02ngr"]
@@ -263,12 +263,12 @@ rotation = Quaternion(0.08182798, 0.026928099, -0.020134956, 0.99607915)
 
 [sub_resource type="Resource" id="Resource_sty4c"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.08735994, 0.022369422, -0.012362951, 0.9958489)
 
 [sub_resource type="Resource" id="Resource_jpjyg"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.07971199, 0.0120738, 0.0073370864, 0.9967178)
 
 [sub_resource type="Resource" id="Resource_6ijhn"]
@@ -283,7 +283,7 @@ rotation = Quaternion(0.07332618, 0.029940706, 0.004654043, 0.9968476)
 
 [sub_resource type="Resource" id="Resource_22rkk"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.06570798, 0.03068898, 0.0060855597, 0.9973483)
 
 [sub_resource type="Resource" id="Resource_3n8py"]
@@ -358,12 +358,12 @@ rotation = Quaternion(0.08161096, 0.027645014, -0.020146858, 0.99607706)
 
 [sub_resource type="Resource" id="Resource_4rvqj"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.087265745, 0.022836464, -0.012214533, 0.9958484)
 
 [sub_resource type="Resource" id="Resource_rt3xo"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.079543464, 0.012938706, 0.007483317, 0.99671936)
 
 [sub_resource type="Resource" id="Resource_4oqwf"]
@@ -378,7 +378,7 @@ rotation = Quaternion(0.07276486, 0.03155798, 0.0047057243, 0.9968386)
 
 [sub_resource type="Resource" id="Resource_1rmqk"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.06499552, 0.032642417, 0.005947287, 0.99733377)
 
 [sub_resource type="Resource" id="Resource_52t2i"]
@@ -453,12 +453,12 @@ rotation = Quaternion(0.07156758, 0.04563828, -0.057578374, 0.99472606)
 
 [sub_resource type="Resource" id="Resource_bclx0"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.067813866, 0.04291704, -0.048863877, 0.9955761)
 
 [sub_resource type="Resource" id="Resource_1qn6g"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.06963249, 0.039584585, -0.03822376, 0.9960539)
 
 [sub_resource type="Resource" id="Resource_ha3dm"]
@@ -473,7 +473,7 @@ rotation = Quaternion(0.0758974, 0.03465876, -0.04341477, 0.9955669)
 
 [sub_resource type="Resource" id="Resource_kviwa"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.07926703, 0.03512336, -0.04902666, 0.9950274)
 
 [sub_resource type="Resource" id="Resource_54dai"]
@@ -548,12 +548,12 @@ rotation = Quaternion(0.074930504, 0.1672715, -0.11345423, 0.97649056)
 
 [sub_resource type="Resource" id="Resource_jqcww"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.08519353, 0.17485403, -0.1234566, 0.97310156)
 
 [sub_resource type="Resource" id="Resource_bpmaf"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.09673464, 0.18201074, -0.12666805, 0.97029364)
 
 [sub_resource type="Resource" id="Resource_p60h3"]
@@ -568,7 +568,7 @@ rotation = Quaternion(0.139415, 0.13122252, -0.10579078, 0.975783)
 
 [sub_resource type="Resource" id="Resource_n5lm5"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.14342146, 0.12467099, -0.111889035, 0.9753811)
 
 [sub_resource type="Resource" id="Resource_tf61e"]
@@ -633,11 +633,11 @@ time = 0.8999999999999999
 
 [sub_resource type="Resource" id="Resource_tc57g"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 
 [sub_resource type="Resource" id="Resource_iom46"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 
 [sub_resource type="Resource" id="Resource_kyvym"]
 script = ExtResource("3_05bs0")
@@ -649,7 +649,7 @@ time = 1.3
 
 [sub_resource type="Resource" id="Resource_4nic1"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 
 [sub_resource type="Resource" id="Resource_q0c8r"]
 script = ExtResource("3_05bs0")
@@ -720,12 +720,12 @@ rotation = Quaternion(-0.052624077, -0.024955926, -0.1407681, 0.98832804)
 
 [sub_resource type="Resource" id="Resource_6yqdk"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(-0.0470437, -0.025708068, -0.13766085, 0.98902756)
 
 [sub_resource type="Resource" id="Resource_p7pn3"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(-0.022389585, -0.030104218, -0.1290377, 0.9909297)
 
 [sub_resource type="Resource" id="Resource_08i2p"]
@@ -740,7 +740,7 @@ rotation = Quaternion(-0.0129732285, -0.037725452, -0.15080242, 0.98775864)
 
 [sub_resource type="Resource" id="Resource_id0hh"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(-0.028678473, -0.030379916, -0.13438231, 0.9900485)
 
 [sub_resource type="Resource" id="Resource_5umnq"]
@@ -815,12 +815,12 @@ rotation = Quaternion(0.45879436, 0.0007809543, -0.36994195, 0.8078676)
 
 [sub_resource type="Resource" id="Resource_3wvhu"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.43411747, 0.021226594, -0.36237514, 0.8244851)
 
 [sub_resource type="Resource" id="Resource_md0rg"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.45035705, 0.017683001, -0.36593854, 0.81422037)
 
 [sub_resource type="Resource" id="Resource_mlwdj"]
@@ -835,7 +835,7 @@ rotation = Quaternion(0.4780634, 0.0062645306, -0.32039204, 0.8177806)
 
 [sub_resource type="Resource" id="Resource_vw5rx"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.48593855, -0.034980744, -0.30350015, 0.8188576)
 
 [sub_resource type="Resource" id="Resource_eltw4"]
@@ -910,12 +910,12 @@ rotation = Quaternion(1.5826824e-08, -2.062711e-07, 0.89481723, -0.4464327)
 
 [sub_resource type="Resource" id="Resource_g82r5"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(7.362297e-08, -1.1279026e-07, 0.8908182, -0.45435992)
 
 [sub_resource type="Resource" id="Resource_o2wjj"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(1.0113045e-07, 3.071554e-08, 0.8923236, -0.45139626)
 
 [sub_resource type="Resource" id="Resource_lqkiv"]
@@ -930,7 +930,7 @@ rotation = Quaternion(3.782665e-08, -9.162766e-08, 0.89218026, -0.4516795)
 
 [sub_resource type="Resource" id="Resource_2vqr7"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(1.3453474e-07, -3.180685e-08, 0.897788, -0.44042793)
 
 [sub_resource type="Resource" id="Resource_y36h5"]
@@ -1005,12 +1005,12 @@ rotation = Quaternion(-0.118078016, -0.019017905, -0.050089706, 0.99155784)
 
 [sub_resource type="Resource" id="Resource_qqdwb"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(-0.10617046, -0.0130557185, -0.049992807, 0.99300456)
 
 [sub_resource type="Resource" id="Resource_qqcin"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(-0.10492903, -0.023257984, -0.046456482, 0.99312174)
 
 [sub_resource type="Resource" id="Resource_02ms3"]
@@ -1025,7 +1025,7 @@ rotation = Quaternion(-0.10525693, -0.022008063, -0.053371664, 0.9927679)
 
 [sub_resource type="Resource" id="Resource_xqlnl"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(-0.112670794, -0.0315632, -0.05005075, 0.9918689)
 
 [sub_resource type="Resource" id="Resource_wjf7q"]
@@ -1100,12 +1100,12 @@ rotation = Quaternion(0.013692261, 0.10004968, 0.11417526, 0.98831505)
 
 [sub_resource type="Resource" id="Resource_c7jaj"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.013692261, 0.10004968, 0.11417526, 0.98831505)
 
 [sub_resource type="Resource" id="Resource_mkedr"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.013692261, 0.10004968, 0.11417526, 0.98831505)
 
 [sub_resource type="Resource" id="Resource_aohx3"]
@@ -1120,7 +1120,7 @@ rotation = Quaternion(0.013692261, 0.10004968, 0.11417526, 0.98831505)
 
 [sub_resource type="Resource" id="Resource_ogafh"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.013692261, 0.10004968, 0.11417526, 0.98831505)
 
 [sub_resource type="Resource" id="Resource_pxirf"]
@@ -1195,12 +1195,12 @@ rotation = Quaternion(0.00068306964, -0.039366968, 0.23231916, 0.9718424)
 
 [sub_resource type="Resource" id="Resource_dfb82"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.00068306964, -0.039366968, 0.23231916, 0.9718424)
 
 [sub_resource type="Resource" id="Resource_b0lxp"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.00068306964, -0.039366968, 0.23231916, 0.9718424)
 
 [sub_resource type="Resource" id="Resource_g2hyt"]
@@ -1215,7 +1215,7 @@ rotation = Quaternion(0.00068306964, -0.039366968, 0.23231916, 0.9718424)
 
 [sub_resource type="Resource" id="Resource_jv8n2"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.00068306964, -0.039366968, 0.23231916, 0.9718424)
 
 [sub_resource type="Resource" id="Resource_7go5x"]
@@ -1290,12 +1290,12 @@ rotation = Quaternion(-0.15888554, 0.010949104, 0.48522258, 0.8597643)
 
 [sub_resource type="Resource" id="Resource_j0bkd"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(-0.15888554, 0.010949104, 0.48522258, 0.8597643)
 
 [sub_resource type="Resource" id="Resource_66ce7"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(-0.15888554, 0.010949104, 0.48522258, 0.8597643)
 
 [sub_resource type="Resource" id="Resource_msma7"]
@@ -1310,7 +1310,7 @@ rotation = Quaternion(-0.15888554, 0.010949104, 0.48522258, 0.8597643)
 
 [sub_resource type="Resource" id="Resource_xhpal"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(-0.15888554, 0.010949104, 0.48522258, 0.8597643)
 
 [sub_resource type="Resource" id="Resource_w4x2e"]
@@ -1385,12 +1385,12 @@ rotation = Quaternion(2.775563e-17, -2.9802326e-08, -9.778888e-09, 1)
 
 [sub_resource type="Resource" id="Resource_3s7v4"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(2.775563e-17, -2.9802326e-08, -9.778888e-09, 1)
 
 [sub_resource type="Resource" id="Resource_7twn4"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(2.775563e-17, -2.9802326e-08, -9.778888e-09, 1)
 
 [sub_resource type="Resource" id="Resource_c6ngw"]
@@ -1405,7 +1405,7 @@ rotation = Quaternion(2.775563e-17, -2.9802326e-08, -9.778888e-09, 1)
 
 [sub_resource type="Resource" id="Resource_b1y4p"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(2.775563e-17, -2.9802326e-08, -9.778888e-09, 1)
 
 [sub_resource type="Resource" id="Resource_ak23p"]
@@ -1480,12 +1480,12 @@ rotation = Quaternion(0.6321108, 1.932608e-08, 0.077037774, 0.771039)
 
 [sub_resource type="Resource" id="Resource_ggyfd"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.6321108, 1.932608e-08, 0.077037774, 0.771039)
 
 [sub_resource type="Resource" id="Resource_qf7hy"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.6321108, 1.932608e-08, 0.077037774, 0.771039)
 
 [sub_resource type="Resource" id="Resource_qke5r"]
@@ -1500,7 +1500,7 @@ rotation = Quaternion(0.6321108, 1.932608e-08, 0.077037774, 0.771039)
 
 [sub_resource type="Resource" id="Resource_q51kt"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.6321108, 1.932608e-08, 0.077037774, 0.771039)
 
 [sub_resource type="Resource" id="Resource_jfknl"]
@@ -1575,12 +1575,12 @@ rotation = Quaternion(0.7053823, 3.441525e-08, 0.0859676, 0.7035947)
 
 [sub_resource type="Resource" id="Resource_x14hn"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.7053823, 3.441525e-08, 0.0859676, 0.7035947)
 
 [sub_resource type="Resource" id="Resource_q53ip"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.7053823, 3.441525e-08, 0.0859676, 0.7035947)
 
 [sub_resource type="Resource" id="Resource_bsnfo"]
@@ -1595,7 +1595,7 @@ rotation = Quaternion(0.7053823, 3.441525e-08, 0.0859676, 0.7035947)
 
 [sub_resource type="Resource" id="Resource_favq6"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.7053823, 3.441525e-08, 0.0859676, 0.7035947)
 
 [sub_resource type="Resource" id="Resource_ehc2i"]
@@ -1670,12 +1670,12 @@ rotation = Quaternion(0.5264936, 1.977437e-08, 0.06416574, 0.84775424)
 
 [sub_resource type="Resource" id="Resource_nrfw4"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.5264936, 1.977437e-08, 0.06416574, 0.84775424)
 
 [sub_resource type="Resource" id="Resource_18jy6"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.5264936, 1.977437e-08, 0.06416574, 0.84775424)
 
 [sub_resource type="Resource" id="Resource_2ubs4"]
@@ -1690,7 +1690,7 @@ rotation = Quaternion(0.5264936, 1.977437e-08, 0.06416574, 0.84775424)
 
 [sub_resource type="Resource" id="Resource_1pkbv"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.5264936, 1.977437e-08, 0.06416574, 0.84775424)
 
 [sub_resource type="Resource" id="Resource_mn7al"]
@@ -1765,12 +1765,12 @@ rotation = Quaternion(-2.1316297e-14, 1.1641532e-10, 1.4551929e-11, 1)
 
 [sub_resource type="Resource" id="Resource_sfsjw"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(-2.1316297e-14, 1.1641532e-10, 1.4551929e-11, 1)
 
 [sub_resource type="Resource" id="Resource_n1cb4"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(-2.1316297e-14, 1.1641532e-10, 1.4551929e-11, 1)
 
 [sub_resource type="Resource" id="Resource_75klg"]
@@ -1785,7 +1785,7 @@ rotation = Quaternion(-2.1316297e-14, 1.1641532e-10, 1.4551929e-11, 1)
 
 [sub_resource type="Resource" id="Resource_m7fyj"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(-2.1316297e-14, 1.1641532e-10, 1.4551929e-11, 1)
 
 [sub_resource type="Resource" id="Resource_xrki1"]
@@ -1860,12 +1860,12 @@ rotation = Quaternion(0.6321108, 1.932608e-08, 0.077037774, 0.771039)
 
 [sub_resource type="Resource" id="Resource_dqefy"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.6321108, 1.932608e-08, 0.077037774, 0.771039)
 
 [sub_resource type="Resource" id="Resource_icm52"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.6321108, 1.932608e-08, 0.077037774, 0.771039)
 
 [sub_resource type="Resource" id="Resource_2j1b7"]
@@ -1880,7 +1880,7 @@ rotation = Quaternion(0.6321108, 1.932608e-08, 0.077037774, 0.771039)
 
 [sub_resource type="Resource" id="Resource_o6rav"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.6321108, 1.932608e-08, 0.077037774, 0.771039)
 
 [sub_resource type="Resource" id="Resource_tfmad"]
@@ -1955,12 +1955,12 @@ rotation = Quaternion(0.7053823, 3.441525e-08, 0.0859676, 0.7035947)
 
 [sub_resource type="Resource" id="Resource_d6bxw"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.7053823, 3.441525e-08, 0.0859676, 0.7035947)
 
 [sub_resource type="Resource" id="Resource_nagu7"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.7053823, 3.441525e-08, 0.0859676, 0.7035947)
 
 [sub_resource type="Resource" id="Resource_lxy7w"]
@@ -1975,7 +1975,7 @@ rotation = Quaternion(0.7053823, 3.441525e-08, 0.0859676, 0.7035947)
 
 [sub_resource type="Resource" id="Resource_1sbcl"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.7053823, 3.441525e-08, 0.0859676, 0.7035947)
 
 [sub_resource type="Resource" id="Resource_fa3lt"]
@@ -2050,12 +2050,12 @@ rotation = Quaternion(0.5264936, 2.1971523e-08, 0.06416574, 0.84775424)
 
 [sub_resource type="Resource" id="Resource_61ey1"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.5264936, 2.1971523e-08, 0.06416574, 0.84775424)
 
 [sub_resource type="Resource" id="Resource_pdrer"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.5264936, 2.1971523e-08, 0.06416574, 0.84775424)
 
 [sub_resource type="Resource" id="Resource_775fy"]
@@ -2070,7 +2070,7 @@ rotation = Quaternion(0.5264936, 2.1971523e-08, 0.06416574, 0.84775424)
 
 [sub_resource type="Resource" id="Resource_n4c2j"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.5264936, 2.1971523e-08, 0.06416574, 0.84775424)
 
 [sub_resource type="Resource" id="Resource_7ip35"]
@@ -2145,12 +2145,12 @@ rotation = Quaternion(-5.684342e-14, 5.820766e-11, 0, 1)
 
 [sub_resource type="Resource" id="Resource_wku8b"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(-5.684342e-14, 5.820766e-11, 0, 1)
 
 [sub_resource type="Resource" id="Resource_q6jjn"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(-5.684342e-14, 5.820766e-11, 0, 1)
 
 [sub_resource type="Resource" id="Resource_ldkxy"]
@@ -2165,7 +2165,7 @@ rotation = Quaternion(-5.684342e-14, 5.820766e-11, 0, 1)
 
 [sub_resource type="Resource" id="Resource_urjxg"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(-5.684342e-14, 5.820766e-11, 0, 1)
 
 [sub_resource type="Resource" id="Resource_emige"]
@@ -2240,12 +2240,12 @@ rotation = Quaternion(0.6321108, 1.932608e-08, 0.077037774, 0.771039)
 
 [sub_resource type="Resource" id="Resource_0e4uk"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.6321108, 1.932608e-08, 0.077037774, 0.771039)
 
 [sub_resource type="Resource" id="Resource_byxxv"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.6321108, 1.932608e-08, 0.077037774, 0.771039)
 
 [sub_resource type="Resource" id="Resource_sua1k"]
@@ -2260,7 +2260,7 @@ rotation = Quaternion(0.6321108, 1.932608e-08, 0.077037774, 0.771039)
 
 [sub_resource type="Resource" id="Resource_6jtko"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.6321108, 1.932608e-08, 0.077037774, 0.771039)
 
 [sub_resource type="Resource" id="Resource_yjphk"]
@@ -2335,12 +2335,12 @@ rotation = Quaternion(0.7053823, 3.441525e-08, 0.0859676, 0.7035947)
 
 [sub_resource type="Resource" id="Resource_iuiqr"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.7053823, 3.441525e-08, 0.0859676, 0.7035947)
 
 [sub_resource type="Resource" id="Resource_iswpt"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.7053823, 3.441525e-08, 0.0859676, 0.7035947)
 
 [sub_resource type="Resource" id="Resource_xtwqy"]
@@ -2355,7 +2355,7 @@ rotation = Quaternion(0.7053823, 3.441525e-08, 0.0859676, 0.7035947)
 
 [sub_resource type="Resource" id="Resource_snm3h"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.7053823, 3.441525e-08, 0.0859676, 0.7035947)
 
 [sub_resource type="Resource" id="Resource_2ldt0"]
@@ -2430,12 +2430,12 @@ rotation = Quaternion(0.5264936, 1.977437e-08, 0.06416574, 0.84775424)
 
 [sub_resource type="Resource" id="Resource_m86s1"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.5264936, 1.977437e-08, 0.06416574, 0.84775424)
 
 [sub_resource type="Resource" id="Resource_4xryr"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.5264936, 1.977437e-08, 0.06416574, 0.84775424)
 
 [sub_resource type="Resource" id="Resource_xmu3n"]
@@ -2450,7 +2450,7 @@ rotation = Quaternion(0.5264936, 1.977437e-08, 0.06416574, 0.84775424)
 
 [sub_resource type="Resource" id="Resource_vtect"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.5264936, 1.977437e-08, 0.06416574, 0.84775424)
 
 [sub_resource type="Resource" id="Resource_5ybuf"]
@@ -2525,12 +2525,12 @@ rotation = Quaternion(3.3881316e-21, -1.4551915e-11, -2.3283064e-10, 1)
 
 [sub_resource type="Resource" id="Resource_xmuwh"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(3.3881316e-21, -1.4551915e-11, -2.3283064e-10, 1)
 
 [sub_resource type="Resource" id="Resource_2fh4k"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(3.3881316e-21, -1.4551915e-11, -2.3283064e-10, 1)
 
 [sub_resource type="Resource" id="Resource_omnvi"]
@@ -2545,7 +2545,7 @@ rotation = Quaternion(3.3881316e-21, -1.4551915e-11, -2.3283064e-10, 1)
 
 [sub_resource type="Resource" id="Resource_twe3d"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(3.3881316e-21, -1.4551915e-11, -2.3283064e-10, 1)
 
 [sub_resource type="Resource" id="Resource_qcs4a"]
@@ -2620,12 +2620,12 @@ rotation = Quaternion(0.63211083, 3.382064e-08, 0.07703779, 0.77103895)
 
 [sub_resource type="Resource" id="Resource_i7e6v"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.63211083, 3.382064e-08, 0.07703779, 0.77103895)
 
 [sub_resource type="Resource" id="Resource_3i7wf"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.63211083, 3.382064e-08, 0.07703779, 0.77103895)
 
 [sub_resource type="Resource" id="Resource_bat3o"]
@@ -2640,7 +2640,7 @@ rotation = Quaternion(0.63211083, 3.382064e-08, 0.07703779, 0.77103895)
 
 [sub_resource type="Resource" id="Resource_7vyli"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.63211083, 3.382064e-08, 0.07703779, 0.77103895)
 
 [sub_resource type="Resource" id="Resource_x1j1q"]
@@ -2715,12 +2715,12 @@ rotation = Quaternion(0.7053823, 7.941981e-08, 0.08596775, 0.7035947)
 
 [sub_resource type="Resource" id="Resource_0sndd"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.7053823, 7.941981e-08, 0.08596775, 0.7035947)
 
 [sub_resource type="Resource" id="Resource_imx3r"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.7053823, 7.941981e-08, 0.08596775, 0.7035947)
 
 [sub_resource type="Resource" id="Resource_g3olc"]
@@ -2735,7 +2735,7 @@ rotation = Quaternion(0.7053823, 7.941981e-08, 0.08596775, 0.7035947)
 
 [sub_resource type="Resource" id="Resource_140so"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.7053823, 7.941981e-08, 0.08596775, 0.7035947)
 
 [sub_resource type="Resource" id="Resource_3g1en"]
@@ -2810,12 +2810,12 @@ rotation = Quaternion(0.52649367, -1.18646234e-07, 0.06416579, 0.8477542)
 
 [sub_resource type="Resource" id="Resource_mqax3"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.52649367, -1.18646234e-07, 0.06416579, 0.8477542)
 
 [sub_resource type="Resource" id="Resource_axrvu"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.52649367, -1.18646234e-07, 0.06416579, 0.8477542)
 
 [sub_resource type="Resource" id="Resource_4hlot"]
@@ -2830,7 +2830,7 @@ rotation = Quaternion(0.52649367, -1.18646234e-07, 0.06416579, 0.8477542)
 
 [sub_resource type="Resource" id="Resource_441gb"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.52649367, -1.18646234e-07, 0.06416579, 0.8477542)
 
 [sub_resource type="Resource" id="Resource_7e6n4"]
@@ -2905,12 +2905,12 @@ rotation = Quaternion(4.263257e-14, 3.4924602e-10, -3.6379792e-12, 1)
 
 [sub_resource type="Resource" id="Resource_22vi5"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(4.263257e-14, 3.4924602e-10, -3.6379792e-12, 1)
 
 [sub_resource type="Resource" id="Resource_m8qnt"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(4.263257e-14, 3.4924602e-10, -3.6379792e-12, 1)
 
 [sub_resource type="Resource" id="Resource_3e5qh"]
@@ -2925,7 +2925,7 @@ rotation = Quaternion(4.263257e-14, 3.4924602e-10, -3.6379792e-12, 1)
 
 [sub_resource type="Resource" id="Resource_i6a5r"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(4.263257e-14, 3.4924602e-10, -3.6379792e-12, 1)
 
 [sub_resource type="Resource" id="Resource_rf8kx"]
@@ -3000,12 +3000,12 @@ rotation = Quaternion(0.07309559, -0.016320325, -0.11374078, 0.99068344)
 
 [sub_resource type="Resource" id="Resource_o2ife"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.059356615, -0.01668556, -0.10814171, 0.99222165)
 
 [sub_resource type="Resource" id="Resource_334dt"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.03863129, -0.015785052, -0.09538521, 0.9945653)
 
 [sub_resource type="Resource" id="Resource_n8qpo"]
@@ -3020,7 +3020,7 @@ rotation = Quaternion(0.06678639, -0.012641896, -0.1003845, 0.99262416)
 
 [sub_resource type="Resource" id="Resource_xnjjr"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.10035899, -0.0039666733, -0.09157057, 0.99072057)
 
 [sub_resource type="Resource" id="Resource_4yqed"]
@@ -3095,12 +3095,12 @@ rotation = Quaternion(0.41902122, -0.08632087, 0.23578814, 0.8725674)
 
 [sub_resource type="Resource" id="Resource_fl1o7"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.47668308, -0.068210855, 0.28455585, 0.8289442)
 
 [sub_resource type="Resource" id="Resource_i06vi"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.4833955, -0.06609543, 0.26965424, 0.8302089)
 
 [sub_resource type="Resource" id="Resource_a0btp"]
@@ -3115,7 +3115,7 @@ rotation = Quaternion(0.50332123, -0.06916442, 0.26323497, 0.8201167)
 
 [sub_resource type="Resource" id="Resource_hfox8"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.52264404, 0.021901878, 0.18980633, 0.83086526)
 
 [sub_resource type="Resource" id="Resource_q2qdq"]
@@ -3190,12 +3190,12 @@ rotation = Quaternion(-2.1764775e-08, 5.351182e-09, 0.8221028, 0.56933916)
 
 [sub_resource type="Resource" id="Resource_c8ibx"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(-7.769657e-08, 3.704187e-08, 0.83340937, 0.55265623)
 
 [sub_resource type="Resource" id="Resource_ec30n"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(-4.629893e-08, 1.0668966e-08, 0.7999922, 0.6000104)
 
 [sub_resource type="Resource" id="Resource_b78ux"]
@@ -3210,7 +3210,7 @@ rotation = Quaternion(-1.6979169e-07, 1.568876e-08, 0.81179833, 0.5839379)
 
 [sub_resource type="Resource" id="Resource_a8ed7"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(6.8432726e-08, 3.450975e-08, 0.8486068, 0.52902406)
 
 [sub_resource type="Resource" id="Resource_eqau6"]
@@ -3285,12 +3285,12 @@ rotation = Quaternion(-0.089317195, 0.09861289, -0.012411034, 0.9910317)
 
 [sub_resource type="Resource" id="Resource_r787p"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(-0.10456074, 0.13769603, -0.0023213935, 0.9849373)
 
 [sub_resource type="Resource" id="Resource_3pm1m"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(-0.0939655, 0.10794815, 0.0023752379, 0.989703)
 
 [sub_resource type="Resource" id="Resource_fw8u7"]
@@ -3305,7 +3305,7 @@ rotation = Quaternion(-0.12251655, 0.091064736, 0.03810884, 0.9875448)
 
 [sub_resource type="Resource" id="Resource_bvwdy"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(-0.106637955, 0.0904127, 0.055234287, 0.988637)
 
 [sub_resource type="Resource" id="Resource_b5172"]
@@ -3380,12 +3380,12 @@ rotation = Quaternion(0.046571743, -0.0057054334, -0.12012246, 0.99164975)
 
 [sub_resource type="Resource" id="Resource_0r0mk"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.046571743, -0.0057054334, -0.12012246, 0.99164975)
 
 [sub_resource type="Resource" id="Resource_0wr04"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.046571743, -0.0057054334, -0.12012246, 0.99164975)
 
 [sub_resource type="Resource" id="Resource_20603"]
@@ -3400,7 +3400,7 @@ rotation = Quaternion(0.046571743, -0.0057054334, -0.12012246, 0.99164975)
 
 [sub_resource type="Resource" id="Resource_c8yqh"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.046571743, -0.0057054334, -0.12012246, 0.99164975)
 
 [sub_resource type="Resource" id="Resource_dcbyn"]
@@ -3475,12 +3475,12 @@ rotation = Quaternion(-0.047668703, 0.0016437802, -0.20641372, 0.9773016)
 
 [sub_resource type="Resource" id="Resource_1my6m"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(-0.047668703, 0.0016437802, -0.20641372, 0.9773016)
 
 [sub_resource type="Resource" id="Resource_gqp1p"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(-0.047668703, 0.0016437802, -0.20641372, 0.9773016)
 
 [sub_resource type="Resource" id="Resource_0sxtp"]
@@ -3495,7 +3495,7 @@ rotation = Quaternion(-0.047668703, 0.0016437802, -0.20641372, 0.9773016)
 
 [sub_resource type="Resource" id="Resource_nk8bu"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(-0.047668703, 0.0016437802, -0.20641372, 0.9773016)
 
 [sub_resource type="Resource" id="Resource_qqdi5"]
@@ -3570,12 +3570,12 @@ rotation = Quaternion(-0.13261475, -0.13031429, -0.39730278, 0.89865565)
 
 [sub_resource type="Resource" id="Resource_o3y31"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(-0.13261475, -0.13031429, -0.39730278, 0.89865565)
 
 [sub_resource type="Resource" id="Resource_60xxl"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(-0.13261475, -0.13031429, -0.39730278, 0.89865565)
 
 [sub_resource type="Resource" id="Resource_t27q4"]
@@ -3590,7 +3590,7 @@ rotation = Quaternion(-0.13261475, -0.13031429, -0.39730278, 0.89865565)
 
 [sub_resource type="Resource" id="Resource_5rn3w"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(-0.13261475, -0.13031429, -0.39730278, 0.89865565)
 
 [sub_resource type="Resource" id="Resource_kganu"]
@@ -3665,12 +3665,12 @@ rotation = Quaternion(-1.862645e-09, -2.2351744e-08, -6.5192585e-09, 1)
 
 [sub_resource type="Resource" id="Resource_45m5h"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(-1.862645e-09, -2.2351744e-08, -6.5192585e-09, 1)
 
 [sub_resource type="Resource" id="Resource_vmr26"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(-1.862645e-09, -2.2351744e-08, -6.5192585e-09, 1)
 
 [sub_resource type="Resource" id="Resource_gql6d"]
@@ -3685,7 +3685,7 @@ rotation = Quaternion(-1.862645e-09, -2.2351744e-08, -6.5192585e-09, 1)
 
 [sub_resource type="Resource" id="Resource_mabae"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(-1.862645e-09, -2.2351744e-08, -6.5192585e-09, 1)
 
 [sub_resource type="Resource" id="Resource_25k4p"]
@@ -3760,12 +3760,12 @@ rotation = Quaternion(0.62620795, -8.713316e-07, -0.07557113, 0.77598494)
 
 [sub_resource type="Resource" id="Resource_wl0v0"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.62620795, -8.713316e-07, -0.07557113, 0.77598494)
 
 [sub_resource type="Resource" id="Resource_a7edc"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.62620795, -8.713316e-07, -0.07557113, 0.77598494)
 
 [sub_resource type="Resource" id="Resource_fgbj3"]
@@ -3780,7 +3780,7 @@ rotation = Quaternion(0.62620795, -8.713316e-07, -0.07557113, 0.77598494)
 
 [sub_resource type="Resource" id="Resource_nowf1"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.62620795, -8.713316e-07, -0.07557113, 0.77598494)
 
 [sub_resource type="Resource" id="Resource_a3inq"]
@@ -3855,12 +3855,12 @@ rotation = Quaternion(0.77016354, -1.1216513e-06, -0.09294352, 0.63103855)
 
 [sub_resource type="Resource" id="Resource_6tgt5"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.77016354, -1.1216513e-06, -0.09294352, 0.63103855)
 
 [sub_resource type="Resource" id="Resource_k4f7h"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.77016354, -1.1216513e-06, -0.09294352, 0.63103855)
 
 [sub_resource type="Resource" id="Resource_nnvx5"]
@@ -3875,7 +3875,7 @@ rotation = Quaternion(0.77016354, -1.1216513e-06, -0.09294352, 0.63103855)
 
 [sub_resource type="Resource" id="Resource_6ptpq"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.77016354, -1.1216513e-06, -0.09294352, 0.63103855)
 
 [sub_resource type="Resource" id="Resource_h7u1l"]
@@ -3950,12 +3950,12 @@ rotation = Quaternion(0.62834257, -9.575069e-07, -0.07582868, 0.7742323)
 
 [sub_resource type="Resource" id="Resource_qb82x"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.62834257, -9.575069e-07, -0.07582868, 0.7742323)
 
 [sub_resource type="Resource" id="Resource_nd58x"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.62834257, -9.575069e-07, -0.07582868, 0.7742323)
 
 [sub_resource type="Resource" id="Resource_ywk6c"]
@@ -3970,7 +3970,7 @@ rotation = Quaternion(0.62834257, -9.575069e-07, -0.07582868, 0.7742323)
 
 [sub_resource type="Resource" id="Resource_i5q53"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.62834257, -9.575069e-07, -0.07582868, 0.7742323)
 
 [sub_resource type="Resource" id="Resource_r75n7"]
@@ -4045,12 +4045,12 @@ rotation = Quaternion(-2.9116763e-22, -2.910383e-11, -9.094947e-13, 1)
 
 [sub_resource type="Resource" id="Resource_stbda"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(-2.9116763e-22, -2.910383e-11, -9.094947e-13, 1)
 
 [sub_resource type="Resource" id="Resource_o5qsc"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(-2.9116763e-22, -2.910383e-11, -9.094947e-13, 1)
 
 [sub_resource type="Resource" id="Resource_yhkah"]
@@ -4065,7 +4065,7 @@ rotation = Quaternion(-2.9116763e-22, -2.910383e-11, -9.094947e-13, 1)
 
 [sub_resource type="Resource" id="Resource_xhn5y"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(-2.9116763e-22, -2.910383e-11, -9.094947e-13, 1)
 
 [sub_resource type="Resource" id="Resource_mbjli"]
@@ -4140,12 +4140,12 @@ rotation = Quaternion(0.62609965, -9.1443366e-07, -0.07555796, 0.7760736)
 
 [sub_resource type="Resource" id="Resource_qobj8"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.62609965, -9.1443366e-07, -0.07555796, 0.7760736)
 
 [sub_resource type="Resource" id="Resource_hckhw"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.62609965, -9.1443366e-07, -0.07555796, 0.7760736)
 
 [sub_resource type="Resource" id="Resource_n57fd"]
@@ -4160,7 +4160,7 @@ rotation = Quaternion(0.62609965, -9.1443366e-07, -0.07555796, 0.7760736)
 
 [sub_resource type="Resource" id="Resource_40l2d"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.62609965, -9.1443366e-07, -0.07555796, 0.7760736)
 
 [sub_resource type="Resource" id="Resource_hw6m2"]
@@ -4235,12 +4235,12 @@ rotation = Quaternion(0.7702514, -1.1100358e-06, -0.09295422, 0.6309297)
 
 [sub_resource type="Resource" id="Resource_3v43p"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.7702514, -1.1100358e-06, -0.09295422, 0.6309297)
 
 [sub_resource type="Resource" id="Resource_5p1e3"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.7702514, -1.1100358e-06, -0.09295422, 0.6309297)
 
 [sub_resource type="Resource" id="Resource_8njsv"]
@@ -4255,7 +4255,7 @@ rotation = Quaternion(0.7702514, -1.1100358e-06, -0.09295422, 0.6309297)
 
 [sub_resource type="Resource" id="Resource_3236c"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.7702514, -1.1100358e-06, -0.09295422, 0.6309297)
 
 [sub_resource type="Resource" id="Resource_b2dff"]
@@ -4330,12 +4330,12 @@ rotation = Quaternion(0.6283426, -1.015246e-06, -0.07582857, 0.77423227)
 
 [sub_resource type="Resource" id="Resource_hi7ka"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.6283426, -1.015246e-06, -0.07582857, 0.77423227)
 
 [sub_resource type="Resource" id="Resource_mx2fe"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.6283426, -1.015246e-06, -0.07582857, 0.77423227)
 
 [sub_resource type="Resource" id="Resource_50iyb"]
@@ -4350,7 +4350,7 @@ rotation = Quaternion(0.6283426, -1.015246e-06, -0.07582857, 0.77423227)
 
 [sub_resource type="Resource" id="Resource_dmg0q"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.6283426, -1.015246e-06, -0.07582857, 0.77423227)
 
 [sub_resource type="Resource" id="Resource_nti8t"]
@@ -4425,12 +4425,12 @@ rotation = Quaternion(-1.7763532e-15, -3.2311681e-27, 1.8189894e-12, 1)
 
 [sub_resource type="Resource" id="Resource_m1v0s"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(-1.7763532e-15, -3.2311681e-27, 1.8189894e-12, 1)
 
 [sub_resource type="Resource" id="Resource_jbq32"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(-1.7763532e-15, -3.2311681e-27, 1.8189894e-12, 1)
 
 [sub_resource type="Resource" id="Resource_hjktb"]
@@ -4445,7 +4445,7 @@ rotation = Quaternion(-1.7763532e-15, -3.2311681e-27, 1.8189894e-12, 1)
 
 [sub_resource type="Resource" id="Resource_7nvu3"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(-1.7763532e-15, -3.2311681e-27, 1.8189894e-12, 1)
 
 [sub_resource type="Resource" id="Resource_m2tqf"]
@@ -4520,12 +4520,12 @@ rotation = Quaternion(0.62620795, -8.6893124e-07, -0.07557113, 0.77598494)
 
 [sub_resource type="Resource" id="Resource_i1ska"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.62620795, -8.6893124e-07, -0.07557113, 0.77598494)
 
 [sub_resource type="Resource" id="Resource_m40rd"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.62620795, -8.6893124e-07, -0.07557113, 0.77598494)
 
 [sub_resource type="Resource" id="Resource_awuij"]
@@ -4540,7 +4540,7 @@ rotation = Quaternion(0.62620795, -8.6893124e-07, -0.07557113, 0.77598494)
 
 [sub_resource type="Resource" id="Resource_xdjwy"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.62620795, -8.6893124e-07, -0.07557113, 0.77598494)
 
 [sub_resource type="Resource" id="Resource_yywvr"]
@@ -4615,12 +4615,12 @@ rotation = Quaternion(0.7701634, -1.1806852e-06, -0.09294353, 0.63103867)
 
 [sub_resource type="Resource" id="Resource_ojbfn"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.7701634, -1.1806852e-06, -0.09294353, 0.63103867)
 
 [sub_resource type="Resource" id="Resource_ou1kg"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.7701634, -1.1806852e-06, -0.09294353, 0.63103867)
 
 [sub_resource type="Resource" id="Resource_1nh28"]
@@ -4635,7 +4635,7 @@ rotation = Quaternion(0.7701634, -1.1806852e-06, -0.09294353, 0.63103867)
 
 [sub_resource type="Resource" id="Resource_hd0ld"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.7701634, -1.1806852e-06, -0.09294353, 0.63103867)
 
 [sub_resource type="Resource" id="Resource_hp6y7"]
@@ -4710,12 +4710,12 @@ rotation = Quaternion(0.62834257, -9.2141994e-07, -0.07582876, 0.7742323)
 
 [sub_resource type="Resource" id="Resource_ny07j"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.62834257, -9.2141994e-07, -0.07582876, 0.7742323)
 
 [sub_resource type="Resource" id="Resource_fwp38"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.62834257, -9.2141994e-07, -0.07582876, 0.7742323)
 
 [sub_resource type="Resource" id="Resource_0vm0b"]
@@ -4730,7 +4730,7 @@ rotation = Quaternion(0.62834257, -9.2141994e-07, -0.07582876, 0.7742323)
 
 [sub_resource type="Resource" id="Resource_2t5st"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.62834257, -9.2141994e-07, -0.07582876, 0.7742323)
 
 [sub_resource type="Resource" id="Resource_pheta"]
@@ -4795,11 +4795,11 @@ time = 0.8999999999999999
 
 [sub_resource type="Resource" id="Resource_iwkca"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 
 [sub_resource type="Resource" id="Resource_wpgv1"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 
 [sub_resource type="Resource" id="Resource_lwlkm"]
 script = ExtResource("3_05bs0")
@@ -4811,7 +4811,7 @@ time = 1.3
 
 [sub_resource type="Resource" id="Resource_7eiq3"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 
 [sub_resource type="Resource" id="Resource_i4nhw"]
 script = ExtResource("3_05bs0")
@@ -4882,12 +4882,12 @@ rotation = Quaternion(0.6234885, 0.011935108, -0.090066224, 0.77653575)
 
 [sub_resource type="Resource" id="Resource_e8524"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.6234885, 0.011935108, -0.090066224, 0.77653575)
 
 [sub_resource type="Resource" id="Resource_qctnq"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.6234885, 0.011935108, -0.090066224, 0.77653575)
 
 [sub_resource type="Resource" id="Resource_p3g2x"]
@@ -4902,7 +4902,7 @@ rotation = Quaternion(0.6234885, 0.011935108, -0.090066224, 0.77653575)
 
 [sub_resource type="Resource" id="Resource_xeuqi"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.6234885, 0.011935108, -0.090066224, 0.77653575)
 
 [sub_resource type="Resource" id="Resource_ineud"]
@@ -4977,12 +4977,12 @@ rotation = Quaternion(0.7720795, 0.027641077, -0.07049608, 0.6309988)
 
 [sub_resource type="Resource" id="Resource_31x1d"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.7720795, 0.027641077, -0.07049608, 0.6309988)
 
 [sub_resource type="Resource" id="Resource_kj5s8"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.7720795, 0.027641077, -0.07049608, 0.6309988)
 
 [sub_resource type="Resource" id="Resource_fx4hg"]
@@ -4997,7 +4997,7 @@ rotation = Quaternion(0.7720795, 0.027641077, -0.07049608, 0.6309988)
 
 [sub_resource type="Resource" id="Resource_iiiv0"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.7720795, 0.027641077, -0.07049608, 0.6309988)
 
 [sub_resource type="Resource" id="Resource_1oy6a"]
@@ -5072,12 +5072,12 @@ rotation = Quaternion(0.62806904, -8.321635e-07, -0.07579556, 0.77445745)
 
 [sub_resource type="Resource" id="Resource_om82s"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.62806904, -8.321635e-07, -0.07579556, 0.77445745)
 
 [sub_resource type="Resource" id="Resource_lx7do"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.62806904, -8.321635e-07, -0.07579556, 0.77445745)
 
 [sub_resource type="Resource" id="Resource_rww7n"]
@@ -5092,7 +5092,7 @@ rotation = Quaternion(0.62806904, -8.321635e-07, -0.07579556, 0.77445745)
 
 [sub_resource type="Resource" id="Resource_aiyt6"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.62806904, -8.321635e-07, -0.07579556, 0.77445745)
 
 [sub_resource type="Resource" id="Resource_wfon0"]
@@ -5167,12 +5167,12 @@ rotation = Quaternion(1.1368683e-13, -5.820767e-11, 2.8953843e-11, 1)
 
 [sub_resource type="Resource" id="Resource_siwvr"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(1.1368683e-13, -5.820767e-11, 2.8953843e-11, 1)
 
 [sub_resource type="Resource" id="Resource_syubm"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(1.1368683e-13, -5.820767e-11, 2.8953843e-11, 1)
 
 [sub_resource type="Resource" id="Resource_vvhja"]
@@ -5187,7 +5187,7 @@ rotation = Quaternion(1.1368683e-13, -5.820767e-11, 2.8953843e-11, 1)
 
 [sub_resource type="Resource" id="Resource_jnhko"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(1.1368683e-13, -5.820767e-11, 2.8953843e-11, 1)
 
 [sub_resource type="Resource" id="Resource_8pxol"]
@@ -5262,12 +5262,12 @@ rotation = Quaternion(0.074797794, 0.14034432, -0.24054186, 0.957522)
 
 [sub_resource type="Resource" id="Resource_1ett3"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.116013214, 0.12585758, -0.20860207, 0.962905)
 
 [sub_resource type="Resource" id="Resource_e65fk"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.13700323, 0.12813649, -0.19710964, 0.96226764)
 
 [sub_resource type="Resource" id="Resource_ordcx"]
@@ -5282,7 +5282,7 @@ rotation = Quaternion(0.045434117, 0.13692743, -0.19023924, 0.97107965)
 
 [sub_resource type="Resource" id="Resource_g7263"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.05653023, 0.13347214, -0.17849621, 0.9732053)
 
 [sub_resource type="Resource" id="Resource_qlll7"]
@@ -5357,12 +5357,12 @@ rotation = Quaternion(-0.28452596, 0.010817354, -0.06587259, 0.9563414)
 
 [sub_resource type="Resource" id="Resource_w7ytk"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(-0.34553096, 0.002590488, -0.055852763, 0.93674016)
 
 [sub_resource type="Resource" id="Resource_jm61a"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(-0.40595996, -0.08384776, -0.0067882235, 0.910011)
 
 [sub_resource type="Resource" id="Resource_e5siq"]
@@ -5377,7 +5377,7 @@ rotation = Quaternion(-0.3737904, 0.0039962344, -0.024815999, 0.92717254)
 
 [sub_resource type="Resource" id="Resource_kqf7b"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(-0.37716535, 0.041117735, -0.026613919, 0.9248499)
 
 [sub_resource type="Resource" id="Resource_skwn5"]
@@ -5452,12 +5452,12 @@ rotation = Quaternion(0.08543858, 0.2069747, 0.14540799, 0.9637003)
 
 [sub_resource type="Resource" id="Resource_dfjwb"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.039753884, 0.21049124, 0.15046732, 0.9651283)
 
 [sub_resource type="Resource" id="Resource_sm7hq"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.076219514, 0.17767654, 0.19214205, 0.96213466)
 
 [sub_resource type="Resource" id="Resource_rura8"]
@@ -5472,7 +5472,7 @@ rotation = Quaternion(0.26025224, 0.1628296, 0.12078562, 0.944016)
 
 [sub_resource type="Resource" id="Resource_45wh8"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.26591513, 0.14981012, 0.11173429, 0.9457069)
 
 [sub_resource type="Resource" id="Resource_hkoo4"]
@@ -5547,12 +5547,12 @@ rotation = Quaternion(0.061947145, 0.02547109, 0.00083156466, 0.99775404)
 
 [sub_resource type="Resource" id="Resource_b1eci"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.07918704, -0.003835384, -0.00013716368, 0.9968524)
 
 [sub_resource type="Resource" id="Resource_1u4uy"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.031471048, -0.012581586, -0.00021341252, 0.9994255)
 
 [sub_resource type="Resource" id="Resource_200d4"]
@@ -5567,7 +5567,7 @@ rotation = Quaternion(-0.0015194137, -2.2347089e-07, -9.709582e-08, 0.99999887)
 
 [sub_resource type="Resource" id="Resource_52oof"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(-0.0010631984, -5.651289e-08, -9.783123e-08, 0.99999946)
 
 [sub_resource type="Resource" id="Resource_tlksj"]
@@ -5632,11 +5632,11 @@ time = 0.8999999999999999
 
 [sub_resource type="Resource" id="Resource_dfcsm"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 
 [sub_resource type="Resource" id="Resource_6fyu0"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 
 [sub_resource type="Resource" id="Resource_ruyqn"]
 script = ExtResource("3_05bs0")
@@ -5648,7 +5648,7 @@ time = 1.3
 
 [sub_resource type="Resource" id="Resource_qbopt"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 
 [sub_resource type="Resource" id="Resource_ag7v0"]
 script = ExtResource("3_05bs0")
@@ -5719,12 +5719,12 @@ rotation = Quaternion(0.2804648, -0.11228621, 0.19242673, 0.9336505)
 
 [sub_resource type="Resource" id="Resource_moxaf"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.27926874, -0.09880965, 0.1517037, 0.9429908)
 
 [sub_resource type="Resource" id="Resource_wv3m8"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.23238878, -0.10644578, 0.15036477, 0.95501584)
 
 [sub_resource type="Resource" id="Resource_u0hh8"]
@@ -5739,7 +5739,7 @@ rotation = Quaternion(0.2577709, -0.07235848, 0.16696511, 0.9489157)
 
 [sub_resource type="Resource" id="Resource_qcrxs"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.27413127, -0.08115787, 0.14961375, 0.94651)
 
 [sub_resource type="Resource" id="Resource_uqt48"]
@@ -5814,12 +5814,12 @@ rotation = Quaternion(-0.24052079, 0.09266245, 0.06845117, 0.9637831)
 
 [sub_resource type="Resource" id="Resource_j7xwr"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(-0.4244689, 0.091138706, 0.018734155, 0.9006492)
 
 [sub_resource type="Resource" id="Resource_mqjkh"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(-0.389748, 0.09497366, 0.0418093, 0.9150565)
 
 [sub_resource type="Resource" id="Resource_uw4nk"]
@@ -5834,7 +5834,7 @@ rotation = Quaternion(-0.34132645, 0.09870999, 0.060046434, 0.9328167)
 
 [sub_resource type="Resource" id="Resource_s3rw4"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(-0.31079605, 0.09627575, 0.063139535, 0.94347775)
 
 [sub_resource type="Resource" id="Resource_3v3o2"]
@@ -5909,12 +5909,12 @@ rotation = Quaternion(-0.10701257, -0.11122231, -0.21022592, 0.96539265)
 
 [sub_resource type="Resource" id="Resource_2l46f"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.037931077, -0.13569959, -0.23571189, 0.96155435)
 
 [sub_resource type="Resource" id="Resource_xf1qx"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.14368786, -0.09543497, -0.10066116, 0.9798537)
 
 [sub_resource type="Resource" id="Resource_xujqf"]
@@ -5929,7 +5929,7 @@ rotation = Quaternion(0.07169427, -0.110351734, -0.19443828, 0.97204745)
 
 [sub_resource type="Resource" id="Resource_mmxfk"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0.02310063, -0.078969724, -0.22543456, 0.97077775)
 
 [sub_resource type="Resource" id="Resource_0fxie"]
@@ -6004,12 +6004,12 @@ rotation = Quaternion(0.011576206, 8.6369866e-08, -1.3510743e-07, 0.999933)
 
 [sub_resource type="Resource" id="Resource_nbab3"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0.032599363, 0.022189606, 0.00014939003, 0.99922216)
 
 [sub_resource type="Resource" id="Resource_achcu"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0.03853649, 1.349221e-08, 8.447944e-08, 0.9992572)
 
 [sub_resource type="Resource" id="Resource_3ujkl"]
@@ -6024,7 +6024,7 @@ rotation = Quaternion(0.010502662, 0.002217259, -3.286161e-05, 0.99994236)
 
 [sub_resource type="Resource" id="Resource_hy2yt"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(-0.0042891908, 7.6376274e-08, -1.5085844e-08, 0.9999908)
 
 [sub_resource type="Resource" id="Resource_yetgb"]
@@ -6099,12 +6099,12 @@ rotation = Quaternion(0, -3.7252907e-09, 0, 1)
 
 [sub_resource type="Resource" id="Resource_7q855"]
 script = ExtResource("3_05bs0")
-time = 0.9999999999999999
+time = 1.0
 rotation = Quaternion(0, -3.7252907e-09, 0, 1)
 
 [sub_resource type="Resource" id="Resource_nsc0b"]
 script = ExtResource("3_05bs0")
-time = 1.0999999999999999
+time = 1.1
 rotation = Quaternion(0, -3.7252907e-09, 0, 1)
 
 [sub_resource type="Resource" id="Resource_6oaj2"]
@@ -6119,7 +6119,7 @@ rotation = Quaternion(0, -3.7252907e-09, 0, 1)
 
 [sub_resource type="Resource" id="Resource_5oyub"]
 script = ExtResource("3_05bs0")
-time = 1.4000000000000001
+time = 1.4
 rotation = Quaternion(0, -3.7252907e-09, 0, 1)
 
 [sub_resource type="Resource" id="Resource_clmea"]

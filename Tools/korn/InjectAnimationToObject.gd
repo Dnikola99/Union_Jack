@@ -6,6 +6,7 @@ extends Node3D
 @export var animation_player:AnimationPlayer
 @export var animation_configuration:Array[AnimationConfig] = []
 @export var bone_mapping_db:BoneMappingSet
+@export var create_root_motion:bool = false
 
 @export var add_animation_and_adjust:bool = false :
 	set(v):
@@ -68,11 +69,20 @@ func add_and_adjust_animation(animation:StoredAnimation, time_scale:float, loop:
 	if sampling <= 0.0 :
 		print("bad sampling 0")
 		return
-	
+		
 	var anim = Animation.new()
 	anim.length = duration
 	anim.loop_mode = loop
 	var skeleton_name:String = skeleton.name
+	
+	var root_position_track:int
+	var root_rotation_track:int
+	if create_root_motion :
+		var full_animation_path:String = skeleton_name+":root"
+		root_position_track = anim.add_track(Animation.TYPE_POSITION_3D)
+		root_rotation_track = anim.add_track(Animation.TYPE_ROTATION_3D)
+		anim.track_set_path(root_position_track, full_animation_path)
+		anim.track_set_path(root_rotation_track, full_animation_path)
 			
 	for track:StoredTrack in animation.tracks:
 		var anim_track_name:String = map_track(bone_mapping_db, track.track_name)
@@ -80,7 +90,6 @@ func add_and_adjust_animation(animation:StoredAnimation, time_scale:float, loop:
 		if target_bone_id < 0: continue
 		
 		var full_animation_path:String = skeleton_name+":"+anim_track_name
-		print(full_animation_path)
 		var position_track:int = anim.add_track(Animation.TYPE_POSITION_3D)
 		var rotation_track:int = anim.add_track(Animation.TYPE_ROTATION_3D)
 		anim.track_set_path(position_track, full_animation_path)
@@ -89,6 +98,7 @@ func add_and_adjust_animation(animation:StoredAnimation, time_scale:float, loop:
 		var target_rest:Transform3D = skeleton.get_bone_rest(target_bone_id)
 		var source_rest:Transform3D = track.rest_pose
 		var rotation_offset:Basis = target_rest.basis.inverse() * source_rest.basis
+		var root_bone:bool = is_root_bone(bone_mapping_db, track.track_name)
 
 		for key_frame:StoredKeyFrame in track.key_frames:
 			var source_delta_basis := Basis(key_frame.rotation)
@@ -99,8 +109,19 @@ func add_and_adjust_animation(animation:StoredAnimation, time_scale:float, loop:
 			var final_basis:Basis = target_rest.basis * corrected_basis
 			var final_pos:Vector3 = target_rest.origin + (target_rest.basis * (rotation_offset * source_delta_pos))
 			
-			anim.track_insert_key(position_track, key_frame.time, final_pos)
-			anim.track_insert_key(rotation_track, key_frame.time, final_basis.get_rotation_quaternion())
+			var time:float = key_frame.time / time_scale
+			if root_bone and create_root_motion :
+				var pos:Vector3 = final_pos
+				pos.x = 0
+				pos.z = 0
+				anim.track_insert_key(position_track, time, pos)
+				anim.track_insert_key(rotation_track, time, final_basis.get_rotation_quaternion())
+				final_pos.y = 0
+				anim.track_insert_key(root_position_track, time, final_pos)
+				#anim.track_insert_key(root_rotation_track, time, final_basis.get_rotation_quaternion())
+			else :
+				anim.track_insert_key(position_track, time, final_pos)
+				anim.track_insert_key(rotation_track, time, final_basis.get_rotation_quaternion())
 			
 	
 	var lib:AnimationLibrary = animation_player.get_animation_library("")

@@ -1,0 +1,3567 @@
+[gd_resource type="Resource" script_class="StoredAnimation" format=3 uid="uid://cdauqlfkn4cg7"]
+
+[ext_resource type="Script" uid="uid://bg3xf3ev7sr4l" path="res://Tools/korn/StoredAnimation.gd" id="1_j6euv"]
+[ext_resource type="Script" uid="uid://he8xrwv7x88q" path="res://Tools/korn/StoredTrack.gd" id="2_fqop5"]
+[ext_resource type="Script" uid="uid://pxn5nywn8cgi" path="res://Tools/korn/StoredKeyFrame.gd" id="3_qogre"]
+
+[sub_resource type="Resource" id="Resource_j6euv"]
+script = ExtResource("3_qogre")
+position = Vector3(0.004096452, -0.16076845, 0.008196801)
+rotation = Quaternion(-0.04211027, -0.32767224, 0.026329432, 0.9434852)
+
+[sub_resource type="Resource" id="Resource_fqop5"]
+script = ExtResource("3_qogre")
+time = 0.1
+position = Vector3(-0.019114085, -0.15315223, 0.10398548)
+rotation = Quaternion(-0.069943465, -0.29497194, 0.015754936, 0.95281225)
+
+[sub_resource type="Resource" id="Resource_qogre"]
+script = ExtResource("3_qogre")
+time = 0.2
+position = Vector3(-0.037153665, -0.13905221, 0.20232764)
+rotation = Quaternion(-0.07527161, -0.29240677, 0.014810879, 0.95321196)
+
+[sub_resource type="Resource" id="Resource_fhvnw"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+position = Vector3(-0.028490657, -0.17221302, 0.31027377)
+rotation = Quaternion(-0.049233902, -0.30720425, 0.018333746, 0.95019233)
+
+[sub_resource type="Resource" id="Resource_ojqlt"]
+script = ExtResource("3_qogre")
+time = 0.4
+position = Vector3(-0.011346824, -0.24401951, 0.42347252)
+rotation = Quaternion(-0.022863751, -0.3244288, 0.015267331, 0.9455105)
+
+[sub_resource type="Resource" id="Resource_bx1xq"]
+script = ExtResource("3_qogre")
+time = 0.5
+position = Vector3(0.0071335207, -0.2869981, 0.52392447)
+rotation = Quaternion(-0.022534134, -0.34021324, 0.012312057, 0.9399977)
+
+[sub_resource type="Resource" id="Resource_m1wa0"]
+script = ExtResource("3_qogre")
+time = 0.6
+position = Vector3(0.02211013, -0.27424186, 0.6477011)
+rotation = Quaternion(-0.028673334, -0.34967902, 0.022229392, 0.9361668)
+
+[sub_resource type="Resource" id="Resource_3x61w"]
+script = ExtResource("3_qogre")
+time = 0.7
+position = Vector3(0.020369224, -0.20060813, 0.7698789)
+rotation = Quaternion(-0.033191204, -0.3472879, 0.02938169, 0.9367103)
+
+[sub_resource type="Resource" id="Resource_xxfeu"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+position = Vector3(0.01115034, -0.1562407, 0.88394743)
+rotation = Quaternion(-0.038099255, -0.3320279, 0.027230693, 0.94210637)
+
+[sub_resource type="Resource" id="Resource_l6opg"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+position = Vector3(0.004855779, -0.14757138, 0.95611763)
+rotation = Quaternion(-0.039253004, -0.3287302, 0.025046807, 0.94327533)
+
+[sub_resource type="Resource" id="Resource_k1xna"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_Hips"
+rest_pose = Transform3D(1, 0, 0, 0, 0.99991655, -0.012916823, 0, 0.012916823, 0.99991655, 0, 1.042749, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_j6euv"), SubResource("Resource_fqop5"), SubResource("Resource_qogre"), SubResource("Resource_fhvnw"), SubResource("Resource_ojqlt"), SubResource("Resource_bx1xq"), SubResource("Resource_m1wa0"), SubResource("Resource_3x61w"), SubResource("Resource_xxfeu"), SubResource("Resource_l6opg")])
+
+[sub_resource type="Resource" id="Resource_sgpo2"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.08150541, 0.065293044, -0.0020785262, 0.9945297)
+
+[sub_resource type="Resource" id="Resource_fhoya"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.113098234, 0.048684493, -0.004404314, 0.99238056)
+
+[sub_resource type="Resource" id="Resource_b0vqw"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.12207509, 0.05173547, -0.0065909782, 0.99114966)
+
+[sub_resource type="Resource" id="Resource_ic7pu"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.11316525, 0.073375866, -0.011673202, 0.9907943)
+
+[sub_resource type="Resource" id="Resource_3j10m"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.10546108, 0.10135004, -0.017871771, 0.98908377)
+
+[sub_resource type="Resource" id="Resource_bxlp6"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.115443684, 0.102455966, -0.021340722, 0.98778546)
+
+[sub_resource type="Resource" id="Resource_svnyc"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.13947463, 0.0946965, -0.024401834, 0.9853852)
+
+[sub_resource type="Resource" id="Resource_uxbuj"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.11658954, 0.08968966, -0.012099398, 0.9890481)
+
+[sub_resource type="Resource" id="Resource_yb583"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.08585194, 0.07282452, -0.003754161, 0.9936357)
+
+[sub_resource type="Resource" id="Resource_rjsgk"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.08161458, 0.065353945, -0.0025517899, 0.99451566)
+
+[sub_resource type="Resource" id="Resource_bbn51"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_Spine"
+rest_pose = Transform3D(1, 0, 0, 0, 0.9871502, 0.15979505, 0, -0.15979505, 0.9871502, 0, 0.101824, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_sgpo2"), SubResource("Resource_fhoya"), SubResource("Resource_b0vqw"), SubResource("Resource_ic7pu"), SubResource("Resource_3j10m"), SubResource("Resource_bxlp6"), SubResource("Resource_svnyc"), SubResource("Resource_uxbuj"), SubResource("Resource_yb583"), SubResource("Resource_rjsgk")])
+
+[sub_resource type="Resource" id="Resource_2ajko"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.019019926, 0.009843741, -0.0064463415, 0.99974984)
+
+[sub_resource type="Resource" id="Resource_bnkbi"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.03157455, -0.00578122, -0.021636996, 0.9992505)
+
+[sub_resource type="Resource" id="Resource_0molg"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.044664383, -0.014356859, -0.030194832, 0.9984424)
+
+[sub_resource type="Resource" id="Resource_xtc52"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.04523878, -0.0025646302, -0.017817052, 0.99881405)
+
+[sub_resource type="Resource" id="Resource_wleop"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.03854568, 0.015425849, -0.0078066243, 0.99910724)
+
+[sub_resource type="Resource" id="Resource_7bg1k"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.04749155, 0.033594318, -0.012175718, 0.9982323)
+
+[sub_resource type="Resource" id="Resource_2qkir"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.050726887, 0.03980613, -0.014219006, 0.9978177)
+
+[sub_resource type="Resource" id="Resource_32hj7"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.03958651, 0.028286727, -0.010339979, 0.9987622)
+
+[sub_resource type="Resource" id="Resource_b06vk"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.021927077, 0.013162624, -0.0073481775, 0.99964595)
+
+[sub_resource type="Resource" id="Resource_ihr25"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.018962331, 0.009843277, -0.0064425757, 0.999751)
+
+[sub_resource type="Resource" id="Resource_3dfk3"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_Spine1"
+rest_pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.100027, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_2ajko"), SubResource("Resource_bnkbi"), SubResource("Resource_0molg"), SubResource("Resource_xtc52"), SubResource("Resource_wleop"), SubResource("Resource_7bg1k"), SubResource("Resource_2qkir"), SubResource("Resource_32hj7"), SubResource("Resource_b06vk"), SubResource("Resource_ihr25")])
+
+[sub_resource type="Resource" id="Resource_dxbgu"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.019153934, 0.009587474, -0.0065197903, 0.9997493)
+
+[sub_resource type="Resource" id="Resource_88tkn"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.035428308, -0.003099865, -0.011001006, 0.99930686)
+
+[sub_resource type="Resource" id="Resource_5d8vk"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.03872233, -0.0030589679, -0.012668479, 0.99916506)
+
+[sub_resource type="Resource" id="Resource_aym0d"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.019956227, 0.0090215895, -0.009997624, 0.99971014)
+
+[sub_resource type="Resource" id="Resource_b4k0t"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(-0.0059338, 0.017349763, -0.00844151, 0.9997963)
+
+[sub_resource type="Resource" id="Resource_20c5p"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(-0.0028353443, 0.020218488, -0.011054689, 0.9997304)
+
+[sub_resource type="Resource" id="Resource_brilm"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.00789593, 0.019475864, -0.012869548, 0.9996963)
+
+[sub_resource type="Resource" id="Resource_d6u6d"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.020279272, 0.0155143235, -0.010967313, 0.9996138)
+
+[sub_resource type="Resource" id="Resource_pxutv"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.019441428, 0.010511077, -0.007952927, 0.99972415)
+
+[sub_resource type="Resource" id="Resource_7slkc"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.01910965, 0.009659267, -0.0067207357, 0.9997481)
+
+[sub_resource type="Resource" id="Resource_mwqql"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_Spine2"
+rest_pose = Transform3D(1, 0, 0, 0, 0.99966794, -0.025768679, 0, 0.025768679, 0.99966794, 0, 0.093221, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_dxbgu"), SubResource("Resource_88tkn"), SubResource("Resource_5d8vk"), SubResource("Resource_aym0d"), SubResource("Resource_b4k0t"), SubResource("Resource_20c5p"), SubResource("Resource_brilm"), SubResource("Resource_d6u6d"), SubResource("Resource_pxutv"), SubResource("Resource_7slkc")])
+
+[sub_resource type="Resource" id="Resource_ws1hs"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.0052761636, 0.109313, 0.05321643, 0.99256784)
+
+[sub_resource type="Resource" id="Resource_gwy44"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(-0.013575271, 0.11750364, 0.053835887, 0.9915192)
+
+[sub_resource type="Resource" id="Resource_8emlq"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(-0.033856995, 0.12253322, 0.055080045, 0.99035627)
+
+[sub_resource type="Resource" id="Resource_emo4x"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(-0.034766525, 0.119553626, 0.050806645, 0.9909172)
+
+[sub_resource type="Resource" id="Resource_xgbsg"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(-0.034842346, 0.108751155, 0.04641585, 0.99237335)
+
+[sub_resource type="Resource" id="Resource_pbvvh"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(-0.03393544, 0.105199985, 0.037476677, 0.9931651)
+
+[sub_resource type="Resource" id="Resource_46852"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(-0.022011433, 0.100400046, 0.026033796, 0.9943629)
+
+[sub_resource type="Resource" id="Resource_tots3"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(-0.008017303, 0.09733193, 0.031912845, 0.9947079)
+
+[sub_resource type="Resource" id="Resource_siqqv"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.0042347116, 0.097964615, 0.050482985, 0.99389964)
+
+[sub_resource type="Resource" id="Resource_oj6f3"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.0051923078, 0.106800035, 0.053272776, 0.9928388)
+
+[sub_resource type="Resource" id="Resource_gyiey"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_Neck"
+rest_pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.168653, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_ws1hs"), SubResource("Resource_gwy44"), SubResource("Resource_8emlq"), SubResource("Resource_emo4x"), SubResource("Resource_xgbsg"), SubResource("Resource_pbvvh"), SubResource("Resource_46852"), SubResource("Resource_tots3"), SubResource("Resource_siqqv"), SubResource("Resource_oj6f3")])
+
+[sub_resource type="Resource" id="Resource_5r2el"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.07024235, 0.17828757, -0.00012461672, 0.9814681)
+
+[sub_resource type="Resource" id="Resource_g65ij"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.029736454, 0.17329778, -0.00050970836, 0.9844203)
+
+[sub_resource type="Resource" id="Resource_ridr1"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(-0.0012195052, 0.16815318, 0.0026205326, 0.98575664)
+
+[sub_resource type="Resource" id="Resource_gpipa"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(-0.010268768, 0.14171362, 0.010249465, 0.98980135)
+
+[sub_resource type="Resource" id="Resource_wtwe3"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.011117414, 0.12071978, 0.004383208, 0.9926147)
+
+[sub_resource type="Resource" id="Resource_75a5l"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.030808464, 0.12229477, -0.014380765, 0.9919113)
+
+[sub_resource type="Resource" id="Resource_vp3lv"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.044281345, 0.12366859, -0.034428176, 0.9907371)
+
+[sub_resource type="Resource" id="Resource_xwvg1"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.053200133, 0.14714639, -0.024368206, 0.9873823)
+
+[sub_resource type="Resource" id="Resource_s6fvq"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.06789705, 0.1608071, -0.0033896128, 0.98464185)
+
+[sub_resource type="Resource" id="Resource_mvcht"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.06998316, 0.17276086, -3.033394e-06, 0.98247445)
+
+[sub_resource type="Resource" id="Resource_fw1gq"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_Head"
+rest_pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.093419, 0.02841)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_5r2el"), SubResource("Resource_g65ij"), SubResource("Resource_ridr1"), SubResource("Resource_gpipa"), SubResource("Resource_wtwe3"), SubResource("Resource_75a5l"), SubResource("Resource_vp3lv"), SubResource("Resource_xwvg1"), SubResource("Resource_s6fvq"), SubResource("Resource_mvcht")])
+
+[sub_resource type="Resource" id="Resource_28hcp"]
+script = ExtResource("3_qogre")
+
+[sub_resource type="Resource" id="Resource_g21xa"]
+script = ExtResource("3_qogre")
+time = 0.1
+
+[sub_resource type="Resource" id="Resource_bhb5o"]
+script = ExtResource("3_qogre")
+time = 0.2
+
+[sub_resource type="Resource" id="Resource_0nnem"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+
+[sub_resource type="Resource" id="Resource_ef1pa"]
+script = ExtResource("3_qogre")
+time = 0.4
+
+[sub_resource type="Resource" id="Resource_sas7q"]
+script = ExtResource("3_qogre")
+time = 0.5
+
+[sub_resource type="Resource" id="Resource_1kpy6"]
+script = ExtResource("3_qogre")
+time = 0.6
+
+[sub_resource type="Resource" id="Resource_ad7nf"]
+script = ExtResource("3_qogre")
+time = 0.7
+
+[sub_resource type="Resource" id="Resource_x3qwo"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+
+[sub_resource type="Resource" id="Resource_cpwsp"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+
+[sub_resource type="Resource" id="Resource_vmmvu"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_HeadTop_End"
+rest_pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.209628, 0.101229)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_28hcp"), SubResource("Resource_g21xa"), SubResource("Resource_bhb5o"), SubResource("Resource_0nnem"), SubResource("Resource_ef1pa"), SubResource("Resource_sas7q"), SubResource("Resource_1kpy6"), SubResource("Resource_ad7nf"), SubResource("Resource_x3qwo"), SubResource("Resource_cpwsp")])
+
+[sub_resource type="Resource" id="Resource_ouyxh"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(-0.048085175, -0.017082188, -0.11332965, 0.99224615)
+
+[sub_resource type="Resource" id="Resource_4buwx"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(-0.050303552, -0.013984305, -0.11568463, 0.99191284)
+
+[sub_resource type="Resource" id="Resource_8cnfb"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(-0.023860054, -0.037041143, -0.12074446, 0.9917053)
+
+[sub_resource type="Resource" id="Resource_w12nw"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(-0.017919412, -0.04376642, -0.12444984, 0.99109817)
+
+[sub_resource type="Resource" id="Resource_me61j"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(-0.020946119, -0.042464335, -0.12710981, 0.9907578)
+
+[sub_resource type="Resource" id="Resource_f2sc0"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(-0.029689645, -0.031559523, -0.12008677, 0.99181736)
+
+[sub_resource type="Resource" id="Resource_h1x3r"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(-0.03624438, -0.025785333, -0.11933755, 0.9918569)
+
+[sub_resource type="Resource" id="Resource_xqqdq"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(-0.042850457, -0.019981468, -0.1179936, 0.99188817)
+
+[sub_resource type="Resource" id="Resource_xatg7"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(-0.044420484, -0.018809702, -0.11423421, 0.99228203)
+
+[sub_resource type="Resource" id="Resource_khxc8"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(-0.0480853, -0.017082222, -0.11332959, 0.99224615)
+
+[sub_resource type="Resource" id="Resource_7vse4"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_RightShoulder"
+rest_pose = Transform3D(-0.20569563, -0.97736424, 0.049482197, -0.12900501, -0.023041248, -0.99137616, 0.9700757, -0.21030518, -0.1213454, -0.0457, 0.111958, -0.008066)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_ouyxh"), SubResource("Resource_4buwx"), SubResource("Resource_8cnfb"), SubResource("Resource_w12nw"), SubResource("Resource_me61j"), SubResource("Resource_f2sc0"), SubResource("Resource_h1x3r"), SubResource("Resource_xqqdq"), SubResource("Resource_xatg7"), SubResource("Resource_khxc8")])
+
+[sub_resource type="Resource" id="Resource_tb51o"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.5170882, 0.15673731, -0.42653757, 0.7253406)
+
+[sub_resource type="Resource" id="Resource_toksq"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.5245738, 0.11837579, -0.42141235, 0.7302199)
+
+[sub_resource type="Resource" id="Resource_e71dx"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.5059934, 0.0836543, -0.4077362, 0.75546265)
+
+[sub_resource type="Resource" id="Resource_g3tnb"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.5000616, 0.11538367, -0.38536623, 0.7668885)
+
+[sub_resource type="Resource" id="Resource_bgw1t"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.47555465, 0.19307989, -0.3703516, 0.7742142)
+
+[sub_resource type="Resource" id="Resource_hpum6"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.50449866, 0.22066125, -0.3694187, 0.74854493)
+
+[sub_resource type="Resource" id="Resource_elsa2"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.5256784, 0.17009677, -0.39184737, 0.7356528)
+
+[sub_resource type="Resource" id="Resource_0e6ql"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.52175343, 0.114465326, -0.40111214, 0.744164)
+
+[sub_resource type="Resource" id="Resource_pfwu4"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.51855236, 0.13065487, -0.40840533, 0.7397553)
+
+[sub_resource type="Resource" id="Resource_lqawu"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.51652676, 0.16048951, -0.4285948, 0.7237056)
+
+[sub_resource type="Resource" id="Resource_4r0yt"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_RightArm"
+rest_pose = Transform3D(0.97856295, 0.20569563, 0.010190751, -0.2059479, 0.97736424, 0.048421405, -4.656613e-09, -0.04948216, 0.998775, 0, 0.108382, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_tb51o"), SubResource("Resource_toksq"), SubResource("Resource_e71dx"), SubResource("Resource_g3tnb"), SubResource("Resource_bgw1t"), SubResource("Resource_hpum6"), SubResource("Resource_elsa2"), SubResource("Resource_0e6ql"), SubResource("Resource_pfwu4"), SubResource("Resource_lqawu")])
+
+[sub_resource type="Resource" id="Resource_vny80"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(-1.3361254e-08, 2.1095481e-08, -0.79857403, 0.60189664)
+
+[sub_resource type="Resource" id="Resource_wwp7g"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(-3.4313473e-08, 2.103298e-08, -0.8204539, 0.57171273)
+
+[sub_resource type="Resource" id="Resource_vdswm"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(-1.5091871e-07, -3.486015e-09, -0.8232356, 0.56769997)
+
+[sub_resource type="Resource" id="Resource_p8t7x"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(2.3800803e-08, 7.732359e-08, -0.84924686, 0.52799594)
+
+[sub_resource type="Resource" id="Resource_jlx3u"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(-1.7851798e-08, -6.2514744e-08, -0.8641069, 0.5033084)
+
+[sub_resource type="Resource" id="Resource_aqa18"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(5.9212734e-08, -1.5727456e-07, 0.8711912, -0.49094388)
+
+[sub_resource type="Resource" id="Resource_a1tia"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(3.7698058e-08, -1.2377082e-07, -0.8575007, 0.5144829)
+
+[sub_resource type="Resource" id="Resource_whj6s"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(-8.161318e-08, -3.2709643e-08, -0.81801325, 0.5751993)
+
+[sub_resource type="Resource" id="Resource_ge5ib"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(-1.1673774e-07, 6.306624e-08, -0.79161865, 0.61101544)
+
+[sub_resource type="Resource" id="Resource_luumh"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(-7.817634e-08, 1.2445929e-07, -0.79583853, 0.6055089)
+
+[sub_resource type="Resource" id="Resource_8fbon"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_RightForeArm"
+rest_pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.278415, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_vny80"), SubResource("Resource_wwp7g"), SubResource("Resource_vdswm"), SubResource("Resource_p8t7x"), SubResource("Resource_jlx3u"), SubResource("Resource_aqa18"), SubResource("Resource_a1tia"), SubResource("Resource_whj6s"), SubResource("Resource_ge5ib"), SubResource("Resource_luumh")])
+
+[sub_resource type="Resource" id="Resource_nfn0c"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.06434593, 0.06006062, -0.15718882, 0.98363817)
+
+[sub_resource type="Resource" id="Resource_3343x"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.051631693, 0.020948848, -0.12160545, 0.99101335)
+
+[sub_resource type="Resource" id="Resource_37hlh"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.06183814, 0.015095173, -0.097523734, 0.99319553)
+
+[sub_resource type="Resource" id="Resource_vvdbc"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.045734964, 0.08354232, -0.02485833, 0.9951438)
+
+[sub_resource type="Resource" id="Resource_1cxhp"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.06012393, 0.15754974, 0.01793172, 0.98551595)
+
+[sub_resource type="Resource" id="Resource_e85dv"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.087379985, 0.15033048, -0.03574699, 0.9841177)
+
+[sub_resource type="Resource" id="Resource_xg5xf"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.087495215, 0.08389113, -0.02369455, 0.9923434)
+
+[sub_resource type="Resource" id="Resource_is8ot"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.09216275, 0.06536577, -0.093624726, 0.9891753)
+
+[sub_resource type="Resource" id="Resource_4gqg8"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.080038875, 0.06702976, -0.175351, 0.978955)
+
+[sub_resource type="Resource" id="Resource_4ea7l"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.06960847, 0.066043414, -0.16198534, 0.98211694)
+
+[sub_resource type="Resource" id="Resource_vbjmy"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_RightHand"
+rest_pose = Transform3D(1, 4.832294e-17, 6.9665916e-06, -4.832376e-17, 1, 1.1796085e-16, -6.9665916e-06, -1.179612e-16, 1, 0, 0.283288, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_nfn0c"), SubResource("Resource_3343x"), SubResource("Resource_37hlh"), SubResource("Resource_vvdbc"), SubResource("Resource_1cxhp"), SubResource("Resource_e85dv"), SubResource("Resource_xg5xf"), SubResource("Resource_is8ot"), SubResource("Resource_4gqg8"), SubResource("Resource_4ea7l")])
+
+[sub_resource type="Resource" id="Resource_0m8pn"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.056676432, 0.013222111, -0.13454673, 0.9891967)
+
+[sub_resource type="Resource" id="Resource_x2rhw"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.056676432, 0.013222111, -0.13454673, 0.9891967)
+
+[sub_resource type="Resource" id="Resource_6727w"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.056676432, 0.013222111, -0.13454673, 0.9891967)
+
+[sub_resource type="Resource" id="Resource_g7bh6"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.056676432, 0.013222111, -0.13454673, 0.9891967)
+
+[sub_resource type="Resource" id="Resource_qrwj2"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.056676432, 0.013222111, -0.13454673, 0.9891967)
+
+[sub_resource type="Resource" id="Resource_xllk6"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.056676432, 0.013222111, -0.13454673, 0.9891967)
+
+[sub_resource type="Resource" id="Resource_36kvh"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.056676432, 0.013222111, -0.13454673, 0.9891967)
+
+[sub_resource type="Resource" id="Resource_3f353"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.056676432, 0.013222111, -0.13454673, 0.9891967)
+
+[sub_resource type="Resource" id="Resource_ghk6t"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.056676432, 0.013222111, -0.13454673, 0.9891967)
+
+[sub_resource type="Resource" id="Resource_pfh3a"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.056676432, 0.013222111, -0.13454673, 0.9891967)
+
+[sub_resource type="Resource" id="Resource_meeqy"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_RightHandThumb1"
+rest_pose = Transform3D(0.8944272, 0.44721085, 0.0015543699, -0.38642585, 0.7745967, -0.5006746, -0.22511111, 0.44721633, 0.8656342, 0.026819, 0.024648, 0.01574)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_0m8pn"), SubResource("Resource_x2rhw"), SubResource("Resource_6727w"), SubResource("Resource_g7bh6"), SubResource("Resource_qrwj2"), SubResource("Resource_xllk6"), SubResource("Resource_36kvh"), SubResource("Resource_3f353"), SubResource("Resource_ghk6t"), SubResource("Resource_pfh3a")])
+
+[sub_resource type="Resource" id="Resource_upgmr"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(-0.10486854, 0.06728296, 0.3703129, 0.9205129)
+
+[sub_resource type="Resource" id="Resource_viowh"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(-0.10486854, 0.06728296, 0.3703129, 0.9205129)
+
+[sub_resource type="Resource" id="Resource_3dm62"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(-0.10486854, 0.06728296, 0.3703129, 0.9205129)
+
+[sub_resource type="Resource" id="Resource_yc6hn"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(-0.10486854, 0.06728296, 0.3703129, 0.9205129)
+
+[sub_resource type="Resource" id="Resource_o17xp"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(-0.10486854, 0.06728296, 0.3703129, 0.9205129)
+
+[sub_resource type="Resource" id="Resource_xev4h"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(-0.10486854, 0.06728296, 0.3703129, 0.9205129)
+
+[sub_resource type="Resource" id="Resource_r46hi"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(-0.10486854, 0.06728296, 0.3703129, 0.9205129)
+
+[sub_resource type="Resource" id="Resource_xschm"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(-0.10486854, 0.06728296, 0.3703129, 0.9205129)
+
+[sub_resource type="Resource" id="Resource_5nej5"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(-0.10486854, 0.06728296, 0.3703129, 0.9205129)
+
+[sub_resource type="Resource" id="Resource_s5h37"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(-0.10486854, 0.06728296, 0.3703129, 0.9205129)
+
+[sub_resource type="Resource" id="Resource_386d7"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_RightHandThumb2"
+rest_pose = Transform3D(0.99999726, -1.122123e-15, -0.0023401377, 1.1191383e-15, 1, -1.2767366e-15, 0.0023401377, 1.2741142e-15, 0.99999726, 0, 0.04189, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_upgmr"), SubResource("Resource_viowh"), SubResource("Resource_3dm62"), SubResource("Resource_yc6hn"), SubResource("Resource_o17xp"), SubResource("Resource_xev4h"), SubResource("Resource_r46hi"), SubResource("Resource_xschm"), SubResource("Resource_5nej5"), SubResource("Resource_s5h37")])
+
+[sub_resource type="Resource" id="Resource_hjkrw"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(-0.23711753, -0.07984289, 0.12196717, 0.96048135)
+
+[sub_resource type="Resource" id="Resource_gjmht"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(-0.23711753, -0.07984289, 0.12196717, 0.96048135)
+
+[sub_resource type="Resource" id="Resource_epgyc"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(-0.23711753, -0.07984289, 0.12196717, 0.96048135)
+
+[sub_resource type="Resource" id="Resource_pkv14"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(-0.23711753, -0.07984289, 0.12196717, 0.96048135)
+
+[sub_resource type="Resource" id="Resource_56w6u"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(-0.23711753, -0.07984289, 0.12196717, 0.96048135)
+
+[sub_resource type="Resource" id="Resource_ai82w"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(-0.23711753, -0.07984289, 0.12196717, 0.96048135)
+
+[sub_resource type="Resource" id="Resource_00tum"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(-0.23711753, -0.07984289, 0.12196717, 0.96048135)
+
+[sub_resource type="Resource" id="Resource_jc0ue"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(-0.23711753, -0.07984289, 0.12196717, 0.96048135)
+
+[sub_resource type="Resource" id="Resource_31ktt"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(-0.23711753, -0.07984289, 0.12196717, 0.96048135)
+
+[sub_resource type="Resource" id="Resource_0y1yi"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(-0.23711753, -0.07984289, 0.12196717, 0.96048135)
+
+[sub_resource type="Resource" id="Resource_yjxs4"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_RightHandThumb3"
+rest_pose = Transform3D(0.9999987, 1.3385635e-15, -0.0016148604, -1.3433181e-15, 1, -2.9432178e-15, 0.0016148604, 2.9453832e-15, 0.9999987, 0, 0.034163, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_hjkrw"), SubResource("Resource_gjmht"), SubResource("Resource_epgyc"), SubResource("Resource_pkv14"), SubResource("Resource_56w6u"), SubResource("Resource_ai82w"), SubResource("Resource_00tum"), SubResource("Resource_jc0ue"), SubResource("Resource_31ktt"), SubResource("Resource_0y1yi")])
+
+[sub_resource type="Resource" id="Resource_632uq"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(2.775563e-17, -2.9802326e-08, -9.778888e-09, 1)
+
+[sub_resource type="Resource" id="Resource_qcv4o"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(2.775563e-17, -2.9802326e-08, -9.778888e-09, 1)
+
+[sub_resource type="Resource" id="Resource_8uxwb"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(2.775563e-17, -2.9802326e-08, -9.778888e-09, 1)
+
+[sub_resource type="Resource" id="Resource_wt7kq"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(2.775563e-17, -2.9802326e-08, -9.778888e-09, 1)
+
+[sub_resource type="Resource" id="Resource_nxgnj"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(2.775563e-17, -2.9802326e-08, -9.778888e-09, 1)
+
+[sub_resource type="Resource" id="Resource_j3j80"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(2.775563e-17, -2.9802326e-08, -9.778888e-09, 1)
+
+[sub_resource type="Resource" id="Resource_uooo6"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(2.775563e-17, -2.9802326e-08, -9.778888e-09, 1)
+
+[sub_resource type="Resource" id="Resource_jh4rs"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(2.775563e-17, -2.9802326e-08, -9.778888e-09, 1)
+
+[sub_resource type="Resource" id="Resource_kqn2t"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(2.775563e-17, -2.9802326e-08, -9.778888e-09, 1)
+
+[sub_resource type="Resource" id="Resource_658hr"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(2.775563e-17, -2.9802326e-08, -9.778888e-09, 1)
+
+[sub_resource type="Resource" id="Resource_rrs67"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_RightHandThumb4"
+rest_pose = Transform3D(0.9676311, 0.09533705, -0.2336683, -0.098051235, 0.9951814, 9.825453e-07, 0.23254243, 0.022910513, 0.9723164, 0, 0.02575, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_632uq"), SubResource("Resource_qcv4o"), SubResource("Resource_8uxwb"), SubResource("Resource_wt7kq"), SubResource("Resource_nxgnj"), SubResource("Resource_j3j80"), SubResource("Resource_uooo6"), SubResource("Resource_jh4rs"), SubResource("Resource_kqn2t"), SubResource("Resource_658hr")])
+
+[sub_resource type="Resource" id="Resource_ewl5f"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.38349843, 0.008983899, 0.018804077, 0.92330635)
+
+[sub_resource type="Resource" id="Resource_ead6w"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.38349843, 0.008983899, 0.018804077, 0.92330635)
+
+[sub_resource type="Resource" id="Resource_la86x"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.38349843, 0.008983899, 0.018804077, 0.92330635)
+
+[sub_resource type="Resource" id="Resource_00pck"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.38349843, 0.008983899, 0.018804077, 0.92330635)
+
+[sub_resource type="Resource" id="Resource_c17w8"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.38349843, 0.008983899, 0.018804077, 0.92330635)
+
+[sub_resource type="Resource" id="Resource_o2hy3"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.38349843, 0.008983899, 0.018804077, 0.92330635)
+
+[sub_resource type="Resource" id="Resource_q7dj2"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.38349843, 0.008983899, 0.018804077, 0.92330635)
+
+[sub_resource type="Resource" id="Resource_hh67u"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.38349843, 0.008983899, 0.018804077, 0.92330635)
+
+[sub_resource type="Resource" id="Resource_odory"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.38349843, 0.008983899, 0.018804077, 0.92330635)
+
+[sub_resource type="Resource" id="Resource_72ajr"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.38349843, 0.008983899, 0.018804077, 0.92330635)
+
+[sub_resource type="Resource" id="Resource_4goks"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_RightHandIndex1"
+rest_pose = Transform3D(1, 6.104058e-17, 2.8634037e-10, -6.104058e-17, 1, 1.4135191e-15, -2.8634037e-10, -1.4135191e-15, 1, 0.022598, 0.091083, 0.005179)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_ewl5f"), SubResource("Resource_ead6w"), SubResource("Resource_la86x"), SubResource("Resource_00pck"), SubResource("Resource_c17w8"), SubResource("Resource_o2hy3"), SubResource("Resource_q7dj2"), SubResource("Resource_hh67u"), SubResource("Resource_odory"), SubResource("Resource_72ajr")])
+
+[sub_resource type="Resource" id="Resource_grigq"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.6928495, 2.591075e-08, 0.056445494, 0.7188696)
+
+[sub_resource type="Resource" id="Resource_o6evq"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.6928495, 2.591075e-08, 0.056445494, 0.7188696)
+
+[sub_resource type="Resource" id="Resource_ygrcb"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.6928495, 2.591075e-08, 0.056445494, 0.7188696)
+
+[sub_resource type="Resource" id="Resource_c7kd5"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.6928495, 2.591075e-08, 0.056445494, 0.7188696)
+
+[sub_resource type="Resource" id="Resource_2krne"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.6928495, 2.591075e-08, 0.056445494, 0.7188696)
+
+[sub_resource type="Resource" id="Resource_bfeg4"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.6928495, 2.591075e-08, 0.056445494, 0.7188696)
+
+[sub_resource type="Resource" id="Resource_5c8qb"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.6928495, 2.591075e-08, 0.056445494, 0.7188696)
+
+[sub_resource type="Resource" id="Resource_bxo3w"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.6928495, 2.591075e-08, 0.056445494, 0.7188696)
+
+[sub_resource type="Resource" id="Resource_of3ta"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.6928495, 2.591075e-08, 0.056445494, 0.7188696)
+
+[sub_resource type="Resource" id="Resource_xnsbd"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.6928495, 2.591075e-08, 0.056445494, 0.7188696)
+
+[sub_resource type="Resource" id="Resource_t7fs2"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_RightHandIndex2"
+rest_pose = Transform3D(1, -6.624475e-17, 4.232757e-19, 6.624475e-17, 1, -1.2013336e-15, -4.232757e-19, 1.2013336e-15, 1, 0, 0.037, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_grigq"), SubResource("Resource_o6evq"), SubResource("Resource_ygrcb"), SubResource("Resource_c7kd5"), SubResource("Resource_2krne"), SubResource("Resource_bfeg4"), SubResource("Resource_5c8qb"), SubResource("Resource_bxo3w"), SubResource("Resource_of3ta"), SubResource("Resource_xnsbd")])
+
+[sub_resource type="Resource" id="Resource_kqxbd"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.42918995, 8.925881e-08, 0.03496548, 0.9025372)
+
+[sub_resource type="Resource" id="Resource_xm7p7"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.42918995, 8.925881e-08, 0.03496548, 0.9025372)
+
+[sub_resource type="Resource" id="Resource_1g4dw"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.42918995, 8.925881e-08, 0.03496548, 0.9025372)
+
+[sub_resource type="Resource" id="Resource_2dioq"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.42918995, 8.925881e-08, 0.03496548, 0.9025372)
+
+[sub_resource type="Resource" id="Resource_uatoj"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.42918995, 8.925881e-08, 0.03496548, 0.9025372)
+
+[sub_resource type="Resource" id="Resource_pcaks"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.42918995, 8.925881e-08, 0.03496548, 0.9025372)
+
+[sub_resource type="Resource" id="Resource_eja55"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.42918995, 8.925881e-08, 0.03496548, 0.9025372)
+
+[sub_resource type="Resource" id="Resource_swcio"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.42918995, 8.925881e-08, 0.03496548, 0.9025372)
+
+[sub_resource type="Resource" id="Resource_5i48f"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.42918995, 8.925881e-08, 0.03496548, 0.9025372)
+
+[sub_resource type="Resource" id="Resource_hom5d"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.42918995, 8.925881e-08, 0.03496548, 0.9025372)
+
+[sub_resource type="Resource" id="Resource_fhdu6"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_RightHandIndex3"
+rest_pose = Transform3D(1, -1.8108887e-16, -3.645276e-19, 1.8108887e-16, 1, 3.6872255e-15, 3.645276e-19, -3.6872255e-15, 1, 0, 0.0285, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_kqxbd"), SubResource("Resource_xm7p7"), SubResource("Resource_1g4dw"), SubResource("Resource_2dioq"), SubResource("Resource_uatoj"), SubResource("Resource_pcaks"), SubResource("Resource_eja55"), SubResource("Resource_swcio"), SubResource("Resource_5i48f"), SubResource("Resource_hom5d")])
+
+[sub_resource type="Resource" id="Resource_vyc5l"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(-2.1316297e-14, 1.1641532e-10, 1.4551929e-11, 1)
+
+[sub_resource type="Resource" id="Resource_k5a2a"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(-2.1316297e-14, 1.1641532e-10, 1.4551929e-11, 1)
+
+[sub_resource type="Resource" id="Resource_w18o4"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(-2.1316297e-14, 1.1641532e-10, 1.4551929e-11, 1)
+
+[sub_resource type="Resource" id="Resource_dywgp"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(-2.1316297e-14, 1.1641532e-10, 1.4551929e-11, 1)
+
+[sub_resource type="Resource" id="Resource_s5oqq"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(-2.1316297e-14, 1.1641532e-10, 1.4551929e-11, 1)
+
+[sub_resource type="Resource" id="Resource_m4d12"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(-2.1316297e-14, 1.1641532e-10, 1.4551929e-11, 1)
+
+[sub_resource type="Resource" id="Resource_qjqxe"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(-2.1316297e-14, 1.1641532e-10, 1.4551929e-11, 1)
+
+[sub_resource type="Resource" id="Resource_thvsp"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(-2.1316297e-14, 1.1641532e-10, 1.4551929e-11, 1)
+
+[sub_resource type="Resource" id="Resource_6ivcp"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(-2.1316297e-14, 1.1641532e-10, 1.4551929e-11, 1)
+
+[sub_resource type="Resource" id="Resource_jsdap"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(-2.1316297e-14, 1.1641532e-10, 1.4551929e-11, 1)
+
+[sub_resource type="Resource" id="Resource_wf4ki"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_RightHandIndex4"
+rest_pose = Transform3D(0.999998, -0.00017453292, 0.002005382, 0.00017453257, 1, 3.5000517e-07, -0.002005382, -1.4210855e-14, 0.999998, 0, 0.027722, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_vyc5l"), SubResource("Resource_k5a2a"), SubResource("Resource_w18o4"), SubResource("Resource_dywgp"), SubResource("Resource_s5oqq"), SubResource("Resource_m4d12"), SubResource("Resource_qjqxe"), SubResource("Resource_thvsp"), SubResource("Resource_6ivcp"), SubResource("Resource_jsdap")])
+
+[sub_resource type="Resource" id="Resource_b0qli"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.33410582, 0.01481155, 0.021903273, 0.9421646)
+
+[sub_resource type="Resource" id="Resource_obp15"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.33410582, 0.01481155, 0.021903273, 0.9421646)
+
+[sub_resource type="Resource" id="Resource_cl4ph"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.33410582, 0.01481155, 0.021903273, 0.9421646)
+
+[sub_resource type="Resource" id="Resource_6gswj"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.33410582, 0.01481155, 0.021903273, 0.9421646)
+
+[sub_resource type="Resource" id="Resource_jangn"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.33410582, 0.01481155, 0.021903273, 0.9421646)
+
+[sub_resource type="Resource" id="Resource_1osd1"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.33410582, 0.01481155, 0.021903273, 0.9421646)
+
+[sub_resource type="Resource" id="Resource_esajx"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.33410582, 0.01481155, 0.021903273, 0.9421646)
+
+[sub_resource type="Resource" id="Resource_7h7c0"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.33410582, 0.01481155, 0.021903273, 0.9421646)
+
+[sub_resource type="Resource" id="Resource_3y7p4"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.33410582, 0.01481155, 0.021903273, 0.9421646)
+
+[sub_resource type="Resource" id="Resource_vh0wq"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.33410582, 0.01481155, 0.021903273, 0.9421646)
+
+[sub_resource type="Resource" id="Resource_708k7"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_RightHandMiddle1"
+rest_pose = Transform3D(1, -1.5373987e-16, 8.757752e-10, 1.5373987e-16, 1, 1.5728397e-15, -8.757752e-10, -1.5728397e-15, 1, 0, 0.095325, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_b0qli"), SubResource("Resource_obp15"), SubResource("Resource_cl4ph"), SubResource("Resource_6gswj"), SubResource("Resource_jangn"), SubResource("Resource_1osd1"), SubResource("Resource_esajx"), SubResource("Resource_7h7c0"), SubResource("Resource_3y7p4"), SubResource("Resource_vh0wq")])
+
+[sub_resource type="Resource" id="Resource_vwatm"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.7398894, 1.1119894e-08, 0.060277835, 0.6700226)
+
+[sub_resource type="Resource" id="Resource_t4638"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.7398894, 1.1119894e-08, 0.060277835, 0.6700226)
+
+[sub_resource type="Resource" id="Resource_afn6x"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.7398894, 1.1119894e-08, 0.060277835, 0.6700226)
+
+[sub_resource type="Resource" id="Resource_a82f6"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.7398894, 1.1119894e-08, 0.060277835, 0.6700226)
+
+[sub_resource type="Resource" id="Resource_pakp8"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.7398894, 1.1119894e-08, 0.060277835, 0.6700226)
+
+[sub_resource type="Resource" id="Resource_57a2m"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.7398894, 1.1119894e-08, 0.060277835, 0.6700226)
+
+[sub_resource type="Resource" id="Resource_m7x21"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.7398894, 1.1119894e-08, 0.060277835, 0.6700226)
+
+[sub_resource type="Resource" id="Resource_gcw2d"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.7398894, 1.1119894e-08, 0.060277835, 0.6700226)
+
+[sub_resource type="Resource" id="Resource_umq3r"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.7398894, 1.1119894e-08, 0.060277835, 0.6700226)
+
+[sub_resource type="Resource" id="Resource_dx1bp"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.7398894, 1.1119894e-08, 0.060277835, 0.6700226)
+
+[sub_resource type="Resource" id="Resource_w0hfn"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_RightHandMiddle2"
+rest_pose = Transform3D(1, 1.3574211e-16, 3.499409e-18, -1.3574211e-16, 1, 9.439051e-16, -3.499409e-18, -9.439051e-16, 1, 0, 0.037, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_vwatm"), SubResource("Resource_t4638"), SubResource("Resource_afn6x"), SubResource("Resource_a82f6"), SubResource("Resource_pakp8"), SubResource("Resource_57a2m"), SubResource("Resource_m7x21"), SubResource("Resource_gcw2d"), SubResource("Resource_umq3r"), SubResource("Resource_dx1bp")])
+
+[sub_resource type="Resource" id="Resource_8fst0"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.43123823, -7.644343e-08, 0.0351324, 0.90155387)
+
+[sub_resource type="Resource" id="Resource_skmoj"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.43123823, -7.644343e-08, 0.0351324, 0.90155387)
+
+[sub_resource type="Resource" id="Resource_y0ufo"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.43123823, -7.644343e-08, 0.0351324, 0.90155387)
+
+[sub_resource type="Resource" id="Resource_aap65"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.43123823, -7.644343e-08, 0.0351324, 0.90155387)
+
+[sub_resource type="Resource" id="Resource_4xx6a"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.43123823, -7.644343e-08, 0.0351324, 0.90155387)
+
+[sub_resource type="Resource" id="Resource_7nlsb"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.43123823, -7.644343e-08, 0.0351324, 0.90155387)
+
+[sub_resource type="Resource" id="Resource_17uu4"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.43123823, -7.644343e-08, 0.0351324, 0.90155387)
+
+[sub_resource type="Resource" id="Resource_2wyl3"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.43123823, -7.644343e-08, 0.0351324, 0.90155387)
+
+[sub_resource type="Resource" id="Resource_278as"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.43123823, -7.644343e-08, 0.0351324, 0.90155387)
+
+[sub_resource type="Resource" id="Resource_rexis"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.43123823, -7.644343e-08, 0.0351324, 0.90155387)
+
+[sub_resource type="Resource" id="Resource_l773t"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_RightHandMiddle3"
+rest_pose = Transform3D(1, -1.1416649e-16, 1.4519492e-19, 1.1416649e-16, 1, -5.5099807e-15, -1.4519492e-19, 5.5099807e-15, 1, 0, 0.0295, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_8fst0"), SubResource("Resource_skmoj"), SubResource("Resource_y0ufo"), SubResource("Resource_aap65"), SubResource("Resource_4xx6a"), SubResource("Resource_7nlsb"), SubResource("Resource_17uu4"), SubResource("Resource_2wyl3"), SubResource("Resource_278as"), SubResource("Resource_rexis")])
+
+[sub_resource type="Resource" id="Resource_4gfbm"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(-5.684342e-14, 5.820766e-11, 0, 1)
+
+[sub_resource type="Resource" id="Resource_fxpy1"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(-5.684342e-14, 5.820766e-11, 0, 1)
+
+[sub_resource type="Resource" id="Resource_2eumd"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(-5.684342e-14, 5.820766e-11, 0, 1)
+
+[sub_resource type="Resource" id="Resource_et52i"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(-5.684342e-14, 5.820766e-11, 0, 1)
+
+[sub_resource type="Resource" id="Resource_e140h"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(-5.684342e-14, 5.820766e-11, 0, 1)
+
+[sub_resource type="Resource" id="Resource_8iyn4"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(-5.684342e-14, 5.820766e-11, 0, 1)
+
+[sub_resource type="Resource" id="Resource_anqwb"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(-5.684342e-14, 5.820766e-11, 0, 1)
+
+[sub_resource type="Resource" id="Resource_ji5og"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(-5.684342e-14, 5.820766e-11, 0, 1)
+
+[sub_resource type="Resource" id="Resource_5yomt"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(-5.684342e-14, 5.820766e-11, 0, 1)
+
+[sub_resource type="Resource" id="Resource_c8umq"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(-5.684342e-14, 5.820766e-11, 0, 1)
+
+[sub_resource type="Resource" id="Resource_6meok"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_RightHandMiddle4"
+rest_pose = Transform3D(0.9999982, -0.0003333579, 0.0018570293, 0.0003333573, 0.99999994, 6.1905536e-07, -0.0018570293, 0, 0.9999983, 0, 0.029466, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_4gfbm"), SubResource("Resource_fxpy1"), SubResource("Resource_2eumd"), SubResource("Resource_et52i"), SubResource("Resource_e140h"), SubResource("Resource_8iyn4"), SubResource("Resource_anqwb"), SubResource("Resource_ji5og"), SubResource("Resource_5yomt"), SubResource("Resource_c8umq")])
+
+[sub_resource type="Resource" id="Resource_hr3ln"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.33455893, 0.010614049, 0.03390459, 0.9417049)
+
+[sub_resource type="Resource" id="Resource_plnci"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.33455893, 0.010614049, 0.03390459, 0.9417049)
+
+[sub_resource type="Resource" id="Resource_s1r51"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.33455893, 0.010614049, 0.03390459, 0.9417049)
+
+[sub_resource type="Resource" id="Resource_u0w65"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.33455893, 0.010614049, 0.03390459, 0.9417049)
+
+[sub_resource type="Resource" id="Resource_4evv6"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.33455893, 0.010614049, 0.03390459, 0.9417049)
+
+[sub_resource type="Resource" id="Resource_mwthh"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.33455893, 0.010614049, 0.03390459, 0.9417049)
+
+[sub_resource type="Resource" id="Resource_nwohy"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.33455893, 0.010614049, 0.03390459, 0.9417049)
+
+[sub_resource type="Resource" id="Resource_72an8"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.33455893, 0.010614049, 0.03390459, 0.9417049)
+
+[sub_resource type="Resource" id="Resource_ktlur"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.33455893, 0.010614049, 0.03390459, 0.9417049)
+
+[sub_resource type="Resource" id="Resource_8rlkb"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.33455893, 0.010614049, 0.03390459, 0.9417049)
+
+[sub_resource type="Resource" id="Resource_7o3do"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_RightHandRing1"
+rest_pose = Transform3D(1, -1.5612511e-16, 2.8901644e-19, 1.5612511e-16, 1, 1.8252431e-15, -2.8901644e-19, -1.8252431e-15, 1, -0.018651, 0.091036, 0.000431)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_hr3ln"), SubResource("Resource_plnci"), SubResource("Resource_s1r51"), SubResource("Resource_u0w65"), SubResource("Resource_4evv6"), SubResource("Resource_mwthh"), SubResource("Resource_nwohy"), SubResource("Resource_72an8"), SubResource("Resource_ktlur"), SubResource("Resource_8rlkb")])
+
+[sub_resource type="Resource" id="Resource_mpjpe"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.8330175, -5.0885593e-08, 0.06786476, 0.5490685)
+
+[sub_resource type="Resource" id="Resource_xfne4"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.8330175, -5.0885593e-08, 0.06786476, 0.5490685)
+
+[sub_resource type="Resource" id="Resource_tu2vb"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.8330175, -5.0885593e-08, 0.06786476, 0.5490685)
+
+[sub_resource type="Resource" id="Resource_46i6w"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.8330175, -5.0885593e-08, 0.06786476, 0.5490685)
+
+[sub_resource type="Resource" id="Resource_x4bg7"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.8330175, -5.0885593e-08, 0.06786476, 0.5490685)
+
+[sub_resource type="Resource" id="Resource_2ngtu"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.8330175, -5.0885593e-08, 0.06786476, 0.5490685)
+
+[sub_resource type="Resource" id="Resource_iia24"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.8330175, -5.0885593e-08, 0.06786476, 0.5490685)
+
+[sub_resource type="Resource" id="Resource_wb2il"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.8330175, -5.0885593e-08, 0.06786476, 0.5490685)
+
+[sub_resource type="Resource" id="Resource_7jxd0"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.8330175, -5.0885593e-08, 0.06786476, 0.5490685)
+
+[sub_resource type="Resource" id="Resource_pg3gf"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.8330175, -5.0885593e-08, 0.06786476, 0.5490685)
+
+[sub_resource type="Resource" id="Resource_vftdt"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_RightHandRing2"
+rest_pose = Transform3D(1, 3.609309e-16, -1.0195235e-18, -3.609309e-16, 1, 9.25996e-16, 1.0195235e-18, -9.25996e-16, 1, 0, 0.033793, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_mpjpe"), SubResource("Resource_xfne4"), SubResource("Resource_tu2vb"), SubResource("Resource_46i6w"), SubResource("Resource_x4bg7"), SubResource("Resource_2ngtu"), SubResource("Resource_iia24"), SubResource("Resource_wb2il"), SubResource("Resource_7jxd0"), SubResource("Resource_pg3gf")])
+
+[sub_resource type="Resource" id="Resource_yfguu"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.52183914, -5.574924e-08, 0.042513452, 0.85198385)
+
+[sub_resource type="Resource" id="Resource_qi4gr"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.52183914, -5.574924e-08, 0.042513452, 0.85198385)
+
+[sub_resource type="Resource" id="Resource_plcun"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.52183914, -5.574924e-08, 0.042513452, 0.85198385)
+
+[sub_resource type="Resource" id="Resource_4y1ya"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.52183914, -5.574924e-08, 0.042513452, 0.85198385)
+
+[sub_resource type="Resource" id="Resource_g4p4n"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.52183914, -5.574924e-08, 0.042513452, 0.85198385)
+
+[sub_resource type="Resource" id="Resource_5lgx4"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.52183914, -5.574924e-08, 0.042513452, 0.85198385)
+
+[sub_resource type="Resource" id="Resource_lg62a"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.52183914, -5.574924e-08, 0.042513452, 0.85198385)
+
+[sub_resource type="Resource" id="Resource_ewnwb"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.52183914, -5.574924e-08, 0.042513452, 0.85198385)
+
+[sub_resource type="Resource" id="Resource_kui6g"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.52183914, -5.574924e-08, 0.042513452, 0.85198385)
+
+[sub_resource type="Resource" id="Resource_ryd2j"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.52183914, -5.574924e-08, 0.042513452, 0.85198385)
+
+[sub_resource type="Resource" id="Resource_dxynd"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_RightHandRing3"
+rest_pose = Transform3D(1, -4.8827045e-16, 1.1523374e-19, 4.8827045e-16, 1, -6.542501e-15, -1.1523374e-19, 6.542501e-15, 1, 0, 0.028897, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_yfguu"), SubResource("Resource_qi4gr"), SubResource("Resource_plcun"), SubResource("Resource_4y1ya"), SubResource("Resource_g4p4n"), SubResource("Resource_5lgx4"), SubResource("Resource_lg62a"), SubResource("Resource_ewnwb"), SubResource("Resource_kui6g"), SubResource("Resource_ryd2j")])
+
+[sub_resource type="Resource" id="Resource_tx2ew"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(3.3881316e-21, -1.4551915e-11, -2.3283064e-10, 1)
+
+[sub_resource type="Resource" id="Resource_y4mue"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(3.3881316e-21, -1.4551915e-11, -2.3283064e-10, 1)
+
+[sub_resource type="Resource" id="Resource_hwdu0"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(3.3881316e-21, -1.4551915e-11, -2.3283064e-10, 1)
+
+[sub_resource type="Resource" id="Resource_e8hao"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(3.3881316e-21, -1.4551915e-11, -2.3283064e-10, 1)
+
+[sub_resource type="Resource" id="Resource_2yvoq"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(3.3881316e-21, -1.4551915e-11, -2.3283064e-10, 1)
+
+[sub_resource type="Resource" id="Resource_ehgjj"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(3.3881316e-21, -1.4551915e-11, -2.3283064e-10, 1)
+
+[sub_resource type="Resource" id="Resource_8f1cm"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(3.3881316e-21, -1.4551915e-11, -2.3283064e-10, 1)
+
+[sub_resource type="Resource" id="Resource_b26r0"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(3.3881316e-21, -1.4551915e-11, -2.3283064e-10, 1)
+
+[sub_resource type="Resource" id="Resource_1l83r"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(3.3881316e-21, -1.4551915e-11, -2.3283064e-10, 1)
+
+[sub_resource type="Resource" id="Resource_wvurj"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(3.3881316e-21, -1.4551915e-11, -2.3283064e-10, 1)
+
+[sub_resource type="Resource" id="Resource_f15vv"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_RightHandRing4"
+rest_pose = Transform3D(0.9999987, 0.001598721, 0.00029146962, -0.001598721, 0.99999875, -4.659792e-07, -0.00029146997, -1.4210855e-14, 0.99999994, 0, 0.026388, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_tx2ew"), SubResource("Resource_y4mue"), SubResource("Resource_hwdu0"), SubResource("Resource_e8hao"), SubResource("Resource_2yvoq"), SubResource("Resource_ehgjj"), SubResource("Resource_8f1cm"), SubResource("Resource_b26r0"), SubResource("Resource_1l83r"), SubResource("Resource_wvurj")])
+
+[sub_resource type="Resource" id="Resource_qdtgn"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.38094714, 0.060363658, 0.05081676, 0.92122376)
+
+[sub_resource type="Resource" id="Resource_snth3"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.38094714, 0.060363658, 0.05081676, 0.92122376)
+
+[sub_resource type="Resource" id="Resource_81x1f"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.38094714, 0.060363658, 0.05081676, 0.92122376)
+
+[sub_resource type="Resource" id="Resource_8jg7i"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.38094714, 0.060363658, 0.05081676, 0.92122376)
+
+[sub_resource type="Resource" id="Resource_640mi"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.38094714, 0.060363658, 0.05081676, 0.92122376)
+
+[sub_resource type="Resource" id="Resource_k6yqj"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.38094714, 0.060363658, 0.05081676, 0.92122376)
+
+[sub_resource type="Resource" id="Resource_15nwo"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.38094714, 0.060363658, 0.05081676, 0.92122376)
+
+[sub_resource type="Resource" id="Resource_8jej1"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.38094714, 0.060363658, 0.05081676, 0.92122376)
+
+[sub_resource type="Resource" id="Resource_6yjea"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.38094714, 0.060363658, 0.05081676, 0.92122376)
+
+[sub_resource type="Resource" id="Resource_4ugto"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.38094714, 0.060363658, 0.05081676, 0.92122376)
+
+[sub_resource type="Resource" id="Resource_v2rr3"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_RightHandPinky1"
+rest_pose = Transform3D(1, -2.842778e-16, 4.5388e-09, 2.842778e-16, 1, 1.866254e-15, -4.5388e-09, -1.866254e-15, 1, -0.038063, 0.080767, 0.004867)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_qdtgn"), SubResource("Resource_snth3"), SubResource("Resource_81x1f"), SubResource("Resource_8jg7i"), SubResource("Resource_640mi"), SubResource("Resource_k6yqj"), SubResource("Resource_15nwo"), SubResource("Resource_8jej1"), SubResource("Resource_6yjea"), SubResource("Resource_4ugto")])
+
+[sub_resource type="Resource" id="Resource_85mnf"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.67355925, 1.0108054e-08, 0.054874048, 0.73709345)
+
+[sub_resource type="Resource" id="Resource_wj266"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.67355925, 1.0108054e-08, 0.054874048, 0.73709345)
+
+[sub_resource type="Resource" id="Resource_eqxnb"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.67355925, 1.0108054e-08, 0.054874048, 0.73709345)
+
+[sub_resource type="Resource" id="Resource_eqodh"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.67355925, 1.0108054e-08, 0.054874048, 0.73709345)
+
+[sub_resource type="Resource" id="Resource_sanbk"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.67355925, 1.0108054e-08, 0.054874048, 0.73709345)
+
+[sub_resource type="Resource" id="Resource_ln8b4"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.67355925, 1.0108054e-08, 0.054874048, 0.73709345)
+
+[sub_resource type="Resource" id="Resource_54eyb"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.67355925, 1.0108054e-08, 0.054874048, 0.73709345)
+
+[sub_resource type="Resource" id="Resource_en8sd"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.67355925, 1.0108054e-08, 0.054874048, 0.73709345)
+
+[sub_resource type="Resource" id="Resource_6arw6"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.67355925, 1.0108054e-08, 0.054874048, 0.73709345)
+
+[sub_resource type="Resource" id="Resource_013d8"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.67355925, 1.0108054e-08, 0.054874048, 0.73709345)
+
+[sub_resource type="Resource" id="Resource_hamls"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_RightHandPinky2"
+rest_pose = Transform3D(1, 1.823628e-16, 6.601867e-18, -1.823628e-16, 1, 4.0381644e-15, -6.601867e-18, -4.0381644e-15, 1, 0, 0.036, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_85mnf"), SubResource("Resource_wj266"), SubResource("Resource_eqxnb"), SubResource("Resource_eqodh"), SubResource("Resource_sanbk"), SubResource("Resource_ln8b4"), SubResource("Resource_54eyb"), SubResource("Resource_en8sd"), SubResource("Resource_6arw6"), SubResource("Resource_013d8")])
+
+[sub_resource type="Resource" id="Resource_7mkid"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.8598479, -1.8415708e-08, 0.070050664, 0.5057218)
+
+[sub_resource type="Resource" id="Resource_73coc"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.8598479, -1.8415708e-08, 0.070050664, 0.5057218)
+
+[sub_resource type="Resource" id="Resource_l0dee"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.8598479, -1.8415708e-08, 0.070050664, 0.5057218)
+
+[sub_resource type="Resource" id="Resource_8rm7r"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.8598479, -1.8415708e-08, 0.070050664, 0.5057218)
+
+[sub_resource type="Resource" id="Resource_jxutw"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.8598479, -1.8415708e-08, 0.070050664, 0.5057218)
+
+[sub_resource type="Resource" id="Resource_2df1g"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.8598479, -1.8415708e-08, 0.070050664, 0.5057218)
+
+[sub_resource type="Resource" id="Resource_4t567"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.8598479, -1.8415708e-08, 0.070050664, 0.5057218)
+
+[sub_resource type="Resource" id="Resource_gvc6s"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.8598479, -1.8415708e-08, 0.070050664, 0.5057218)
+
+[sub_resource type="Resource" id="Resource_ab15o"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.8598479, -1.8415708e-08, 0.070050664, 0.5057218)
+
+[sub_resource type="Resource" id="Resource_4hugo"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.8598479, -1.8415708e-08, 0.070050664, 0.5057218)
+
+[sub_resource type="Resource" id="Resource_6apl6"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_RightHandPinky3"
+rest_pose = Transform3D(1, 4.6837534e-17, -3.2740702e-18, -4.6837534e-17, 1, -5.2443465e-15, 3.2740702e-18, 5.2443465e-15, 1, 0, 0.021, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_7mkid"), SubResource("Resource_73coc"), SubResource("Resource_l0dee"), SubResource("Resource_8rm7r"), SubResource("Resource_jxutw"), SubResource("Resource_2df1g"), SubResource("Resource_4t567"), SubResource("Resource_gvc6s"), SubResource("Resource_ab15o"), SubResource("Resource_4hugo")])
+
+[sub_resource type="Resource" id="Resource_7btw4"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(4.263257e-14, 3.4924602e-10, -3.6379792e-12, 1)
+
+[sub_resource type="Resource" id="Resource_on61f"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(4.263257e-14, 3.4924602e-10, -3.6379792e-12, 1)
+
+[sub_resource type="Resource" id="Resource_6hx8u"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(4.263257e-14, 3.4924602e-10, -3.6379792e-12, 1)
+
+[sub_resource type="Resource" id="Resource_qbfqd"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(4.263257e-14, 3.4924602e-10, -3.6379792e-12, 1)
+
+[sub_resource type="Resource" id="Resource_g4hio"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(4.263257e-14, 3.4924602e-10, -3.6379792e-12, 1)
+
+[sub_resource type="Resource" id="Resource_vddwt"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(4.263257e-14, 3.4924602e-10, -3.6379792e-12, 1)
+
+[sub_resource type="Resource" id="Resource_1h5wh"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(4.263257e-14, 3.4924602e-10, -3.6379792e-12, 1)
+
+[sub_resource type="Resource" id="Resource_k6yms"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(4.263257e-14, 3.4924602e-10, -3.6379792e-12, 1)
+
+[sub_resource type="Resource" id="Resource_5utgt"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(4.263257e-14, 3.4924602e-10, -3.6379792e-12, 1)
+
+[sub_resource type="Resource" id="Resource_bdn3w"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(4.263257e-14, 3.4924602e-10, -3.6379792e-12, 1)
+
+[sub_resource type="Resource" id="Resource_47xan"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_RightHandPinky4"
+rest_pose = Transform3D(0.99999505, 8.2030485e-05, 0.0031380972, -8.203008e-05, 1, -2.574196e-07, -0.0031380972, 0, 0.99999505, 0, 0.021158, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_7btw4"), SubResource("Resource_on61f"), SubResource("Resource_6hx8u"), SubResource("Resource_qbfqd"), SubResource("Resource_g4hio"), SubResource("Resource_vddwt"), SubResource("Resource_1h5wh"), SubResource("Resource_k6yms"), SubResource("Resource_5utgt"), SubResource("Resource_bdn3w")])
+
+[sub_resource type="Resource" id="Resource_ftdut"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.072123714, 0.021123718, -0.03191378, 0.9966611)
+
+[sub_resource type="Resource" id="Resource_jlvlr"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.069529384, 0.029411767, -0.0060999803, 0.9971276)
+
+[sub_resource type="Resource" id="Resource_kn7me"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.06735975, 0.0124227125, -0.05001868, 0.9963968)
+
+[sub_resource type="Resource" id="Resource_0u4l6"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.07224374, 0.0015459647, -0.08514405, 0.9937449)
+
+[sub_resource type="Resource" id="Resource_rgh20"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.068385504, -0.000107922446, -0.08395322, 0.99412036)
+
+[sub_resource type="Resource" id="Resource_0oa6w"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.07570297, 0.005023847, -0.07878094, 0.99400073)
+
+[sub_resource type="Resource" id="Resource_70hu6"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.081069164, 0.005452631, -0.08432666, 0.9931199)
+
+[sub_resource type="Resource" id="Resource_jd4nj"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.0746237, 0.014387539, -0.05273216, 0.99571264)
+
+[sub_resource type="Resource" id="Resource_heyuy"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.07181057, 0.021307081, -0.031053869, 0.9967071)
+
+[sub_resource type="Resource" id="Resource_3lktb"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.07204153, 0.021168951, -0.031698707, 0.99667305)
+
+[sub_resource type="Resource" id="Resource_uhvfl"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_LeftShoulder"
+rest_pose = Transform3D(-0.20570612, 0.9773629, -0.049465626, 0.12900114, -0.023023963, -0.9913772, -0.97007406, -0.2103135, -0.121344805, 0.045704, 0.111956, -0.008066)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_ftdut"), SubResource("Resource_jlvlr"), SubResource("Resource_kn7me"), SubResource("Resource_0u4l6"), SubResource("Resource_rgh20"), SubResource("Resource_0oa6w"), SubResource("Resource_70hu6"), SubResource("Resource_jd4nj"), SubResource("Resource_heyuy"), SubResource("Resource_3lktb")])
+
+[sub_resource type="Resource" id="Resource_1cevl"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.40508536, -0.42163658, 0.160696, 0.79517627)
+
+[sub_resource type="Resource" id="Resource_d47lx"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.3895336, -0.4775583, 0.112136185, 0.7795044)
+
+[sub_resource type="Resource" id="Resource_mxxiw"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.3989115, -0.43953115, 0.10417312, 0.79801625)
+
+[sub_resource type="Resource" id="Resource_2ixxt"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.40645626, -0.37399572, 0.16732834, 0.8166528)
+
+[sub_resource type="Resource" id="Resource_n7pcy"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.43216893, -0.3674829, 0.25335658, 0.78357947)
+
+[sub_resource type="Resource" id="Resource_uw0t5"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.3910246, -0.4047044, 0.32435063, 0.760336)
+
+[sub_resource type="Resource" id="Resource_81ouy"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.40116, -0.37559494, 0.2827986, 0.78614503)
+
+[sub_resource type="Resource" id="Resource_tkdvh"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.44746703, -0.37772986, 0.18504216, 0.78921026)
+
+[sub_resource type="Resource" id="Resource_7wm10"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.43474486, -0.39845392, 0.15906602, 0.7917887)
+
+[sub_resource type="Resource" id="Resource_rcr1h"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.40641594, -0.41842318, 0.1585419, 0.7966258)
+
+[sub_resource type="Resource" id="Resource_jybv1"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_LeftArm"
+rest_pose = Transform3D(0.9785608, -0.20570612, -0.010187945, 0.20595825, 0.9773629, 0.048405137, 8.754432e-08, -0.04946566, 0.99877584, 0, 0.108377, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_1cevl"), SubResource("Resource_d47lx"), SubResource("Resource_mxxiw"), SubResource("Resource_2ixxt"), SubResource("Resource_n7pcy"), SubResource("Resource_uw0t5"), SubResource("Resource_81ouy"), SubResource("Resource_tkdvh"), SubResource("Resource_7wm10"), SubResource("Resource_rcr1h")])
+
+[sub_resource type="Resource" id="Resource_44awq"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(-8.9722285e-08, -4.426803e-08, 0.80051214, 0.59931654)
+
+[sub_resource type="Resource" id="Resource_cx1uj"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(1.0196934e-07, -6.196368e-08, 0.8373711, 0.5466348)
+
+[sub_resource type="Resource" id="Resource_f27j4"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(1.0694537e-08, -2.4784477e-08, 0.84598064, 0.5332137)
+
+[sub_resource type="Resource" id="Resource_d8sdv"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(-1.2061207e-07, -8.928915e-08, 0.82722217, 0.561875)
+
+[sub_resource type="Resource" id="Resource_2yhy3"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(-1.1561706e-07, 1.0268015e-07, 0.8074192, 0.5899782)
+
+[sub_resource type="Resource" id="Resource_m6ta0"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(-1.4951429e-07, -9.868592e-08, 0.7795403, 0.62635213)
+
+[sub_resource type="Resource" id="Resource_ur3r6"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(3.651253e-08, -5.3897853e-08, 0.75801027, 0.65224266)
+
+[sub_resource type="Resource" id="Resource_m8r41"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(-1.8814815e-07, -1.2865321e-07, 0.7568196, 0.6536239)
+
+[sub_resource type="Resource" id="Resource_rovv3"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(-9.149126e-09, -1.7434792e-07, 0.77795535, 0.62831956)
+
+[sub_resource type="Resource" id="Resource_yt0q8"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(-2.3215149e-08, -1.3872152e-08, 0.80186975, 0.59749895)
+
+[sub_resource type="Resource" id="Resource_muvhg"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_LeftForeArm"
+rest_pose = Transform3D(1, 6.270498e-17, 6.0952e-41, -6.270498e-17, 1, 9.720531e-25, 1e-45, -9.720531e-25, 1, 0, 0.278415, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_44awq"), SubResource("Resource_cx1uj"), SubResource("Resource_f27j4"), SubResource("Resource_d8sdv"), SubResource("Resource_2yhy3"), SubResource("Resource_m6ta0"), SubResource("Resource_ur3r6"), SubResource("Resource_m8r41"), SubResource("Resource_rovv3"), SubResource("Resource_yt0q8")])
+
+[sub_resource type="Resource" id="Resource_k3yi0"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.13886525, 0.02642194, 0.06415553, 0.9878777)
+
+[sub_resource type="Resource" id="Resource_j75gx"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.15636177, -0.007969426, 0.076609075, 0.9846921)
+
+[sub_resource type="Resource" id="Resource_ockln"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.14397521, -0.021917982, 0.08936837, 0.98529387)
+
+[sub_resource type="Resource" id="Resource_vay7i"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.15768719, -0.026099667, 0.03915935, 0.9863671)
+
+[sub_resource type="Resource" id="Resource_qiq0y"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.113485, 0.029551124, -0.003922327, 0.9930924)
+
+[sub_resource type="Resource" id="Resource_6vfkf"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.087568745, 0.08062449, -0.014836034, 0.9927796)
+
+[sub_resource type="Resource" id="Resource_k8nbx"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.072740324, 0.06236829, 0.009415602, 0.9953544)
+
+[sub_resource type="Resource" id="Resource_2ktrf"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.078013785, 0.084024236, 0.019554049, 0.9932127)
+
+[sub_resource type="Resource" id="Resource_r54k6"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.10905258, 0.07245022, 0.04801105, 0.990229)
+
+[sub_resource type="Resource" id="Resource_emmwg"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.130862, 0.024292171, 0.05982165, 0.9892959)
+
+[sub_resource type="Resource" id="Resource_s53ls"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_LeftHand"
+rest_pose = Transform3D(1, -2.0505357e-17, 1.5435533e-06, 2.0505139e-17, 1, 1.4224735e-16, -1.5435533e-06, -1.4224733e-16, 1, 0, 0.283288, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_k3yi0"), SubResource("Resource_j75gx"), SubResource("Resource_ockln"), SubResource("Resource_vay7i"), SubResource("Resource_qiq0y"), SubResource("Resource_6vfkf"), SubResource("Resource_k8nbx"), SubResource("Resource_2ktrf"), SubResource("Resource_r54k6"), SubResource("Resource_emmwg")])
+
+[sub_resource type="Resource" id="Resource_cdxxs"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.05282112, -0.013515065, 0.11416045, 0.99196506)
+
+[sub_resource type="Resource" id="Resource_dvf3d"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.05282112, -0.013515065, 0.11416045, 0.99196506)
+
+[sub_resource type="Resource" id="Resource_q2gso"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.05282112, -0.013515065, 0.11416045, 0.99196506)
+
+[sub_resource type="Resource" id="Resource_57ytg"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.05282112, -0.013515065, 0.11416045, 0.99196506)
+
+[sub_resource type="Resource" id="Resource_yi4nt"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.05282112, -0.013515065, 0.11416045, 0.99196506)
+
+[sub_resource type="Resource" id="Resource_3ys04"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.05282112, -0.013515065, 0.11416045, 0.99196506)
+
+[sub_resource type="Resource" id="Resource_1t4ur"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.05282112, -0.013515065, 0.11416045, 0.99196506)
+
+[sub_resource type="Resource" id="Resource_7jk86"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.05282112, -0.013515065, 0.11416045, 0.99196506)
+
+[sub_resource type="Resource" id="Resource_ga2m5"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.05282112, -0.013515065, 0.11416045, 0.99196506)
+
+[sub_resource type="Resource" id="Resource_18r2u"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.05282112, -0.013515065, 0.11416045, 0.99196506)
+
+[sub_resource type="Resource" id="Resource_eon0l"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_LeftHandThumb1"
+rest_pose = Transform3D(0.89442587, -0.44721428, -0.0013415515, 0.38654867, 0.7745967, -0.5005798, 0.22490558, 0.4472129, 0.8656894, -0.026817, 0.024661, 0.015762)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_cdxxs"), SubResource("Resource_dvf3d"), SubResource("Resource_q2gso"), SubResource("Resource_57ytg"), SubResource("Resource_yi4nt"), SubResource("Resource_3ys04"), SubResource("Resource_1t4ur"), SubResource("Resource_7jk86"), SubResource("Resource_ga2m5"), SubResource("Resource_18r2u")])
+
+[sub_resource type="Resource" id="Resource_nq61j"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(-0.09755664, -0.06363114, -0.35684004, 0.92687595)
+
+[sub_resource type="Resource" id="Resource_qrjph"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(-0.09755664, -0.06363114, -0.35684004, 0.92687595)
+
+[sub_resource type="Resource" id="Resource_td6s6"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(-0.09755664, -0.06363114, -0.35684004, 0.92687595)
+
+[sub_resource type="Resource" id="Resource_lse67"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(-0.09755664, -0.06363114, -0.35684004, 0.92687595)
+
+[sub_resource type="Resource" id="Resource_7c2wi"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(-0.09755664, -0.06363114, -0.35684004, 0.92687595)
+
+[sub_resource type="Resource" id="Resource_l1img"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(-0.09755664, -0.06363114, -0.35684004, 0.92687595)
+
+[sub_resource type="Resource" id="Resource_arnj8"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(-0.09755664, -0.06363114, -0.35684004, 0.92687595)
+
+[sub_resource type="Resource" id="Resource_iypl5"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(-0.09755664, -0.06363114, -0.35684004, 0.92687595)
+
+[sub_resource type="Resource" id="Resource_myemc"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(-0.09755664, -0.06363114, -0.35684004, 0.92687595)
+
+[sub_resource type="Resource" id="Resource_vac8c"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(-0.09755664, -0.06363114, -0.35684004, 0.92687595)
+
+[sub_resource type="Resource" id="Resource_tnb2i"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_LeftHandThumb2"
+rest_pose = Transform3D(0.99999785, -5.1100206e-16, 0.0020848576, 5.020759e-16, 1, 4.281946e-15, -0.0020848576, -4.2808897e-15, 0.99999785, 0, 0.041871, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_nq61j"), SubResource("Resource_qrjph"), SubResource("Resource_td6s6"), SubResource("Resource_lse67"), SubResource("Resource_7c2wi"), SubResource("Resource_l1img"), SubResource("Resource_arnj8"), SubResource("Resource_iypl5"), SubResource("Resource_myemc"), SubResource("Resource_vac8c")])
+
+[sub_resource type="Resource" id="Resource_307jv"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(-0.22218746, 0.08510081, -0.06730597, 0.9689482)
+
+[sub_resource type="Resource" id="Resource_byx6o"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(-0.22218746, 0.08510081, -0.06730597, 0.9689482)
+
+[sub_resource type="Resource" id="Resource_memff"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(-0.22218746, 0.08510081, -0.06730597, 0.9689482)
+
+[sub_resource type="Resource" id="Resource_mi7t3"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(-0.22218746, 0.08510081, -0.06730597, 0.9689482)
+
+[sub_resource type="Resource" id="Resource_wbi00"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(-0.22218746, 0.08510081, -0.06730597, 0.9689482)
+
+[sub_resource type="Resource" id="Resource_ee6vm"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(-0.22218746, 0.08510081, -0.06730597, 0.9689482)
+
+[sub_resource type="Resource" id="Resource_srigw"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(-0.22218746, 0.08510081, -0.06730597, 0.9689482)
+
+[sub_resource type="Resource" id="Resource_n2mvi"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(-0.22218746, 0.08510081, -0.06730597, 0.9689482)
+
+[sub_resource type="Resource" id="Resource_2is5e"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(-0.22218746, 0.08510081, -0.06730597, 0.9689482)
+
+[sub_resource type="Resource" id="Resource_m0qjb"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(-0.22218746, 0.08510081, -0.06730597, 0.9689482)
+
+[sub_resource type="Resource" id="Resource_7melr"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_LeftHandThumb3"
+rest_pose = Transform3D(0.99999887, 6.4842887e-16, 0.0014899723, -6.526134e-16, 1, 2.8079896e-15, -0.0014899723, -2.808959e-15, 0.99999887, 0, 0.034184, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_307jv"), SubResource("Resource_byx6o"), SubResource("Resource_memff"), SubResource("Resource_mi7t3"), SubResource("Resource_wbi00"), SubResource("Resource_ee6vm"), SubResource("Resource_srigw"), SubResource("Resource_n2mvi"), SubResource("Resource_2is5e"), SubResource("Resource_m0qjb")])
+
+[sub_resource type="Resource" id="Resource_ak723"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(-1.862645e-09, -2.2351744e-08, -6.5192585e-09, 1)
+
+[sub_resource type="Resource" id="Resource_x4kpe"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(-1.862645e-09, -2.2351744e-08, -6.5192585e-09, 1)
+
+[sub_resource type="Resource" id="Resource_3x664"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(-1.862645e-09, -2.2351744e-08, -6.5192585e-09, 1)
+
+[sub_resource type="Resource" id="Resource_k5a8f"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(-1.862645e-09, -2.2351744e-08, -6.5192585e-09, 1)
+
+[sub_resource type="Resource" id="Resource_vio4e"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(-1.862645e-09, -2.2351744e-08, -6.5192585e-09, 1)
+
+[sub_resource type="Resource" id="Resource_ubswd"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(-1.862645e-09, -2.2351744e-08, -6.5192585e-09, 1)
+
+[sub_resource type="Resource" id="Resource_oomt1"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(-1.862645e-09, -2.2351744e-08, -6.5192585e-09, 1)
+
+[sub_resource type="Resource" id="Resource_4ak2m"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(-1.862645e-09, -2.2351744e-08, -6.5192585e-09, 1)
+
+[sub_resource type="Resource" id="Resource_73urq"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(-1.862645e-09, -2.2351744e-08, -6.5192585e-09, 1)
+
+[sub_resource type="Resource" id="Resource_hyuxv"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(-1.862645e-09, -2.2351744e-08, -6.5192585e-09, 1)
+
+[sub_resource type="Resource" id="Resource_y34om"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_LeftHandThumb4"
+rest_pose = Transform3D(0.9664281, -0.08133614, 0.24372356, 0.08386488, 0.9964771, 9.0897083e-07, -0.24286501, 0.020438971, 0.96984476, 0, 0.025806, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_ak723"), SubResource("Resource_x4kpe"), SubResource("Resource_3x664"), SubResource("Resource_k5a8f"), SubResource("Resource_vio4e"), SubResource("Resource_ubswd"), SubResource("Resource_oomt1"), SubResource("Resource_4ak2m"), SubResource("Resource_73urq"), SubResource("Resource_hyuxv")])
+
+[sub_resource type="Resource" id="Resource_7lx5j"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.38900873, -0.009422405, -0.028018456, 0.92075974)
+
+[sub_resource type="Resource" id="Resource_h3rq5"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.38900873, -0.009422405, -0.028018456, 0.92075974)
+
+[sub_resource type="Resource" id="Resource_6y5d1"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.38900873, -0.009422405, -0.028018456, 0.92075974)
+
+[sub_resource type="Resource" id="Resource_72roy"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.38900873, -0.009422405, -0.028018456, 0.92075974)
+
+[sub_resource type="Resource" id="Resource_qei5m"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.38900873, -0.009422405, -0.028018456, 0.92075974)
+
+[sub_resource type="Resource" id="Resource_5fp4f"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.38900873, -0.009422405, -0.028018456, 0.92075974)
+
+[sub_resource type="Resource" id="Resource_pru64"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.38900873, -0.009422405, -0.028018456, 0.92075974)
+
+[sub_resource type="Resource" id="Resource_0yran"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.38900873, -0.009422405, -0.028018456, 0.92075974)
+
+[sub_resource type="Resource" id="Resource_2e8gg"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.38900873, -0.009422405, -0.028018456, 0.92075974)
+
+[sub_resource type="Resource" id="Resource_76msn"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.38900873, -0.009422405, -0.028018456, 0.92075974)
+
+[sub_resource type="Resource" id="Resource_uy6ua"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_LeftHandIndex1"
+rest_pose = Transform3D(1, 5.728653e-17, -7.767744e-11, -5.728653e-17, 1, -3.517294e-15, 7.767744e-11, 3.517294e-15, 1, -0.022599, 0.091093, 0.00518)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_7lx5j"), SubResource("Resource_h3rq5"), SubResource("Resource_6y5d1"), SubResource("Resource_72roy"), SubResource("Resource_qei5m"), SubResource("Resource_5fp4f"), SubResource("Resource_pru64"), SubResource("Resource_0yran"), SubResource("Resource_2e8gg"), SubResource("Resource_76msn")])
+
+[sub_resource type="Resource" id="Resource_wti6e"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.69152325, -9.3537795e-07, -0.07086507, 0.71886975)
+
+[sub_resource type="Resource" id="Resource_aqpfq"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.69152325, -9.3537795e-07, -0.07086507, 0.71886975)
+
+[sub_resource type="Resource" id="Resource_lumo0"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.69152325, -9.3537795e-07, -0.07086507, 0.71886975)
+
+[sub_resource type="Resource" id="Resource_gcnim"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.69152325, -9.3537795e-07, -0.07086507, 0.71886975)
+
+[sub_resource type="Resource" id="Resource_k107f"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.69152325, -9.3537795e-07, -0.07086507, 0.71886975)
+
+[sub_resource type="Resource" id="Resource_f4bfe"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.69152325, -9.3537795e-07, -0.07086507, 0.71886975)
+
+[sub_resource type="Resource" id="Resource_vr842"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.69152325, -9.3537795e-07, -0.07086507, 0.71886975)
+
+[sub_resource type="Resource" id="Resource_d36p8"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.69152325, -9.3537795e-07, -0.07086507, 0.71886975)
+
+[sub_resource type="Resource" id="Resource_6ooq3"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.69152325, -9.3537795e-07, -0.07086507, 0.71886975)
+
+[sub_resource type="Resource" id="Resource_71syt"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.69152325, -9.3537795e-07, -0.07086507, 0.71886975)
+
+[sub_resource type="Resource" id="Resource_a556c"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_LeftHandIndex2"
+rest_pose = Transform3D(1, 1.056555e-16, -6.6582973e-19, -1.056555e-16, 1, 4.3143223e-16, 6.6582973e-19, -4.3143223e-16, 1, 0, 0.037, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_wti6e"), SubResource("Resource_aqpfq"), SubResource("Resource_lumo0"), SubResource("Resource_gcnim"), SubResource("Resource_k107f"), SubResource("Resource_f4bfe"), SubResource("Resource_vr842"), SubResource("Resource_d36p8"), SubResource("Resource_6ooq3"), SubResource("Resource_71syt")])
+
+[sub_resource type="Resource" id="Resource_ynm3x"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.42836854, -7.326446e-07, -0.04389781, 0.9025372)
+
+[sub_resource type="Resource" id="Resource_er1so"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.42836854, -7.326446e-07, -0.04389781, 0.9025372)
+
+[sub_resource type="Resource" id="Resource_7a0ya"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.42836854, -7.326446e-07, -0.04389781, 0.9025372)
+
+[sub_resource type="Resource" id="Resource_l4mm0"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.42836854, -7.326446e-07, -0.04389781, 0.9025372)
+
+[sub_resource type="Resource" id="Resource_kt4jd"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.42836854, -7.326446e-07, -0.04389781, 0.9025372)
+
+[sub_resource type="Resource" id="Resource_c11q8"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.42836854, -7.326446e-07, -0.04389781, 0.9025372)
+
+[sub_resource type="Resource" id="Resource_vk0ra"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.42836854, -7.326446e-07, -0.04389781, 0.9025372)
+
+[sub_resource type="Resource" id="Resource_ql588"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.42836854, -7.326446e-07, -0.04389781, 0.9025372)
+
+[sub_resource type="Resource" id="Resource_gxvs7"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.42836854, -7.326446e-07, -0.04389781, 0.9025372)
+
+[sub_resource type="Resource" id="Resource_3v5a4"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.42836854, -7.326446e-07, -0.04389781, 0.9025372)
+
+[sub_resource type="Resource" id="Resource_pdid5"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_LeftHandIndex3"
+rest_pose = Transform3D(1, -1.0611629e-16, 3.2955406e-19, 1.0611629e-16, 1, 9.590143e-16, -3.2955406e-19, -9.590143e-16, 1, 0, 0.0285, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_ynm3x"), SubResource("Resource_er1so"), SubResource("Resource_7a0ya"), SubResource("Resource_l4mm0"), SubResource("Resource_kt4jd"), SubResource("Resource_c11q8"), SubResource("Resource_vk0ra"), SubResource("Resource_ql588"), SubResource("Resource_gxvs7"), SubResource("Resource_3v5a4")])
+
+[sub_resource type="Resource" id="Resource_obfxq"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(-2.9116763e-22, -2.910383e-11, -9.094947e-13, 1)
+
+[sub_resource type="Resource" id="Resource_0h6rl"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(-2.9116763e-22, -2.910383e-11, -9.094947e-13, 1)
+
+[sub_resource type="Resource" id="Resource_xp8k4"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(-2.9116763e-22, -2.910383e-11, -9.094947e-13, 1)
+
+[sub_resource type="Resource" id="Resource_sbtry"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(-2.9116763e-22, -2.910383e-11, -9.094947e-13, 1)
+
+[sub_resource type="Resource" id="Resource_v5h5b"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(-2.9116763e-22, -2.910383e-11, -9.094947e-13, 1)
+
+[sub_resource type="Resource" id="Resource_8m3v4"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(-2.9116763e-22, -2.910383e-11, -9.094947e-13, 1)
+
+[sub_resource type="Resource" id="Resource_paysm"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(-2.9116763e-22, -2.910383e-11, -9.094947e-13, 1)
+
+[sub_resource type="Resource" id="Resource_qbfjv"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(-2.9116763e-22, -2.910383e-11, -9.094947e-13, 1)
+
+[sub_resource type="Resource" id="Resource_3hrq6"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(-2.9116763e-22, -2.910383e-11, -9.094947e-13, 1)
+
+[sub_resource type="Resource" id="Resource_8a01b"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(-2.9116763e-22, -2.910383e-11, -9.094947e-13, 1)
+
+[sub_resource type="Resource" id="Resource_po586"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_LeftHandIndex4"
+rest_pose = Transform3D(0.9999997, 2.617994e-05, -0.00075572747, -2.6179932e-05, 1, 1.9784899e-08, 0.00075572747, 0, 0.9999997, 0, 0.027749, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_obfxq"), SubResource("Resource_0h6rl"), SubResource("Resource_xp8k4"), SubResource("Resource_sbtry"), SubResource("Resource_v5h5b"), SubResource("Resource_8m3v4"), SubResource("Resource_paysm"), SubResource("Resource_qbfjv"), SubResource("Resource_3hrq6"), SubResource("Resource_8a01b")])
+
+[sub_resource type="Resource" id="Resource_fuik3"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.3396783, -0.015173405, -0.030156525, 0.9399356)
+
+[sub_resource type="Resource" id="Resource_7c8cl"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.3396783, -0.015173405, -0.030156525, 0.9399356)
+
+[sub_resource type="Resource" id="Resource_vh473"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.3396783, -0.015173405, -0.030156525, 0.9399356)
+
+[sub_resource type="Resource" id="Resource_o384k"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.3396783, -0.015173405, -0.030156525, 0.9399356)
+
+[sub_resource type="Resource" id="Resource_gu613"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.3396783, -0.015173405, -0.030156525, 0.9399356)
+
+[sub_resource type="Resource" id="Resource_5ta33"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.3396783, -0.015173405, -0.030156525, 0.9399356)
+
+[sub_resource type="Resource" id="Resource_tnacu"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.3396783, -0.015173405, -0.030156525, 0.9399356)
+
+[sub_resource type="Resource" id="Resource_ucpxl"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.3396783, -0.015173405, -0.030156525, 0.9399356)
+
+[sub_resource type="Resource" id="Resource_bspo3"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.3396783, -0.015173405, -0.030156525, 0.9399356)
+
+[sub_resource type="Resource" id="Resource_oxcl6"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.3396783, -0.015173405, -0.030156525, 0.9399356)
+
+[sub_resource type="Resource" id="Resource_ydhsh"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_LeftHandMiddle1"
+rest_pose = Transform3D(1, 1.2576745e-16, 3.3765535e-20, -1.2576745e-16, 1, -1.3125497e-15, -3.3765535e-20, 1.3125497e-15, 1, 0, 0.095334, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_fuik3"), SubResource("Resource_7c8cl"), SubResource("Resource_vh473"), SubResource("Resource_o384k"), SubResource("Resource_gu613"), SubResource("Resource_5ta33"), SubResource("Resource_tnacu"), SubResource("Resource_ucpxl"), SubResource("Resource_bspo3"), SubResource("Resource_oxcl6")])
+
+[sub_resource type="Resource" id="Resource_ljqph"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.7384733, -1.1342293e-06, -0.07567642, 0.6700226)
+
+[sub_resource type="Resource" id="Resource_u2pqb"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.7384733, -1.1342293e-06, -0.07567642, 0.6700226)
+
+[sub_resource type="Resource" id="Resource_r82o1"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.7384733, -1.1342293e-06, -0.07567642, 0.6700226)
+
+[sub_resource type="Resource" id="Resource_vw4j1"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.7384733, -1.1342293e-06, -0.07567642, 0.6700226)
+
+[sub_resource type="Resource" id="Resource_w1qma"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.7384733, -1.1342293e-06, -0.07567642, 0.6700226)
+
+[sub_resource type="Resource" id="Resource_nllm5"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.7384733, -1.1342293e-06, -0.07567642, 0.6700226)
+
+[sub_resource type="Resource" id="Resource_qs03p"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.7384733, -1.1342293e-06, -0.07567642, 0.6700226)
+
+[sub_resource type="Resource" id="Resource_ubll2"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.7384733, -1.1342293e-06, -0.07567642, 0.6700226)
+
+[sub_resource type="Resource" id="Resource_8sh81"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.7384733, -1.1342293e-06, -0.07567642, 0.6700226)
+
+[sub_resource type="Resource" id="Resource_t3sci"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.7384733, -1.1342293e-06, -0.07567642, 0.6700226)
+
+[sub_resource type="Resource" id="Resource_lelqg"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_LeftHandMiddle2"
+rest_pose = Transform3D(1, -1.3471212e-17, 4.6452793e-20, 1.3471212e-17, 1, 4.607285e-15, -4.6452793e-20, -4.607285e-15, 1, 0, 0.037, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_ljqph"), SubResource("Resource_u2pqb"), SubResource("Resource_r82o1"), SubResource("Resource_vw4j1"), SubResource("Resource_w1qma"), SubResource("Resource_nllm5"), SubResource("Resource_qs03p"), SubResource("Resource_ubll2"), SubResource("Resource_8sh81"), SubResource("Resource_t3sci")])
+
+[sub_resource type="Resource" id="Resource_ko8qg"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.4304131, -7.561703e-07, -0.044107378, 0.9015537)
+
+[sub_resource type="Resource" id="Resource_ecxwq"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.4304131, -7.561703e-07, -0.044107378, 0.9015537)
+
+[sub_resource type="Resource" id="Resource_5tv5q"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.4304131, -7.561703e-07, -0.044107378, 0.9015537)
+
+[sub_resource type="Resource" id="Resource_msn8v"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.4304131, -7.561703e-07, -0.044107378, 0.9015537)
+
+[sub_resource type="Resource" id="Resource_nkjl6"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.4304131, -7.561703e-07, -0.044107378, 0.9015537)
+
+[sub_resource type="Resource" id="Resource_msgd3"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.4304131, -7.561703e-07, -0.044107378, 0.9015537)
+
+[sub_resource type="Resource" id="Resource_qy8mu"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.4304131, -7.561703e-07, -0.044107378, 0.9015537)
+
+[sub_resource type="Resource" id="Resource_hdmcv"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.4304131, -7.561703e-07, -0.044107378, 0.9015537)
+
+[sub_resource type="Resource" id="Resource_v24vc"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.4304131, -7.561703e-07, -0.044107378, 0.9015537)
+
+[sub_resource type="Resource" id="Resource_27fj3"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.4304131, -7.561703e-07, -0.044107378, 0.9015537)
+
+[sub_resource type="Resource" id="Resource_48057"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_LeftHandMiddle3"
+rest_pose = Transform3D(1, -1.6374163e-16, 1.3227287e-19, 1.6374163e-16, 1, -5.0735055e-16, -1.3227287e-19, 5.0735055e-16, 1, 0, 0.0295, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_ko8qg"), SubResource("Resource_ecxwq"), SubResource("Resource_5tv5q"), SubResource("Resource_msn8v"), SubResource("Resource_nkjl6"), SubResource("Resource_msgd3"), SubResource("Resource_qy8mu"), SubResource("Resource_hdmcv"), SubResource("Resource_v24vc"), SubResource("Resource_27fj3")])
+
+[sub_resource type="Resource" id="Resource_ukdlt"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(-1.7763532e-15, -3.2311681e-27, 1.8189894e-12, 1)
+
+[sub_resource type="Resource" id="Resource_a06rv"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(-1.7763532e-15, -3.2311681e-27, 1.8189894e-12, 1)
+
+[sub_resource type="Resource" id="Resource_fay2b"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(-1.7763532e-15, -3.2311681e-27, 1.8189894e-12, 1)
+
+[sub_resource type="Resource" id="Resource_j1p1d"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(-1.7763532e-15, -3.2311681e-27, 1.8189894e-12, 1)
+
+[sub_resource type="Resource" id="Resource_j1emd"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(-1.7763532e-15, -3.2311681e-27, 1.8189894e-12, 1)
+
+[sub_resource type="Resource" id="Resource_wrymw"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(-1.7763532e-15, -3.2311681e-27, 1.8189894e-12, 1)
+
+[sub_resource type="Resource" id="Resource_uo2m7"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(-1.7763532e-15, -3.2311681e-27, 1.8189894e-12, 1)
+
+[sub_resource type="Resource" id="Resource_unf40"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(-1.7763532e-15, -3.2311681e-27, 1.8189894e-12, 1)
+
+[sub_resource type="Resource" id="Resource_chxq6"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(-1.7763532e-15, -3.2311681e-27, 1.8189894e-12, 1)
+
+[sub_resource type="Resource" id="Resource_4xfdv"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(-1.7763532e-15, -3.2311681e-27, 1.8189894e-12, 1)
+
+[sub_resource type="Resource" id="Resource_quud3"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_LeftHandMiddle4"
+rest_pose = Transform3D(0.9999979, -5.5850534e-05, -0.002049015, 5.5850418e-05, 1, -1.14438585e-07, 0.002049015, 0, 0.9999979, 0, 0.029529, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_ukdlt"), SubResource("Resource_a06rv"), SubResource("Resource_fay2b"), SubResource("Resource_j1p1d"), SubResource("Resource_j1emd"), SubResource("Resource_wrymw"), SubResource("Resource_uo2m7"), SubResource("Resource_unf40"), SubResource("Resource_chxq6"), SubResource("Resource_4xfdv")])
+
+[sub_resource type="Resource" id="Resource_flgga"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.3398855, -0.010898131, -0.042136475, 0.9394592)
+
+[sub_resource type="Resource" id="Resource_2j86a"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.3398855, -0.010898131, -0.042136475, 0.9394592)
+
+[sub_resource type="Resource" id="Resource_8205k"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.3398855, -0.010898131, -0.042136475, 0.9394592)
+
+[sub_resource type="Resource" id="Resource_d1t0u"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.3398855, -0.010898131, -0.042136475, 0.9394592)
+
+[sub_resource type="Resource" id="Resource_eb61t"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.3398855, -0.010898131, -0.042136475, 0.9394592)
+
+[sub_resource type="Resource" id="Resource_qcekr"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.3398855, -0.010898131, -0.042136475, 0.9394592)
+
+[sub_resource type="Resource" id="Resource_o0ejj"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.3398855, -0.010898131, -0.042136475, 0.9394592)
+
+[sub_resource type="Resource" id="Resource_xf1se"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.3398855, -0.010898131, -0.042136475, 0.9394592)
+
+[sub_resource type="Resource" id="Resource_siufy"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.3398855, -0.010898131, -0.042136475, 0.9394592)
+
+[sub_resource type="Resource" id="Resource_lw4c7"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.3398855, -0.010898131, -0.042136475, 0.9394592)
+
+[sub_resource type="Resource" id="Resource_afu6n"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_LeftHandRing1"
+rest_pose = Transform3D(1, 1.6742284e-16, 1.066161e-11, -1.6742284e-16, 1, 3.657513e-15, -1.066161e-11, -3.657513e-15, 1, 0.018651, 0.091045, 0.00043)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_flgga"), SubResource("Resource_2j86a"), SubResource("Resource_8205k"), SubResource("Resource_d1t0u"), SubResource("Resource_eb61t"), SubResource("Resource_qcekr"), SubResource("Resource_o0ejj"), SubResource("Resource_xf1se"), SubResource("Resource_siufy"), SubResource("Resource_lw4c7")])
+
+[sub_resource type="Resource" id="Resource_jtf4d"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.8314232, -1.2687474e-06, -0.08520162, 0.54906857)
+
+[sub_resource type="Resource" id="Resource_6dcns"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.8314232, -1.2687474e-06, -0.08520162, 0.54906857)
+
+[sub_resource type="Resource" id="Resource_rq4f0"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.8314232, -1.2687474e-06, -0.08520162, 0.54906857)
+
+[sub_resource type="Resource" id="Resource_ssiqa"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.8314232, -1.2687474e-06, -0.08520162, 0.54906857)
+
+[sub_resource type="Resource" id="Resource_4os8v"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.8314232, -1.2687474e-06, -0.08520162, 0.54906857)
+
+[sub_resource type="Resource" id="Resource_mdkxu"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.8314232, -1.2687474e-06, -0.08520162, 0.54906857)
+
+[sub_resource type="Resource" id="Resource_0hcnu"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.8314232, -1.2687474e-06, -0.08520162, 0.54906857)
+
+[sub_resource type="Resource" id="Resource_vwxfd"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.8314232, -1.2687474e-06, -0.08520162, 0.54906857)
+
+[sub_resource type="Resource" id="Resource_epi7i"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.8314232, -1.2687474e-06, -0.08520162, 0.54906857)
+
+[sub_resource type="Resource" id="Resource_d4tm5"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.8314232, -1.2687474e-06, -0.08520162, 0.54906857)
+
+[sub_resource type="Resource" id="Resource_51nur"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_LeftHandRing2"
+rest_pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0315, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_jtf4d"), SubResource("Resource_6dcns"), SubResource("Resource_rq4f0"), SubResource("Resource_ssiqa"), SubResource("Resource_4os8v"), SubResource("Resource_mdkxu"), SubResource("Resource_0hcnu"), SubResource("Resource_vwxfd"), SubResource("Resource_epi7i"), SubResource("Resource_d4tm5")])
+
+[sub_resource type="Resource" id="Resource_vrhpn"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.52084035, -8.220279e-07, -0.053373955, 0.8519839)
+
+[sub_resource type="Resource" id="Resource_xpskc"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.52084035, -8.220279e-07, -0.053373955, 0.8519839)
+
+[sub_resource type="Resource" id="Resource_ywb22"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.52084035, -8.220279e-07, -0.053373955, 0.8519839)
+
+[sub_resource type="Resource" id="Resource_jm0cf"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.52084035, -8.220279e-07, -0.053373955, 0.8519839)
+
+[sub_resource type="Resource" id="Resource_y5mc6"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.52084035, -8.220279e-07, -0.053373955, 0.8519839)
+
+[sub_resource type="Resource" id="Resource_6oev7"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.52084035, -8.220279e-07, -0.053373955, 0.8519839)
+
+[sub_resource type="Resource" id="Resource_xfvu8"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.52084035, -8.220279e-07, -0.053373955, 0.8519839)
+
+[sub_resource type="Resource" id="Resource_lwpop"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.52084035, -8.220279e-07, -0.053373955, 0.8519839)
+
+[sub_resource type="Resource" id="Resource_ic2jj"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.52084035, -8.220279e-07, -0.053373955, 0.8519839)
+
+[sub_resource type="Resource" id="Resource_mk7k1"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.52084035, -8.220279e-07, -0.053373955, 0.8519839)
+
+[sub_resource type="Resource" id="Resource_5cu66"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_LeftHandRing3"
+rest_pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0295, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_vrhpn"), SubResource("Resource_xpskc"), SubResource("Resource_ywb22"), SubResource("Resource_jm0cf"), SubResource("Resource_y5mc6"), SubResource("Resource_6oev7"), SubResource("Resource_xfvu8"), SubResource("Resource_lwpop"), SubResource("Resource_ic2jj"), SubResource("Resource_mk7k1")])
+
+[sub_resource type="Resource" id="Resource_pnp0f"]
+script = ExtResource("3_qogre")
+
+[sub_resource type="Resource" id="Resource_ljnn5"]
+script = ExtResource("3_qogre")
+time = 0.1
+
+[sub_resource type="Resource" id="Resource_v4qca"]
+script = ExtResource("3_qogre")
+time = 0.2
+
+[sub_resource type="Resource" id="Resource_ay1kf"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+
+[sub_resource type="Resource" id="Resource_427h7"]
+script = ExtResource("3_qogre")
+time = 0.4
+
+[sub_resource type="Resource" id="Resource_jl445"]
+script = ExtResource("3_qogre")
+time = 0.5
+
+[sub_resource type="Resource" id="Resource_ebdu5"]
+script = ExtResource("3_qogre")
+time = 0.6
+
+[sub_resource type="Resource" id="Resource_xxa5u"]
+script = ExtResource("3_qogre")
+time = 0.7
+
+[sub_resource type="Resource" id="Resource_sgl3m"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+
+[sub_resource type="Resource" id="Resource_fvgnv"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+
+[sub_resource type="Resource" id="Resource_p0aya"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_LeftHandRing4"
+rest_pose = Transform3D(0.9999995, -3.1415926e-05, 0.0009861109, 3.141591e-05, 1, 3.0979585e-08, -0.0009861109, 0, 0.9999995, 0, 0.026443, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_pnp0f"), SubResource("Resource_ljnn5"), SubResource("Resource_v4qca"), SubResource("Resource_ay1kf"), SubResource("Resource_427h7"), SubResource("Resource_jl445"), SubResource("Resource_ebdu5"), SubResource("Resource_xxa5u"), SubResource("Resource_sgl3m"), SubResource("Resource_fvgnv")])
+
+[sub_resource type="Resource" id="Resource_uck7o"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.38571337, -0.0605888, -0.06030204, 0.91865003)
+
+[sub_resource type="Resource" id="Resource_l6xfm"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.38571337, -0.0605888, -0.06030204, 0.91865003)
+
+[sub_resource type="Resource" id="Resource_s3em6"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.38571337, -0.0605888, -0.06030204, 0.91865003)
+
+[sub_resource type="Resource" id="Resource_jkyeu"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.38571337, -0.0605888, -0.06030204, 0.91865003)
+
+[sub_resource type="Resource" id="Resource_17144"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.38571337, -0.0605888, -0.06030204, 0.91865003)
+
+[sub_resource type="Resource" id="Resource_8p2dp"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.38571337, -0.0605888, -0.06030204, 0.91865003)
+
+[sub_resource type="Resource" id="Resource_260kn"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.38571337, -0.0605888, -0.06030204, 0.91865003)
+
+[sub_resource type="Resource" id="Resource_0xg84"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.38571337, -0.0605888, -0.06030204, 0.91865003)
+
+[sub_resource type="Resource" id="Resource_gvb87"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.38571337, -0.0605888, -0.06030204, 0.91865003)
+
+[sub_resource type="Resource" id="Resource_qmla5"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.38571337, -0.0605888, -0.06030204, 0.91865003)
+
+[sub_resource type="Resource" id="Resource_u7pve"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_LeftHandPinky1"
+rest_pose = Transform3D(1, -1.9428904e-16, -2.1411589e-08, 1.9428902e-16, 1, -1.7723513e-15, 2.1411589e-08, 1.7723513e-15, 1, 0.038063, 0.080778, 0.004869)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_uck7o"), SubResource("Resource_l6xfm"), SubResource("Resource_s3em6"), SubResource("Resource_jkyeu"), SubResource("Resource_17144"), SubResource("Resource_8p2dp"), SubResource("Resource_260kn"), SubResource("Resource_0xg84"), SubResource("Resource_gvb87"), SubResource("Resource_qmla5")])
+
+[sub_resource type="Resource" id="Resource_dv1jm"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.6722702, -1.1927505e-06, -0.06889221, 0.7370934)
+
+[sub_resource type="Resource" id="Resource_ojoek"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.6722702, -1.1927505e-06, -0.06889221, 0.7370934)
+
+[sub_resource type="Resource" id="Resource_gwaj4"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.6722702, -1.1927505e-06, -0.06889221, 0.7370934)
+
+[sub_resource type="Resource" id="Resource_kp8nl"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.6722702, -1.1927505e-06, -0.06889221, 0.7370934)
+
+[sub_resource type="Resource" id="Resource_b8a12"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.6722702, -1.1927505e-06, -0.06889221, 0.7370934)
+
+[sub_resource type="Resource" id="Resource_msi06"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.6722702, -1.1927505e-06, -0.06889221, 0.7370934)
+
+[sub_resource type="Resource" id="Resource_7uufm"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.6722702, -1.1927505e-06, -0.06889221, 0.7370934)
+
+[sub_resource type="Resource" id="Resource_eg15q"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.6722702, -1.1927505e-06, -0.06889221, 0.7370934)
+
+[sub_resource type="Resource" id="Resource_lx0f7"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.6722702, -1.1927505e-06, -0.06889221, 0.7370934)
+
+[sub_resource type="Resource" id="Resource_wjmgh"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.6722702, -1.1927505e-06, -0.06889221, 0.7370934)
+
+[sub_resource type="Resource" id="Resource_eglgn"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_LeftHandPinky2"
+rest_pose = Transform3D(1, -2.1375046e-16, -3.67064e-10, 2.1375046e-16, 1, 6.1276045e-15, 3.67064e-10, -6.1276045e-15, 1, 0, 0.036, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_dv1jm"), SubResource("Resource_ojoek"), SubResource("Resource_gwaj4"), SubResource("Resource_kp8nl"), SubResource("Resource_b8a12"), SubResource("Resource_msi06"), SubResource("Resource_7uufm"), SubResource("Resource_eg15q"), SubResource("Resource_lx0f7"), SubResource("Resource_wjmgh")])
+
+[sub_resource type="Resource" id="Resource_mjghs"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.8582022, -1.2522685e-06, -0.087946005, 0.5057217)
+
+[sub_resource type="Resource" id="Resource_4wfvb"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.8582022, -1.2522685e-06, -0.087946005, 0.5057217)
+
+[sub_resource type="Resource" id="Resource_acmnf"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.8582022, -1.2522685e-06, -0.087946005, 0.5057217)
+
+[sub_resource type="Resource" id="Resource_j4qfe"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.8582022, -1.2522685e-06, -0.087946005, 0.5057217)
+
+[sub_resource type="Resource" id="Resource_tn0np"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.8582022, -1.2522685e-06, -0.087946005, 0.5057217)
+
+[sub_resource type="Resource" id="Resource_je375"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.8582022, -1.2522685e-06, -0.087946005, 0.5057217)
+
+[sub_resource type="Resource" id="Resource_8ix1f"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.8582022, -1.2522685e-06, -0.087946005, 0.5057217)
+
+[sub_resource type="Resource" id="Resource_ukfw0"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.8582022, -1.2522685e-06, -0.087946005, 0.5057217)
+
+[sub_resource type="Resource" id="Resource_utmgs"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.8582022, -1.2522685e-06, -0.087946005, 0.5057217)
+
+[sub_resource type="Resource" id="Resource_vsxh0"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.8582022, -1.2522685e-06, -0.087946005, 0.5057217)
+
+[sub_resource type="Resource" id="Resource_2buc5"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_LeftHandPinky3"
+rest_pose = Transform3D(1, 3.2363435e-17, -1.4436788e-19, -3.2363435e-17, 1, -6.8026575e-15, 1.4436788e-19, 6.8026575e-15, 1, 0, 0.021, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_mjghs"), SubResource("Resource_4wfvb"), SubResource("Resource_acmnf"), SubResource("Resource_j4qfe"), SubResource("Resource_tn0np"), SubResource("Resource_je375"), SubResource("Resource_8ix1f"), SubResource("Resource_ukfw0"), SubResource("Resource_utmgs"), SubResource("Resource_vsxh0")])
+
+[sub_resource type="Resource" id="Resource_qxgs0"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(1.1368683e-13, -5.820767e-11, 2.8953843e-11, 1)
+
+[sub_resource type="Resource" id="Resource_n42mu"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(1.1368683e-13, -5.820767e-11, 2.8953843e-11, 1)
+
+[sub_resource type="Resource" id="Resource_i7ha4"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(1.1368683e-13, -5.820767e-11, 2.8953843e-11, 1)
+
+[sub_resource type="Resource" id="Resource_65qyx"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(1.1368683e-13, -5.820767e-11, 2.8953843e-11, 1)
+
+[sub_resource type="Resource" id="Resource_gpai5"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(1.1368683e-13, -5.820767e-11, 2.8953843e-11, 1)
+
+[sub_resource type="Resource" id="Resource_5nya1"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(1.1368683e-13, -5.820767e-11, 2.8953843e-11, 1)
+
+[sub_resource type="Resource" id="Resource_a4cgl"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(1.1368683e-13, -5.820767e-11, 2.8953843e-11, 1)
+
+[sub_resource type="Resource" id="Resource_tkcm3"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(1.1368683e-13, -5.820767e-11, 2.8953843e-11, 1)
+
+[sub_resource type="Resource" id="Resource_qd3v3"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(1.1368683e-13, -5.820767e-11, 2.8953843e-11, 1)
+
+[sub_resource type="Resource" id="Resource_mkvdt"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(1.1368683e-13, -5.820767e-11, 2.8953843e-11, 1)
+
+[sub_resource type="Resource" id="Resource_2os63"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_LeftHandPinky4"
+rest_pose = Transform3D(0.99999857, 0.0005899185, -0.0015673058, -0.0005899205, 0.9999998, -8.2074234e-07, 0.0015673051, 1.7453272e-06, 0.99999875, 0, 0.021255, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_qxgs0"), SubResource("Resource_n42mu"), SubResource("Resource_i7ha4"), SubResource("Resource_65qyx"), SubResource("Resource_gpai5"), SubResource("Resource_5nya1"), SubResource("Resource_a4cgl"), SubResource("Resource_tkcm3"), SubResource("Resource_qd3v3"), SubResource("Resource_mkvdt")])
+
+[sub_resource type="Resource" id="Resource_6yf1j"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.19198193, 0.14063805, -0.21133123, 0.9479995)
+
+[sub_resource type="Resource" id="Resource_murox"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.08134062, 0.15747017, -0.24571244, 0.95300174)
+
+[sub_resource type="Resource" id="Resource_de3j7"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(-0.004314969, 0.17361194, -0.27145973, 0.94665194)
+
+[sub_resource type="Resource" id="Resource_jixet"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(-0.030235581, 0.13795005, -0.29789865, 0.9440932)
+
+[sub_resource type="Resource" id="Resource_80pfc"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(-0.0865881, 0.026758004, -0.30384934, 0.9483998)
+
+[sub_resource type="Resource" id="Resource_fwfp6"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(-0.12072701, -0.050101012, -0.3221864, 0.9376091)
+
+[sub_resource type="Resource" id="Resource_n7sa0"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(-0.028120399, -0.047281355, -0.33848184, 0.9393635)
+
+[sub_resource type="Resource" id="Resource_kccdd"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.10521869, -0.02052861, -0.30860788, 0.945129)
+
+[sub_resource type="Resource" id="Resource_031wj"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.19764163, 0.05407969, -0.23532327, 0.95007163)
+
+[sub_resource type="Resource" id="Resource_nnlnn"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.19937024, 0.1363565, -0.19833827, 0.94990546)
+
+[sub_resource type="Resource" id="Resource_5w3u8"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_RightUpLeg"
+rest_pose = Transform3D(-1, -1.2243841e-16, 2.5364989e-18, 1.2246467e-16, -0.9997854, 0.020712085, 1.0339758e-25, 0.020712085, 0.9997855, -0.082078, -0.067718, -0.015122)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_6yf1j"), SubResource("Resource_murox"), SubResource("Resource_de3j7"), SubResource("Resource_jixet"), SubResource("Resource_80pfc"), SubResource("Resource_fwfp6"), SubResource("Resource_n7sa0"), SubResource("Resource_kccdd"), SubResource("Resource_031wj"), SubResource("Resource_nnlnn")])
+
+[sub_resource type="Resource" id="Resource_4ce54"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(-0.48268676, 0.048932467, -0.09615086, 0.8691226)
+
+[sub_resource type="Resource" id="Resource_csrul"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(-0.43920022, 0.044210166, -0.092053786, 0.8925664)
+
+[sub_resource type="Resource" id="Resource_ul1s5"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(-0.35549486, 0.018932208, -0.08599841, 0.93052095)
+
+[sub_resource type="Resource" id="Resource_kf6ak"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(-0.32226896, -0.017446266, -0.0829093, 0.9428491)
+
+[sub_resource type="Resource" id="Resource_ji7rn"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(-0.29758847, 0.04244222, -0.09307736, 0.94919777)
+
+[sub_resource type="Resource" id="Resource_ahxih"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(-0.30400476, 0.06442341, -0.081417084, 0.94699633)
+
+[sub_resource type="Resource" id="Resource_8ibt4"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(-0.44221964, 0.007446294, -0.09485962, 0.8918453)
+
+[sub_resource type="Resource" id="Resource_45qdi"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(-0.5779356, -0.06124102, -0.04654155, 0.81244934)
+
+[sub_resource type="Resource" id="Resource_i7bug"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(-0.5903102, -0.06050184, -0.042943757, 0.80375946)
+
+[sub_resource type="Resource" id="Resource_7j2lu"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(-0.48973677, -0.009100493, -0.07245253, 0.8688071)
+
+[sub_resource type="Resource" id="Resource_i7qri"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_RightLeg"
+rest_pose = Transform3D(1, 0, 0, 0, 0.9970981, 0.07612735, 0, -0.07612735, 0.9970981, 0, 0.443715, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_4ce54"), SubResource("Resource_csrul"), SubResource("Resource_ul1s5"), SubResource("Resource_kf6ak"), SubResource("Resource_ji7rn"), SubResource("Resource_ahxih"), SubResource("Resource_8ibt4"), SubResource("Resource_45qdi"), SubResource("Resource_i7bug"), SubResource("Resource_7j2lu")])
+
+[sub_resource type="Resource" id="Resource_gi40e"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.21720235, 0.14706309, 0.10753738, 0.95897406)
+
+[sub_resource type="Resource" id="Resource_6rq8t"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.17200367, 0.14489663, 0.09492094, 0.96974725)
+
+[sub_resource type="Resource" id="Resource_d5tu5"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.07094412, 0.13457233, 0.07687621, 0.9853666)
+
+[sub_resource type="Resource" id="Resource_ls6kh"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(-0.024879813, 0.14688304, 0.077314526, 0.9858138)
+
+[sub_resource type="Resource" id="Resource_v4qek"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(-0.07615541, 0.18227631, 0.0916022, 0.9760045)
+
+[sub_resource type="Resource" id="Resource_mvayg"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(-0.14726868, 0.16850425, 0.09857589, 0.96963966)
+
+[sub_resource type="Resource" id="Resource_g8jkr"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(-0.18643479, 0.14405389, 0.10151691, 0.9665324)
+
+[sub_resource type="Resource" id="Resource_fcx8u"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(-0.042878408, 0.18672255, 0.032649092, 0.9809333)
+
+[sub_resource type="Resource" id="Resource_kypg7"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.10044545, 0.23307545, -0.037219666, 0.9665409)
+
+[sub_resource type="Resource" id="Resource_l5wq6"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.22691694, 0.17701273, 0.04163837, 0.95678705)
+
+[sub_resource type="Resource" id="Resource_s3mik"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_RightFoot"
+rest_pose = Transform3D(1, 0, 0, 0, 0.5772778, -0.8165479, 0, 0.8165479, 0.5772778, 0, 0.445278, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_gi40e"), SubResource("Resource_6rq8t"), SubResource("Resource_d5tu5"), SubResource("Resource_ls6kh"), SubResource("Resource_v4qek"), SubResource("Resource_mvayg"), SubResource("Resource_g8jkr"), SubResource("Resource_fcx8u"), SubResource("Resource_kypg7"), SubResource("Resource_l5wq6")])
+
+[sub_resource type="Resource" id="Resource_nkdrv"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.00011345744, -8.984608e-08, -2.8440478e-08, 1)
+
+[sub_resource type="Resource" id="Resource_50aow"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.06627981, 5.1167714e-08, -7.075076e-09, 0.99780107)
+
+[sub_resource type="Resource" id="Resource_00e4c"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.14291283, 0.0018626513, 0.00026460603, 0.9897335)
+
+[sub_resource type="Resource" id="Resource_8eq72"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.23087291, 0.043785416, 0.0077457856, 0.97196734)
+
+[sub_resource type="Resource" id="Resource_pntae"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.27837008, 0.068867415, 0.012847278, 0.9579156)
+
+[sub_resource type="Resource" id="Resource_4cf5e"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.2800048, 0.064808965, 0.011979456, 0.9577336)
+
+[sub_resource type="Resource" id="Resource_53fsw"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.17372666, 0.0019289377, 0.00038223702, 0.98479193)
+
+[sub_resource type="Resource" id="Resource_6fw1l"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.11114346, 2.606407e-08, -1.012806e-07, 0.9938044)
+
+[sub_resource type="Resource" id="Resource_k00y3"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.048420347, 1.8074743e-08, -7.867438e-08, 0.99882704)
+
+[sub_resource type="Resource" id="Resource_0kw4f"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.006956999, 2.9746646e-08, -8.0220694e-08, 0.9999758)
+
+[sub_resource type="Resource" id="Resource_2iby0"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_RightToeBase"
+rest_pose = Transform3D(1, 0, 0, 0, 0.7752257, -0.63168436, 0, 0.63168436, 0.7752257, 0, 0.138169, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_nkdrv"), SubResource("Resource_50aow"), SubResource("Resource_00e4c"), SubResource("Resource_8eq72"), SubResource("Resource_pntae"), SubResource("Resource_4cf5e"), SubResource("Resource_53fsw"), SubResource("Resource_6fw1l"), SubResource("Resource_k00y3"), SubResource("Resource_0kw4f")])
+
+[sub_resource type="Resource" id="Resource_3oeiw"]
+script = ExtResource("3_qogre")
+
+[sub_resource type="Resource" id="Resource_7aufu"]
+script = ExtResource("3_qogre")
+time = 0.1
+
+[sub_resource type="Resource" id="Resource_5d5q2"]
+script = ExtResource("3_qogre")
+time = 0.2
+
+[sub_resource type="Resource" id="Resource_1yblq"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+
+[sub_resource type="Resource" id="Resource_4roxn"]
+script = ExtResource("3_qogre")
+time = 0.4
+
+[sub_resource type="Resource" id="Resource_fnqnf"]
+script = ExtResource("3_qogre")
+time = 0.5
+
+[sub_resource type="Resource" id="Resource_t08qy"]
+script = ExtResource("3_qogre")
+time = 0.6
+
+[sub_resource type="Resource" id="Resource_l1b0k"]
+script = ExtResource("3_qogre")
+time = 0.7
+
+[sub_resource type="Resource" id="Resource_a7hi5"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+
+[sub_resource type="Resource" id="Resource_nfpdu"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+
+[sub_resource type="Resource" id="Resource_lkx14"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_RightToe_End"
+rest_pose = Transform3D(0.9997305, 0, 0.023214286, 0, 1, 0, -0.023214286, 0, 0.9997305, 0, 0.092781, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_3oeiw"), SubResource("Resource_7aufu"), SubResource("Resource_5d5q2"), SubResource("Resource_1yblq"), SubResource("Resource_4roxn"), SubResource("Resource_fnqnf"), SubResource("Resource_t08qy"), SubResource("Resource_l1b0k"), SubResource("Resource_a7hi5"), SubResource("Resource_nfpdu")])
+
+[sub_resource type="Resource" id="Resource_340b7"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.25935107, -0.109699935, 0.1173139, 0.95233417)
+
+[sub_resource type="Resource" id="Resource_gkkuh"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.261681, -0.108209, 0.12076499, 0.95143557)
+
+[sub_resource type="Resource" id="Resource_6gkjx"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.31145948, -0.10227614, 0.15677968, 0.9316398)
+
+[sub_resource type="Resource" id="Resource_lw47r"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.34572113, -0.09366619, 0.20884974, 0.9099919)
+
+[sub_resource type="Resource" id="Resource_opsqk"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.37194806, -0.085103564, 0.24963419, 0.88999707)
+
+[sub_resource type="Resource" id="Resource_khsme"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0.4077558, -0.07056766, 0.25785443, 0.87307876)
+
+[sub_resource type="Resource" id="Resource_otiqt"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.42275062, -0.058470067, 0.2276104, 0.87524664)
+
+[sub_resource type="Resource" id="Resource_1cfpa"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.35601684, -0.07437659, 0.17280866, 0.91534543)
+
+[sub_resource type="Resource" id="Resource_ugf45"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.29505908, -0.097834386, 0.13667321, 0.9405791)
+
+[sub_resource type="Resource" id="Resource_6qq27"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.26407072, -0.10790582, 0.120916344, 0.95079035)
+
+[sub_resource type="Resource" id="Resource_px8c8"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_LeftUpLeg"
+rest_pose = Transform3D(-1.0000002, -1.2243836e-16, 2.5392774e-18, 1.224647e-16, -0.9997852, 0.020734774, -1.0339758e-25, 0.020734774, 0.999785, 0.082078, -0.067718, -0.015122)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_340b7"), SubResource("Resource_gkkuh"), SubResource("Resource_6gkjx"), SubResource("Resource_lw47r"), SubResource("Resource_opsqk"), SubResource("Resource_khsme"), SubResource("Resource_otiqt"), SubResource("Resource_1cfpa"), SubResource("Resource_ugf45"), SubResource("Resource_6qq27")])
+
+[sub_resource type="Resource" id="Resource_axuw6"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(-0.48891166, 0.06551939, 0.009937181, 0.86981255)
+
+[sub_resource type="Resource" id="Resource_eus8h"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(-0.5677105, 0.03903467, 0.025204567, 0.8219159)
+
+[sub_resource type="Resource" id="Resource_jbu0m"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(-0.6008874, 0.048587013, 0.031954546, 0.79721546)
+
+[sub_resource type="Resource" id="Resource_7kf3g"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(-0.42819765, -0.010537665, 0.09125244, 0.8990043)
+
+[sub_resource type="Resource" id="Resource_ntf7a"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(-0.24960668, -0.04608695, 0.0780293, 0.9640975)
+
+[sub_resource type="Resource" id="Resource_s8ffj"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(-0.31567028, -0.0014375487, 0.060597014, 0.94693094)
+
+[sub_resource type="Resource" id="Resource_jf61k"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(-0.46212766, 0.060259897, 0.020971896, 0.8845151)
+
+[sub_resource type="Resource" id="Resource_quhnm"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(-0.46631533, 0.051985554, 0.018700736, 0.8828917)
+
+[sub_resource type="Resource" id="Resource_jo60d"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(-0.4671473, 0.063492455, 0.0113771325, 0.8818235)
+
+[sub_resource type="Resource" id="Resource_bditi"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(-0.48485997, 0.06387689, 0.010824255, 0.87218887)
+
+[sub_resource type="Resource" id="Resource_v2esj"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_LeftLeg"
+rest_pose = Transform3D(1, 0, 0, 0, 0.9970949, 0.07616912, 0, -0.07616912, 0.9970949, 0, 0.443714, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_axuw6"), SubResource("Resource_eus8h"), SubResource("Resource_jbu0m"), SubResource("Resource_7kf3g"), SubResource("Resource_ntf7a"), SubResource("Resource_s8ffj"), SubResource("Resource_jf61k"), SubResource("Resource_quhnm"), SubResource("Resource_jo60d"), SubResource("Resource_bditi")])
+
+[sub_resource type="Resource" id="Resource_bqgmu"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.19926693, -0.017783744, -0.13717888, 0.9701332)
+
+[sub_resource type="Resource" id="Resource_s44ke"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.019156761, 0.037138563, -0.23490225, 0.97112036)
+
+[sub_resource type="Resource" id="Resource_31jjw"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(-0.01959537, 0.029281652, -0.2650091, 0.963602)
+
+[sub_resource type="Resource" id="Resource_il7pc"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0.06111816, -0.036229696, -0.19876175, 0.9774691)
+
+[sub_resource type="Resource" id="Resource_8k3cb"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0.05027152, -0.018474199, -0.15318261, 0.9867455)
+
+[sub_resource type="Resource" id="Resource_1jral"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(-0.07821042, -0.1253745, -0.23153342, 0.9615387)
+
+[sub_resource type="Resource" id="Resource_4wf8p"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.0028627573, -0.12710308, -0.21870351, 0.96747375)
+
+[sub_resource type="Resource" id="Resource_cd2ps"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.07990483, -0.08688866, -0.18383572, 0.97584325)
+
+[sub_resource type="Resource" id="Resource_eepng"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.1433716, -0.04352492, -0.15414292, 0.9766218)
+
+[sub_resource type="Resource" id="Resource_23fry"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.19233042, -0.020621313, -0.13985142, 0.9710949)
+
+[sub_resource type="Resource" id="Resource_8fomb"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_LeftFoot"
+rest_pose = Transform3D(1, 0, 0, 0, 0.57726204, -0.81655896, 0, 0.81655896, 0.57726204, 0, 0.445278, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_bqgmu"), SubResource("Resource_s44ke"), SubResource("Resource_31jjw"), SubResource("Resource_il7pc"), SubResource("Resource_8k3cb"), SubResource("Resource_1jral"), SubResource("Resource_4wf8p"), SubResource("Resource_cd2ps"), SubResource("Resource_eepng"), SubResource("Resource_23fry")])
+
+[sub_resource type="Resource" id="Resource_p82ch"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0.013910046, -7.699451e-09, 1.7956715e-08, 0.99990326)
+
+[sub_resource type="Resource" id="Resource_df8pk"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0.20059966, 0.05708553, 0.007749851, 0.977978)
+
+[sub_resource type="Resource" id="Resource_rtwh4"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0.057596948, -8.556085e-09, 2.1056029e-07, 0.9983399)
+
+[sub_resource type="Resource" id="Resource_u3bnn"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(-0.018858865, -5.4139328e-08, 2.8514567e-08, 0.9998222)
+
+[sub_resource type="Resource" id="Resource_mxnyg"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(-0.011978711, -3.1378157e-08, -4.57872e-08, 0.99992824)
+
+[sub_resource type="Resource" id="Resource_6gn5d"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(-0.00021839142, -1.0760347e-17, 8.764013e-18, 1)
+
+[sub_resource type="Resource" id="Resource_nvxlh"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0.012494168, 1.4118643e-07, 7.400313e-09, 0.9999219)
+
+[sub_resource type="Resource" id="Resource_gxvki"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0.011132696, 0.0008797832, 3.2491906e-07, 0.99993765)
+
+[sub_resource type="Resource" id="Resource_x5ss1"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0.01187824, 0.0006667574, 7.0550122e-06, 0.99992925)
+
+[sub_resource type="Resource" id="Resource_a14yw"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0.0135865845, 2.6988635e-05, 3.5669896e-07, 0.9999077)
+
+[sub_resource type="Resource" id="Resource_uadq3"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_LeftToeBase"
+rest_pose = Transform3D(1, 0, 0, 0, 0.7752268, -0.63168305, 0, 0.63168305, 0.7752268, 0, 0.138169, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_p82ch"), SubResource("Resource_df8pk"), SubResource("Resource_rtwh4"), SubResource("Resource_u3bnn"), SubResource("Resource_mxnyg"), SubResource("Resource_6gn5d"), SubResource("Resource_nvxlh"), SubResource("Resource_gxvki"), SubResource("Resource_x5ss1"), SubResource("Resource_a14yw")])
+
+[sub_resource type="Resource" id="Resource_3u8e8"]
+script = ExtResource("3_qogre")
+rotation = Quaternion(0, -3.7252907e-09, 0, 1)
+
+[sub_resource type="Resource" id="Resource_06pny"]
+script = ExtResource("3_qogre")
+time = 0.1
+rotation = Quaternion(0, -3.7252907e-09, 0, 1)
+
+[sub_resource type="Resource" id="Resource_6kcjc"]
+script = ExtResource("3_qogre")
+time = 0.2
+rotation = Quaternion(0, -3.7252907e-09, 0, 1)
+
+[sub_resource type="Resource" id="Resource_8rbq1"]
+script = ExtResource("3_qogre")
+time = 0.30000000000000004
+rotation = Quaternion(0, -3.7252907e-09, 0, 1)
+
+[sub_resource type="Resource" id="Resource_3efoo"]
+script = ExtResource("3_qogre")
+time = 0.4
+rotation = Quaternion(0, -3.7252907e-09, 0, 1)
+
+[sub_resource type="Resource" id="Resource_2sxua"]
+script = ExtResource("3_qogre")
+time = 0.5
+rotation = Quaternion(0, -3.7252907e-09, 0, 1)
+
+[sub_resource type="Resource" id="Resource_bcic8"]
+script = ExtResource("3_qogre")
+time = 0.6
+rotation = Quaternion(0, -3.7252907e-09, 0, 1)
+
+[sub_resource type="Resource" id="Resource_oa181"]
+script = ExtResource("3_qogre")
+time = 0.7
+rotation = Quaternion(0, -3.7252907e-09, 0, 1)
+
+[sub_resource type="Resource" id="Resource_cqqy4"]
+script = ExtResource("3_qogre")
+time = 0.7999999999999999
+rotation = Quaternion(0, -3.7252907e-09, 0, 1)
+
+[sub_resource type="Resource" id="Resource_n2cf8"]
+script = ExtResource("3_qogre")
+time = 0.8999999999999999
+rotation = Quaternion(0, -3.7252907e-09, 0, 1)
+
+[sub_resource type="Resource" id="Resource_ilpe5"]
+script = ExtResource("2_fqop5")
+track_name = "mixamorig_LeftToe_End"
+rest_pose = Transform3D(0.99971825, 0, -0.023735996, 0, 1, 0, 0.023735996, 0, 0.99971825, 0, 0.092781, 0)
+key_frames = Array[ExtResource("3_qogre")]([SubResource("Resource_3u8e8"), SubResource("Resource_06pny"), SubResource("Resource_6kcjc"), SubResource("Resource_8rbq1"), SubResource("Resource_3efoo"), SubResource("Resource_2sxua"), SubResource("Resource_bcic8"), SubResource("Resource_oa181"), SubResource("Resource_cqqy4"), SubResource("Resource_n2cf8")])
+
+[resource]
+script = ExtResource("1_j6euv")
+animation_name = "boxing_forward"
+duration = 0.93333334
+sampling = 0.1
+tracks = Array[ExtResource("2_fqop5")]([SubResource("Resource_k1xna"), SubResource("Resource_bbn51"), SubResource("Resource_3dfk3"), SubResource("Resource_mwqql"), SubResource("Resource_gyiey"), SubResource("Resource_fw1gq"), SubResource("Resource_vmmvu"), SubResource("Resource_7vse4"), SubResource("Resource_4r0yt"), SubResource("Resource_8fbon"), SubResource("Resource_vbjmy"), SubResource("Resource_meeqy"), SubResource("Resource_386d7"), SubResource("Resource_yjxs4"), SubResource("Resource_rrs67"), SubResource("Resource_4goks"), SubResource("Resource_t7fs2"), SubResource("Resource_fhdu6"), SubResource("Resource_wf4ki"), SubResource("Resource_708k7"), SubResource("Resource_w0hfn"), SubResource("Resource_l773t"), SubResource("Resource_6meok"), SubResource("Resource_7o3do"), SubResource("Resource_vftdt"), SubResource("Resource_dxynd"), SubResource("Resource_f15vv"), SubResource("Resource_v2rr3"), SubResource("Resource_hamls"), SubResource("Resource_6apl6"), SubResource("Resource_47xan"), SubResource("Resource_uhvfl"), SubResource("Resource_jybv1"), SubResource("Resource_muvhg"), SubResource("Resource_s53ls"), SubResource("Resource_eon0l"), SubResource("Resource_tnb2i"), SubResource("Resource_7melr"), SubResource("Resource_y34om"), SubResource("Resource_uy6ua"), SubResource("Resource_a556c"), SubResource("Resource_pdid5"), SubResource("Resource_po586"), SubResource("Resource_ydhsh"), SubResource("Resource_lelqg"), SubResource("Resource_48057"), SubResource("Resource_quud3"), SubResource("Resource_afu6n"), SubResource("Resource_51nur"), SubResource("Resource_5cu66"), SubResource("Resource_p0aya"), SubResource("Resource_u7pve"), SubResource("Resource_eglgn"), SubResource("Resource_2buc5"), SubResource("Resource_2os63"), SubResource("Resource_5w3u8"), SubResource("Resource_i7qri"), SubResource("Resource_s3mik"), SubResource("Resource_2iby0"), SubResource("Resource_lkx14"), SubResource("Resource_px8c8"), SubResource("Resource_v2esj"), SubResource("Resource_8fomb"), SubResource("Resource_uadq3"), SubResource("Resource_ilpe5")])

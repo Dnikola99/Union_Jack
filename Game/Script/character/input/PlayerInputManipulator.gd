@@ -12,3 +12,8 @@ func _input(event: InputEvent) -> void:
 	right = right.normalized()
 	var dir:Vector3 = (right * raw_input.x) + (forward * -raw_input.y)
 	input_state.input_direction = Vector2(dir.x, dir.z)
+	
+	if Input.is_action_just_released("L"):
+		input_state.action_sequence.append(InputState.Action.LIGHT)
+	if Input.is_action_just_released("H"):
+		input_state.action_sequence.append(InputState.Action.HEAVY)

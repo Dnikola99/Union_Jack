@@ -55,11 +55,6 @@ func parse_transform3d(s: String) -> Transform3D:
 	return Transform3D(_basis, o)
 
 func add_and_adjust_animation(animation:StoredAnimation, time_scale:float, loop:int):
-	#target_rest * inverse(source_rest) * animated_pose
-	#var file_path:String = "res://Tools/animation_library/"+animation_name+".tres"
-	
-	#var animation:StoredAnimation = ResourceLoader.load(file_path)
-	
 	if time_scale <= 0 :
 		print("time scale must > 0 ")
 		return
@@ -71,7 +66,7 @@ func add_and_adjust_animation(animation:StoredAnimation, time_scale:float, loop:
 		return
 		
 	var anim = Animation.new()
-	anim.length = animation.tracks[0].key_frames[animation.tracks[0].key_frames.size()-1].time
+	anim.length = animation.tracks[0].key_frames[animation.tracks[0].key_frames.size()-1].time / time_scale
 	anim.loop_mode = loop
 	var skeleton_name:String = skeleton.name
 	
@@ -126,7 +121,8 @@ func add_and_adjust_animation(animation:StoredAnimation, time_scale:float, loop:
 				anim.track_insert_key(position_track, time, final_pos)
 				anim.track_insert_key(rotation_track, time, final_basis.get_rotation_quaternion())
 			
-	
+	# create script keyframes
+		
 	var lib:AnimationLibrary = animation_player.get_animation_library("")
 	if not lib :
 		lib = AnimationLibrary.new()

@@ -3,18 +3,31 @@ extends CharacterBody3D
 
 @export var animation_tree:AnimationTree
 @export var reponsiveness:float = 2
+@export var right_hand_collider:Area3D
+@export var left_hand_collider:Area3D
+@export var right_hand_weapon_collider:Area3D
+@export var left_hand_weapon_collider:Area3D
+@export var right_foot_collider:Area3D
+@export var left_foot_collider:Area3D
+
 var input_state:InputState
 var input_vector:Vector2
 var input_manipulator:InputManipulator
 
+var animation_tree_playback:AnimationNodeStateMachinePlayback
 func _ready() -> void:
 	input_state = InputState.new()
 	input_vector = Vector2.ZERO
+	animation_tree_playback = animation_tree.get("parameters/StateMachine/playback")
 	
 	input_manipulator = PlayerInputManipulator.new(input_state)
 	add_child(input_manipulator)
-
-func _physics_process(delta):
+	
+func reset_LH():
+	animation_tree.set("parameters/StateMachine/conditions/L", false)
+	animation_tree.set("parameters/StateMachine/conditions/H", false)
+	
+func directionalMovement(delta):
 	input_vector = input_vector.lerp(input_state.input_direction, delta * reponsiveness)
 	
 	var blend_space_pos:Vector3 = to_local(position + Vector3(input_vector.x, 0, input_vector.y))
@@ -31,5 +44,17 @@ func _physics_process(delta):
 		motion = global_transform.basis * motion	#transform root motion to global
 		velocity = motion / delta
 		move_and_slide()
+
+func _physics_process(delta):
+	directionalMovement(delta)
+	if input_state.action_sequence.size() > 0 :
+		if animation_tree_playback.get_current_node() == "idle" :
+			animation_tree.set("parameters/StateMachine/conditions/combat_no_weapon", true)
+		var action:InputState.Action = input_state.action_sequence.pop_back()
+		match action :
+			InputState.Action.LIGHT :
+				animation_tree.set("parameters/StateMachine/conditions/L", true)
+	else :
+		animation_tree.set("parameters/StateMachine/conditions/L", false)
 		
 	

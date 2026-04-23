@@ -137,20 +137,36 @@ func add_and_adjust_animation(
 	# create script keyframes
 	# keyframe to trigger collision script
 	if check_collision != AnimationConfig.CollisionType.NONE :
-		anim.add_track(Animation.TYPE_METHOD)
+		var method_track:int = anim.add_track(Animation.TYPE_METHOD)
+		var root_node = animation_player.get_node(animation_player.root_node)
+		var path_to_player : NodePath
+		if root_node == player:
+			path_to_player = NodePath(".")
+		else:
+			path_to_player = root_node.get_path_to(player)
+		anim.track_set_path(method_track, path_to_player)
+		
 		match check_collision:
 			AnimationConfig.CollisionType.RIGHT_FOOT :
-				pass
+				anim.track_insert_key(method_track, check_collision_at_time, {
+					"method": "do_damage",
+					"args": [GenericCharacter.ColliderType.FOOT_RIGHT]
+				})
 			AnimationConfig.CollisionType.LEFT_FOOT :
-				pass
+				anim.track_insert_key(method_track, check_collision_at_time, {
+					"method": "do_damage",
+					"args": [GenericCharacter.ColliderType.FOOT_LEFT]
+				})
 			AnimationConfig.CollisionType.RIGHT_HAND :
-				pass
+				anim.track_insert_key(method_track, check_collision_at_time, {
+					"method": "do_damage",
+					"args": [GenericCharacter.ColliderType.HAND_RIGHT]
+				})
 			AnimationConfig.CollisionType.LEFT_HAND :
-				pass
-			AnimationConfig.CollisionType.RIGHT_WEAPON :
-				pass
-			AnimationConfig.CollisionType.LEFT_WEAPON :
-				pass
+				anim.track_insert_key(method_track, check_collision_at_time, {
+					"method": "do_damage",
+					"args": [GenericCharacter.ColliderType.HAND_LEFT]
+				})
 	
 	# script keyframe to reset LH state 
 	if reset_LH_state :

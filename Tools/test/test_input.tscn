@@ -21,6 +21,10 @@ shape = SubResource("BoxShape3D_u1exm")
 mesh = SubResource("PlaneMesh_8r3m2")
 
 [node name="UJ_Character_Knife Crime" parent="." unique_id=279926329 instance=ExtResource("1_8r3m2")]
+input_type = 1
+
+[node name="UJ_Character_Knife Crime2" parent="." unique_id=595457303 instance=ExtResource("1_8r3m2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.3026557)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=834874122]
 transform = Transform3D(0.52176124, -0.7142568, 0.46647865, 0.3296029, 0.67313015, 0.66201043, -0.78684634, -0.19165872, 0.5866344, 0, 1.4881296, 0)

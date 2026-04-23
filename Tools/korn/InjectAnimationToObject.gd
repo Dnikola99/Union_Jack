@@ -22,7 +22,8 @@ func process_all_animation():
 			a.loop, 
 			a.check_collision, 
 			a.check_collision_at_time, 
-			a.reset_LH_state)
+			a.reset_LH_state,
+			a.reset_input)
 
 func map_track(db:BoneMappingSet, _name:String) -> String:
 	for m in db.mapping:
@@ -67,7 +68,8 @@ func add_and_adjust_animation(
 	loop:int, 
 	check_collision:AnimationConfig.CollisionType,
 	check_collision_at_time:float,
-	reset_LH_state:bool):
+	reset_LH_state:bool,
+	reset_input:bool):
 	if time_scale <= 0 :
 		print("time scale must > 0 ")
 		return
@@ -163,6 +165,20 @@ func add_and_adjust_animation(
 		anim.track_set_path(method_track, path_to_player)
 		anim.track_insert_key(method_track, anim.length / 2, {
 			"method": "reset_LH",
+			"args": []
+			})
+	if reset_input :
+		var method_track:int = anim.add_track(Animation.TYPE_METHOD)
+		var root_node = animation_player.get_node(animation_player.root_node)
+		var path_to_player : NodePath
+		if root_node == player:
+			path_to_player = NodePath(".")
+		else:
+			path_to_player = root_node.get_path_to(player)
+		
+		anim.track_set_path(method_track, path_to_player)
+		anim.track_insert_key(method_track, anim.length / 8, {
+			"method": "reset_input",
 			"args": []
 			})
 			

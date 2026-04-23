@@ -34,3 +34,5 @@ enum CollisionType{
 
 # insert keyframe to reset LH state back to false at the middle of the animation
 @export var reset_LH_state:bool = false
+
+@export var reset_input:bool = false

@@ -31,6 +31,10 @@ func reset_LH():
 	input_state.LH = false
 	processing_attack_sequence = false
 	
+func reset_input():
+	reset_LH()
+	input_state.action_sequence.clear()
+	
 func directionalMovement(delta):
 	input_vector = input_vector.lerp(input_state.input_direction, delta * reponsiveness)
 	

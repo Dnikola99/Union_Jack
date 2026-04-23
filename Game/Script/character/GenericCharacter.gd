@@ -13,6 +13,8 @@ extends CharacterBody3D
 var input_state:InputState
 var input_vector:Vector2
 var input_manipulator:InputManipulator
+var processing_attack_sequence:bool = false
+var combat_counter:float = 0.0
 
 var animation_tree_playback:AnimationNodeStateMachinePlayback
 func _ready() -> void:
@@ -26,6 +28,8 @@ func _ready() -> void:
 func reset_LH():
 	animation_tree.set("parameters/StateMachine/conditions/L", false)
 	animation_tree.set("parameters/StateMachine/conditions/H", false)
+	input_state.LH = false
+	processing_attack_sequence = false
 	
 func directionalMovement(delta):
 	input_vector = input_vector.lerp(input_state.input_direction, delta * reponsiveness)
@@ -47,14 +51,18 @@ func directionalMovement(delta):
 
 func _physics_process(delta):
 	directionalMovement(delta)
-	if input_state.action_sequence.size() > 0 :
-		if animation_tree_playback.get_current_node() == "idle" :
-			animation_tree.set("parameters/StateMachine/conditions/combat_no_weapon", true)
-		var action:InputState.Action = input_state.action_sequence.pop_back()
-		match action :
-			InputState.Action.LIGHT :
-				animation_tree.set("parameters/StateMachine/conditions/L", true)
-	else :
-		animation_tree.set("parameters/StateMachine/conditions/L", false)
+	if combat_counter <= 0 and animation_tree_playback.get_current_node() != "idle" :
+		animation_tree.set("parameters/StateMachine/conditions/combat_no_weapon", false)
+		animation_tree_playback.travel("idle")
 		
-	
+	if not processing_attack_sequence :
+		combat_counter = max(combat_counter-delta, 0)
+		if input_state.action_sequence.size() > 0 :
+			if animation_tree_playback.get_current_node() == "idle" :
+				animation_tree.set("parameters/StateMachine/conditions/combat_no_weapon", true)
+			var action:InputState.Action = input_state.action_sequence.pop_back()
+			processing_attack_sequence = true
+			combat_counter = 1
+			match action :
+				InputState.Action.LIGHT :
+					animation_tree.set("parameters/StateMachine/conditions/L", true)

@@ -15,3 +15,5 @@ var input_direction:Vector2
 # for example LLH LLL for navigating attack states
 # see the action enum
 var action_sequence:Array[Action]
+
+var LH:bool = false

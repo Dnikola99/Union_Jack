@@ -1,7 +1,7 @@
 class_name PlayerInputManipulator
 extends InputManipulator
 
-func _input(event: InputEvent) -> void:
+func _input(_event: InputEvent) -> void:
 	var raw_input:Vector2 = Input.get_vector("Left", "Right", "Down", "Up")
 	var cam_basis:Basis = get_viewport().get_camera_3d().global_transform.basis
 	var forward:Vector3 = cam_basis.z
@@ -13,7 +13,10 @@ func _input(event: InputEvent) -> void:
 	var dir:Vector3 = (right * raw_input.x) + (forward * -raw_input.y)
 	input_state.input_direction = Vector2(dir.x, dir.z)
 	
-	if Input.is_action_just_released("L"):
-		input_state.action_sequence.append(InputState.Action.LIGHT)
-	if Input.is_action_just_released("H"):
-		input_state.action_sequence.append(InputState.Action.HEAVY)
+	if not input_state.LH :
+		if Input.is_action_just_released("L"):
+			input_state.action_sequence.append(InputState.Action.LIGHT)
+			input_state.LH = true
+		if Input.is_action_just_released("H"):
+			input_state.action_sequence.append(InputState.Action.HEAVY)
+			input_state.LH = true

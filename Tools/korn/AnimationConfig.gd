@@ -8,6 +8,16 @@ class_name AnimationConfig extends Resource
 	"LOOP_LINEAR", 
 	"LOOP_PINGPONG") var loop : int
 
+enum CollisionType{
+	NONE,
+	RIGHT_FOOT,
+	LEFT_FOOT,
+	RIGHT_HAND,
+	LEFT_HAND,
+	RIGHT_WEAPON,
+	LEFT_WEAPON
+}
+
 # insert code for checking collision
 # select the collider here
 @export_enum(

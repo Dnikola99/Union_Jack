@@ -1,12 +1,13 @@
 @tool
 class_name InjectAnimationToObject
 extends Node3D
-
+@export var player:CharacterBody3D
 @export var skeleton:Skeleton3D
 @export var animation_player:AnimationPlayer
 @export var animation_configuration:Array[AnimationConfig] = []
 @export var bone_mapping_db:BoneMappingSet
 @export var create_root_motion:bool = false
+
 
 @export var add_animation_and_adjust:bool = false :
 	set(v):
@@ -15,7 +16,13 @@ extends Node3D
 
 func process_all_animation():
 	for a in animation_configuration :
-		add_and_adjust_animation(a.animation, a.time_scale, a.loop)
+		add_and_adjust_animation(
+			a.animation, 
+			a.time_scale, 
+			a.loop, 
+			a.check_collision, 
+			a.check_collision_at_time, 
+			a.reset_LH_state)
 
 func map_track(db:BoneMappingSet, _name:String) -> String:
 	for m in db.mapping:
@@ -54,12 +61,18 @@ func parse_transform3d(s: String) -> Transform3D:
 	var _basis = Basis(x, y, z).orthonormalized()
 	return Transform3D(_basis, o)
 
-func add_and_adjust_animation(animation:StoredAnimation, time_scale:float, loop:int):
+func add_and_adjust_animation(
+	animation:StoredAnimation, 
+	time_scale:float, 
+	loop:int, 
+	check_collision:AnimationConfig.CollisionType,
+	check_collision_at_time:float,
+	reset_LH_state:bool):
 	if time_scale <= 0 :
 		print("time scale must > 0 ")
 		return
 		
-	var duration:float = animation.duration / time_scale
+	#var duration:float = animation.duration / time_scale
 	var sampling:float = animation.sampling
 	if sampling <= 0.0 :
 		print("bad sampling 0")
@@ -78,8 +91,6 @@ func add_and_adjust_animation(animation:StoredAnimation, time_scale:float, loop:
 		root_rotation_track = anim.add_track(Animation.TYPE_ROTATION_3D)
 		anim.track_set_path(root_position_track, full_animation_path)
 		anim.track_set_path(root_rotation_track, full_animation_path)
-		#anim.track_set_interpolation_loop_wrap(root_position_track, false)
-		#anim.track_set_interpolation_loop_wrap(root_rotation_track, false)
 			
 	for track:StoredTrack in animation.tracks:
 		var anim_track_name:String = map_track(bone_mapping_db, track.track_name)
@@ -122,7 +133,39 @@ func add_and_adjust_animation(animation:StoredAnimation, time_scale:float, loop:
 				anim.track_insert_key(rotation_track, time, final_basis.get_rotation_quaternion())
 			
 	# create script keyframes
+	# keyframe to trigger collision script
+	if check_collision != AnimationConfig.CollisionType.NONE :
+		anim.add_track(Animation.TYPE_METHOD)
+		match check_collision:
+			AnimationConfig.CollisionType.RIGHT_FOOT :
+				pass
+			AnimationConfig.CollisionType.LEFT_FOOT :
+				pass
+			AnimationConfig.CollisionType.RIGHT_HAND :
+				pass
+			AnimationConfig.CollisionType.LEFT_HAND :
+				pass
+			AnimationConfig.CollisionType.RIGHT_WEAPON :
+				pass
+			AnimationConfig.CollisionType.LEFT_WEAPON :
+				pass
+	
+	# script keyframe to reset LH state 
+	if reset_LH_state :
+		var method_track:int = anim.add_track(Animation.TYPE_METHOD)
+		var root_node = animation_player.get_node(animation_player.root_node)
+		var path_to_player : NodePath
+		if root_node == player:
+			path_to_player = NodePath(".")
+		else:
+			path_to_player = root_node.get_path_to(player)
 		
+		anim.track_set_path(method_track, path_to_player)
+		anim.track_insert_key(method_track, anim.length / 2, {
+			"method": "reset_LH",
+			"args": []
+			})
+			
 	var lib:AnimationLibrary = animation_player.get_animation_library("")
 	if not lib :
 		lib = AnimationLibrary.new()

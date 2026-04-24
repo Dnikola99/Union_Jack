@@ -1,5 +1,5 @@
 class_name InputManipulator
-extends Node
+extends Node3D
 
 var input_state:InputState
 

@@ -2,7 +2,8 @@ class_name GameCamera
 extends Camera3D
 
 @export var target:Node3D
-@export var max_distance:float = 2
+@export var max_distance:float = 3
+@export var min_distance:float = 2
 @export var target_y:float = 1.5
 
 func _process(delta: float) -> void:
@@ -11,6 +12,8 @@ func _process(delta: float) -> void:
 	var dir_vec:Vector3 = global_position - target_position
 	dir_vec.y = 0
 	var dist:float = dir_vec.length()
-	if dist > max_distance :
-		position -= dir_vec.normalized() * (dist - max_distance) * delta * 10.0
+	#if dist > max_distance :
+	position -= dir_vec.normalized() * (dist - max_distance) * delta * 10.0
+	#else :
+		#position += dir_vec.normalized() * (dist - min_distance) * delta * 2.0
 	look_at(target_position)

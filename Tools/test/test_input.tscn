@@ -11,7 +11,7 @@ size = Vector3(2, 1, 2)
 [node name="test_input" type="Node3D" unique_id=1008032396]
 
 [node name="ground" type="StaticBody3D" parent="." unique_id=655032332]
-transform = Transform3D(8, 0, 0, 0, 1, 0, 0, 0, 8, 0, 0, 0)
+transform = Transform3D(32, 0, 0, 0, 1, 0, 0, 0, 32, 0, 0, 0)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="ground" unique_id=1327883994]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
@@ -20,11 +20,17 @@ shape = SubResource("BoxShape3D_u1exm")
 [node name="MeshInstance3D" type="MeshInstance3D" parent="ground" unique_id=1284961536]
 mesh = SubResource("PlaneMesh_8r3m2")
 
-[node name="UJ_Character_Knife Crime" parent="." unique_id=279926329 instance=ExtResource("1_8r3m2")]
+[node name="UJ_Character_Knife Crime" parent="." unique_id=279926329 groups=["player"] instance=ExtResource("1_8r3m2")]
 input_type = 1
 
 [node name="UJ_Character_Knife Crime2" parent="." unique_id=595457303 instance=ExtResource("1_8r3m2")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.3026557)
+
+[node name="UJ_Character_Knife Crime3" parent="." unique_id=2058684657 instance=ExtResource("1_8r3m2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.707608, 0, 3.3026557)
+
+[node name="UJ_Character_Knife Crime4" parent="." unique_id=2000595872 instance=ExtResource("1_8r3m2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.596858, 0, 3.3026557)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=834874122]
 transform = Transform3D(0.52176124, -0.7142568, 0.46647865, 0.3296029, 0.67313015, 0.66201043, -0.78684634, -0.19165872, 0.5866344, 0, 1.4881296, 0)

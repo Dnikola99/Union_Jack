@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://d3l5dxs18htjc"
-path="res://.godot/imported/getting_hit_backwards_flip.fbx-ba1a8ca2c91eb10e641c88794f1fd7e1.scn"
+uid="uid://bn4q7gksiiks8"
+path="res://.godot/imported/fall_far.fbx-542834c7f644840a8e3d494ee361b46c.scn"
 
 [deps]
 
-source_file="res://Tools/mixamo_lib/getting_hit_backwards_flip.fbx"
-dest_files=["res://.godot/imported/getting_hit_backwards_flip.fbx-ba1a8ca2c91eb10e641c88794f1fd7e1.scn"]
+source_file="res://Tools/mixamo_lib/fall_far.fbx"
+dest_files=["res://.godot/imported/fall_far.fbx-542834c7f644840a8e3d494ee361b46c.scn"]
 
 [params]
 

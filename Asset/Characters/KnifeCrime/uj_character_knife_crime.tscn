@@ -8525,19 +8525,19 @@ states/Start/position = Vector2(38, 100)
 states/combat/node = SubResource("AnimationNodeBlendSpace2D_5en6u")
 states/combat/position = Vector2(553.5, 100)
 states/fall/node = SubResource("AnimationNodeAnimation_m2mq1")
-states/fall/position = Vector2(812.5, 231.5)
+states/fall/position = Vector2(891.5, 320.5)
 states/fall_far/node = SubResource("AnimationNodeAnimation_4uij7")
-states/fall_far/position = Vector2(730.5, 306.5)
+states/fall_far/position = Vector2(755.5, 315.5)
 states/high/node = SubResource("AnimationNodeAnimation_sotq3")
-states/high/position = Vector2(641.5, 288.5)
+states/high/position = Vector2(565.5, 330.5)
 states/idle/node = SubResource("AnimationNodeBlendSpace2D_7jldu")
 states/idle/position = Vector2(181.5, 100)
 states/medium/node = SubResource("AnimationNodeAnimation_qp7f8")
-states/medium/position = Vector2(472.5, 231.5)
+states/medium/position = Vector2(425.5, 330.5)
 states/stand_up/node = SubResource("AnimationNodeAnimation_05a6t")
 states/stand_up/position = Vector2(730.5, 168.5)
 transitions = ["L1", "L2", SubResource("AnimationNodeStateMachineTransition_0k2kl"), "L2", "L3", SubResource("AnimationNodeStateMachineTransition_7vq64"), "Start", "idle", SubResource("AnimationNodeStateMachineTransition_y7j4e"), "combat", "L1", SubResource("AnimationNodeStateMachineTransition_oa7y8"), "L1", "combat", SubResource("AnimationNodeStateMachineTransition_e5f4x"), "L2", "combat", SubResource("AnimationNodeStateMachineTransition_bkvc0"), "L3", "combat", SubResource("AnimationNodeStateMachineTransition_oy4dq"), "idle", "combat", SubResource("AnimationNodeStateMachineTransition_7jldu"), "combat", "idle", SubResource("AnimationNodeStateMachineTransition_g1wxt"), "fall", "stand_up", SubResource("AnimationNodeStateMachineTransition_n0r1x"), "stand_up", "combat", SubResource("AnimationNodeStateMachineTransition_tson3"), "medium", "combat", SubResource("AnimationNodeStateMachineTransition_18dxs"), "high", "combat", SubResource("AnimationNodeStateMachineTransition_p1v1e"), "fall_far", "stand_up", SubResource("AnimationNodeStateMachineTransition_786sv")]
-graph_offset = Vector2(281, 112)
+graph_offset = Vector2(158, 46)
 
 [sub_resource type="AnimationNodeBlendTree" id="AnimationNodeBlendTree_rmid3"]
 nodes/output/position = Vector2(460, 80)
@@ -8700,31 +8700,31 @@ right_foot_collider = NodePath("Union Jack_metarig_Knife Crime/Skeleton3D/foot_R
 left_foot_collider = NodePath("Union Jack_metarig_Knife Crime/Skeleton3D/foot_L/Area3D3")
 
 [node name="Skeleton3D" parent="Union Jack_metarig_Knife Crime" parent_id_path=PackedInt32Array(1956874081) index="0" unique_id=682657025]
-bones/5/position = Vector3(0, 0.7075682, 2.910383e-09)
-bones/5/rotation = Quaternion(0.05254843, -0.3391558, 0.055445157, 0.93762356)
-bones/6/rotation = Quaternion(0.07787755, 0.08347046, -0.01907312, 0.9932794)
-bones/7/rotation = Quaternion(-0.0040293518, 0.025500746, -0.008457421, 0.9996309)
-bones/8/rotation = Quaternion(-0.07413133, 0.015559537, -0.008252134, 0.997093)
-bones/9/rotation = Quaternion(0.37059847, 0.21854632, -0.073809676, 0.8996925)
-bones/12/rotation = Quaternion(0.48940235, 0.5704074, -0.5716019, 0.32922956)
-bones/13/rotation = Quaternion(0.4692893, -0.33601663, 0.27431408, 0.76916337)
-bones/14/rotation = Quaternion(-0.04041151, 0.029669695, 0.7685846, 0.63778085)
-bones/15/rotation = Quaternion(0.07802502, 0.24003793, -0.007153811, 0.96759635)
-bones/19/rotation = Quaternion(-0.3683394, 0.4359203, 0.42212623, 0.70435005)
-bones/20/rotation = Quaternion(-0.25971296, -0.0048026843, -0.36636433, 0.8934782)
-bones/21/rotation = Quaternion(-0.22522579, 0.1293737, -0.11896096, 0.95832354)
-bones/36/rotation = Quaternion(-0.53573924, 0.55007285, -0.433623, -0.47156605)
-bones/37/rotation = Quaternion(0.5241154, 0.082286984, -0.48044, 0.698362)
-bones/38/rotation = Quaternion(-0.042565946, -0.026486313, -0.8151921, 0.57701695)
-bones/39/rotation = Quaternion(0.06694302, -0.08846094, -0.08217795, 0.9904243)
-bones/43/rotation = Quaternion(-0.37707856, -0.4217874, -0.43151075, 0.70264196)
-bones/44/rotation = Quaternion(-0.26633283, 0.006332483, 0.38059032, 0.88553816)
-bones/45/rotation = Quaternion(-0.25081056, -0.14161836, 0.15901507, 0.94432646)
-bones/61/rotation = Quaternion(0.082544096, 0.435193, 0.8759123, -0.19123578)
-bones/62/rotation = Quaternion(-0.54062945, 0.037078474, 0.0133590065, 0.8403372)
-bones/68/rotation = Quaternion(0.011964422, 0.20444249, 0.9271229, 0.31385222)
-bones/69/rotation = Quaternion(-0.6339024, -0.02968328, -0.03489553, 0.7720551)
-bones/70/rotation = Quaternion(-0.10002636, 0.7526154, 0.631731, -0.15646333)
+bones/5/position = Vector3(0, 0.88033617, -3.7252903e-09)
+bones/5/rotation = Quaternion(0.080169275, 0.05180017, 0.0038079873, 0.9954272)
+bones/6/rotation = Quaternion(-0.021613896, -0.0017524327, 0.001516774, 0.9997637)
+bones/7/rotation = Quaternion(-0.029924924, -0.022895081, 0.0035820797, 0.99928355)
+bones/8/rotation = Quaternion(-0.084218994, -0.023081593, 0.002772719, 0.9961761)
+bones/9/rotation = Quaternion(0.3630732, -0.018824875, 0.0054412903, 0.9315546)
+bones/12/rotation = Quaternion(0.45763594, 0.5940232, -0.55843264, 0.35476583)
+bones/13/rotation = Quaternion(0.5375073, 0.1634003, 0.24745053, 0.78940135)
+bones/14/rotation = Quaternion(-0.015340977, 0.047728613, 0.24867988, 0.9672874)
+bones/15/rotation = Quaternion(0.14197604, 0.17845552, -0.14061946, 0.9634431)
+bones/19/rotation = Quaternion(-0.35281438, 0.4959377, 0.2001251, 0.7678006)
+bones/20/rotation = Quaternion(-0.20019759, 0.029492455, -0.14227584, 0.9689214)
+bones/21/rotation = Quaternion(-0.056171, 0.046031818, -0.017271105, 0.9972099)
+bones/36/rotation = Quaternion(-0.49673995, 0.5774845, -0.4821635, -0.4327581)
+bones/37/rotation = Quaternion(0.5401309, -0.15934034, -0.28742537, 0.77476186)
+bones/38/rotation = Quaternion(-0.014875996, -0.047875635, -0.23926489, 0.96965927)
+bones/39/rotation = Quaternion(0.045033447, -0.123252384, 0.16093332, 0.9782032)
+bones/43/rotation = Quaternion(-0.26941532, -0.6253808, -0.1943641, 0.7060714)
+bones/44/rotation = Quaternion(-0.1596946, -0.045204885, 0.03661467, 0.9854509)
+bones/45/rotation = Quaternion(-0.05827987, -0.046209823, -0.0019314705, 0.9972284)
+bones/61/rotation = Quaternion(0.058490857, 0.1838652, 0.9776033, -0.08404903)
+bones/62/rotation = Quaternion(-0.24948172, -0.07650951, 0.0039400496, 0.9653443)
+bones/68/rotation = Quaternion(-0.13309366, 0.19981936, 0.9696389, 0.04646272)
+bones/69/rotation = Quaternion(-0.29581007, 0.08008792, -0.0066525107, 0.95186037)
+bones/70/rotation = Quaternion(0.0008113779, 0.6962854, 0.7164908, -0.042742632)
 
 [node name="Union Jack_Basemesh_Knife Crime" parent="Union Jack_metarig_Knife Crime/Skeleton3D" index="0" unique_id=1276423054]
 surface_material_override/0 = ExtResource("2_li0y7")
@@ -8739,7 +8739,7 @@ surface_material_override/0 = ExtResource("2_li0y7")
 surface_material_override/0 = ExtResource("2_li0y7")
 
 [node name="hand_R" type="BoneAttachment3D" parent="Union Jack_metarig_Knife Crime/Skeleton3D" index="4" unique_id=1546303256]
-transform = Transform3D(0.28246608, 0.4672258, 0.8378027, 0.42152944, 0.7240735, -0.5459207, -0.86169916, 0.5073634, 0.0075769946, -0.23152229, 1.1587703, 0.24294996)
+transform = Transform3D(0.79667526, -0.18914671, 0.5740494, 0.04009208, -0.9311405, -0.3624479, 0.6030771, 0.31176797, -0.73423356, -0.27661777, 0.95539194, 0.17808007)
 bone_name = "hand.R"
 bone_idx = 39
 
@@ -8751,7 +8751,7 @@ collision_layer = 2
 shape = SubResource("SphereShape3D_g1wxt")
 
 [node name="hand_L" type="BoneAttachment3D" parent="Union Jack_metarig_Knife Crime/Skeleton3D" index="5" unique_id=1857664535]
-transform = Transform3D(0.7545569, -0.31674737, -0.57473046, -0.30556136, 0.60548115, -0.73486316, 0.5807542, 0.73011243, 0.3600838, 0.14871636, 1.1829115, 0.3849687)
+transform = Transform3D(0.71455353, 0.08179362, -0.694783, -0.068380326, -0.98021907, -0.18572317, -0.69623154, 0.18021852, -0.69482636, 0.28594235, 0.9448596, 0.11226113)
 bone_name = "hand.L"
 bone_idx = 15
 
@@ -8763,7 +8763,7 @@ collision_layer = 2
 shape = SubResource("SphereShape3D_g1wxt")
 
 [node name="foot_R" type="BoneAttachment3D" parent="Union Jack_metarig_Knife Crime/Skeleton3D" index="6" unique_id=1696903845]
-transform = Transform3D(0.42787755, -0.63080645, 0.64730096, -0.49130356, -0.76345086, -0.419237, 0.75864345, -0.13863991, -0.6365764, -0.23799333, 0.20616971, -0.4446846)
+transform = Transform3D(0.9176832, -0.39006624, 0.075527094, -0.048425563, -0.29848856, -0.9531826, 0.39434907, 0.87105674, -0.29280353, -0.1441083, 0.08526224, 0.010189608)
 bone_name = "foot.R"
 bone_idx = 70
 
@@ -8775,7 +8775,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.7252903e-09, 0.16671242, 3.
 shape = SubResource("SphereShape3D_g1wxt")
 
 [node name="foot_L" type="BoneAttachment3D" parent="Union Jack_metarig_Knife Crime/Skeleton3D" index="7" unique_id=1502368314]
-transform = Transform3D(0.8031858, -0.27257806, 0.5297065, 0.38349706, -0.44385636, -0.8098845, 0.45587406, 0.85363114, -0.25196302, 0.22371459, 0.111077785, 0.40590307)
+transform = Transform3D(0.9299116, 0.36771464, 0.006926447, 0.16769147, -0.40716118, -0.8978286, -0.32732624, 0.8360578, -0.4402835, 0.2424372, 0.08795607, -0.024791487)
 bone_name = "foot.L"
 bone_idx = 63
 

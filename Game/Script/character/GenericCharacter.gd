@@ -102,7 +102,10 @@ func get_damage(pos:Vector3, attacker_pos:Vector3):
 		animation_tree_playback.start("fall")
 		fall_counter = 0
 	else :
-		if animation_tree_playback.get_current_node() == "fall" :
+		if (
+			animation_tree_playback.get_current_node() == "fall" or
+			animation_tree_playback.get_current_node() == "fall_far" 
+			):
 			animation_tree_playback.start("fall_far")
 		else :
 			if d_height < 1.2 :
